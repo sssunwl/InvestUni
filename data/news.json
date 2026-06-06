@@ -1,0 +1,163 @@
+{
+  "us": {
+    "pre_market": {
+      "updated_at": "2026-06-07 16:30 HKT",
+      "news": [
+        {
+          "title": "NVIDIA展示Blackwell Ultra最新AI晶片，市場對次世代運算能力期待升溫",
+          "url": "https://news.google.com/search?q=NVIDIA+Blackwell&hl=zh-TW",
+          "source": "Reuters",
+          "related": ["NVDA", "QQQ"]
+        },
+        {
+          "title": "美聯儲官員重申通脹目標立場，市場靜待下週CPI數據公布",
+          "url": "https://news.google.com/search?q=%E7%BE%8E%E8%81%AF%E5%82%A8+%E9%80%9A%E8%84%B9&hl=zh-TW",
+          "source": "Bloomberg",
+          "related": ["SPY", "QQQ"]
+        },
+        {
+          "title": "美光科技季度財報每股盈利超預期，盤前股價漲逾5%",
+          "url": "https://news.google.com/search?q=%E7%BE%8E%E5%85%89%E8%B2%A1%E5%A0%B1&hl=zh-TW",
+          "source": "Yahoo Finance",
+          "related": ["MU"]
+        }
+      ]
+    },
+    "post_market": {
+      "updated_at": "2026-06-07 09:00 HKT",
+      "news": [
+        {
+          "title": "標普500指數連續第三日上漲，科技股帶動指數創近期新高",
+          "url": "https://news.google.com/search?q=%E6%A8%99%E6%99%AE500+%E6%BC%B2%E6%B6%ˆ&hl=zh-TW",
+          "source": "MarketWatch",
+          "related": ["SPY", "QQQ"]
+        },
+        {
+          "title": "特斯拉宣布新款電動皮卡量產時間表，盤後股價上揚3%",
+          "url": "https://news.google.com/search?q=%E7%89%B9%E6%96%AF%E6%8B%89+%E9%9B%BB%E5%8B%95%E8%BB%8A&hl=zh-TW",
+          "source": "Reuters",
+          "related": ["TSLA"]
+        }
+      ]
+    }
+  },
+  "hk": {
+    "pre_market": {
+      "updated_at": "2026-06-07 08:00 HKT",
+      "news": [
+        {
+          "title": "恒生指數期指夜盤上升逾150點，科技股板塊領漲",
+          "url": "https://news.google.com/search?q=%E6%81%86%E7%94%9F%E6%8C%87%E6%95%B8&hl=zh-HK",
+          "source": "信報",
+          "related": ["^HSI"]
+        },
+        {
+          "title": "阿里巴巴宣佈擴大香港電商業務，預計招聘逾千人",
+          "url": "https://news.google.com/search?q=%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4+%E9%A6%99%E6%B8%AF&hl=zh-HK",
+          "source": "SCMP",
+          "related": ["9988.HK"]
+        }
+      ]
+    },
+    "post_market": {
+      "updated_at": "2026-06-07 09:00 HKT",
+      "news": [
+        {
+          "title": "恒指收升312點，成交額達1,200億，南向資金淨流入逾50億",
+          "url": "https://news.google.com/search?q=%E6%81%86%E6%8C%87%E6%94%B6%E5%B8%82&hl=zh-HK",
+          "source": "RTHK",
+          "related": ["^HSI"]
+        },
+        {
+          "title": "騰訊公布季度業績超出預期，遊戲業務海外收入創新高",
+          "url": "https://news.google.com/search?q=%E9%A8%B0%E8%A8%8A+%E6%A5%AD%E7%B8%BE&hl=zh-HK",
+          "source": "明報",
+          "related": ["0700.HK"]
+        }
+      ]
+    }
+  },
+  "tw": {
+    "pre_market": {
+      "updated_at": "2026-06-07 08:00 HKT",
+      "news": [
+        {
+          "title": "台積電獲美國晶片法案新一輪補貼確認，金額超出市場預期",
+          "url": "https://news.google.com/search?q=%E5%8F%B0%E7%A9%8D%E9%9B%BB+%E8%A3%9C%E8%B2%BC&hl=zh-TW",
+          "source": "鉅亨網",
+          "related": ["TSM", "^TWII"]
+        },
+        {
+          "title": "台灣5月出口數據年增18%，AI相關晶片需求持續強勁",
+          "url": "https://news.google.com/search?q=%E5%8F%B0%E7%81%A3+%E5%87%BA%E5%8F%A3+AI&hl=zh-TW",
+          "source": "MoneyDJ",
+          "related": ["^TWII", "TSM"]
+        }
+      ]
+    },
+    "post_market": {
+      "updated_at": "2026-06-07 09:00 HKT",
+      "news": [
+        {
+          "title": "加權指數收漲1.2%，站上2萬3千點，台積電領漲半導體類股",
+          "url": "https://news.google.com/search?q=%E5%8A%A0%E6%AC%8A%E6%8C%87%E6%95%B8+%E6%94%B6%E7%9B%A4&hl=zh-TW",
+          "source": "工商時報",
+          "related": ["^TWII", "TSM"]
+        }
+      ]
+    }
+  },
+  "jp": {
+    "pre_market": {
+      "updated_at": "2026-06-07 08:00 HKT",
+      "news": [
+        {
+          "title": "日本央行維持利率不變，日圓兌美元略貶至155附近",
+          "url": "https://news.google.com/search?q=%E6%97%A5%E6%9C%AC%E6%9E%90%E8%A1%8C+%E5%88%A9%E7%8E%87&hl=zh-TW",
+          "source": "NHK",
+          "related": ["^N225"]
+        },
+        {
+          "title": "豐田汽車宣佈新一代混合動力平台，全球電動化進程持續加速",
+          "url": "https://news.google.com/search?q=%E8%B1%90%E7%94%B0+%E9%9B%BB%E5%8B%95%E8%BB%8A&hl=zh-TW",
+          "source": "日経新聞",
+          "related": ["^N225"]
+        }
+      ]
+    },
+    "post_market": {
+      "updated_at": "2026-06-07 09:00 HKT",
+      "news": [
+        {
+          "title": "日經225指數收漲0.8%，軟銀集團與科技股領漲，帶動大盤走高",
+          "url": "https://news.google.com/search?q=%E6%97%A5%E7%B6%93225+%E6%94%B6%E7%9B%A4&hl=zh-TW",
+          "source": "Reuters",
+          "related": ["^N225"]
+        }
+      ]
+    }
+  },
+  "crypto": {
+    "updated_at": "2026-06-07 16:30 HKT",
+    "news": [
+      {
+        "title": "比特幣突破105,000美元關口，機構資金持續流入現貨ETF",
+        "url": "https://news.google.com/search?q=%E6%AF%94%E7%89%B9%E5%B9%A3+%E6%A9%9F%E6%A7%8B&hl=zh-TW",
+        "source": "CoinDesk",
+        "related": ["BTC"]
+      },
+      {
+        "title": "以太坊網路升級進展順利，開發者預計Q3完成質押改進",
+        "url": "https://news.google.com/search?q=%E4%BB%A5%E5%A4%AA%E5%9D%8A+%E5%8D%87%E7%B4%9A&hl=zh-TW",
+        "source": "CryptoSlate",
+        "related": ["ETH"]
+      },
+      {
+        "title": "幣安BNB突破700美元，交易所代幣整體市值創年內新高",
+        "url": "https://news.google.com/search?q=%E5%B9%A3%E5%AE%89+BNB&hl=zh-TW",
+        "source": "Decrypt",
+        "related": ["BNB"]
+      }
+    ]
+  }
+}

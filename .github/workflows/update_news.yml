@@ -1,0 +1,34 @@
+name: Update Market News
+
+on:
+  schedule:
+    - cron: '30 0 * * 1-5'  # 08:30 HKT — Asian pre-market
+    - cron: '0 6 * * 1-5'   # 14:00 HKT — Asian post-market
+    - cron: '0 8 * * 1-5'   # 16:00 HKT — before US pre-market
+    - cron: '0 14 * * 1-5'  # 22:00 HKT — US market open
+  workflow_dispatch:
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch news
+        run: python scripts/fetch_news.py
+
+      - name: Commit and push
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "InvestUni Bot"
+          git add data/news.json
+          git diff --staged --quiet || git commit -m "chore: update market news [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push

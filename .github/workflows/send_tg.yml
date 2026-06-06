@@ -1,0 +1,38 @@
+name: Send Daily TG Investment Digest
+
+on:
+  schedule:
+    - cron: '0 1 * * 1-5'   # 09:00 HKT — 盤後總結 (美股收市後)
+    - cron: '30 8 * * 1-5'  # 16:30 HKT — 盤前預覽 (美股開市前)
+  workflow_dispatch:
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch latest news
+        run: python scripts/fetch_news.py
+
+      - name: Commit updated news
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "InvestUni Bot"
+          git add data/news.json
+          git diff --staged --quiet || git commit -m "chore: news update before TG digest [$(date -u '+%H:%M UTC')]"
+          git push
+
+      - name: Send TG digest
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+        run: python scripts/daily_tip.py
