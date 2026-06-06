@@ -1,11 +1,21 @@
 name: Update Market News
 
+# 每個市場各有兩個時間窗口：盤前（開市前30-45分）+ 盤後（收市後總結）
+# 所有時間均以 HKT (+8) 標示，cron 使用 UTC
+
 on:
   schedule:
-    - cron: '30 0 * * 1-5'  # 08:30 HKT — Asian pre-market
-    - cron: '0 6 * * 1-5'   # 14:00 HKT — Asian post-market
-    - cron: '0 8 * * 1-5'   # 16:00 HKT — before US pre-market
-    - cron: '0 14 * * 1-5'  # 22:00 HKT — US market open
+    # ── 盤前窗口 ──────────────────────────────
+    - cron: '30 23 * * 0-4'  # 07:30 HKT — 🇯🇵 日股盤前
+    - cron: '30 0 * * 1-5'   # 08:30 HKT — 🇹🇼 台股盤前
+    - cron: '0 1 * * 1-5'    # 09:00 HKT — 🇭🇰 港股盤前 + 🇺🇸 美股夜盤後總結
+
+    # ── 盤後窗口 ──────────────────────────────
+    - cron: '0 6 * * 1-5'    # 14:00 HKT — 🇹🇼 台股盤後
+    - cron: '0 7 * * 1-5'    # 15:00 HKT — 🇯🇵 日股盤後
+    - cron: '30 8 * * 1-5'   # 16:30 HKT — 🇭🇰 港股盤後
+    - cron: '0 13 * * 1-5'   # 21:00 HKT — 🇺🇸 美股盤前（夏令 EDT）
+
   workflow_dispatch:
 
 jobs:
@@ -22,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Fetch news
+      - name: Fetch news (window-based)
         run: python scripts/fetch_news.py
 
       - name: Commit and push
@@ -30,5 +40,5 @@ jobs:
           git config user.email "actions@github.com"
           git config user.name "InvestUni Bot"
           git add data/news.json
-          git diff --staged --quiet || git commit -m "chore: update market news [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git diff --staged --quiet || git commit -m "chore: news update [$(TZ=Asia/Hong_Kong date '+%Y-%m-%d %H:%M HKT')]"
           git push

@@ -83,19 +83,57 @@ def fetch_google_news(query, limit=3):
 
 
 def get_section(market, now_utc):
-    """Return 'pre_market' or 'post_market' based on current time."""
+    """
+    Return 'pre_market', 'post_market', 'all', or None (skip).
+
+    盤前 = 30-45 min window before market opens (preview)
+    盤後 = after all sessions end, including after-hours/夜盤 (daily summary)
+    """
+    if market == 'crypto':
+        return 'all'
+
+    now_hk = now_utc.astimezone(HK_TZ)
+    hk_t = now_hk.hour * 60 + now_hk.minute
+
     if market == 'us':
         now_ny = now_utc.astimezone(NY_TZ)
-        t = now_ny.hour * 60 + now_ny.minute
-        # Regular: 09:30-16:00 ET → pre if before close
-        return 'pre_market' if t < 16 * 60 else 'post_market'
-    elif market == 'crypto':
-        return 'all'
-    else:
-        now_hk = now_utc.astimezone(HK_TZ)
-        t = now_hk.hour * 60 + now_hk.minute
-        close = {'hk': 16 * 60, 'tw': 13 * 60 + 30, 'jp': 14 * 60 + 30}
-        return 'pre_market' if t < close.get(market, 16 * 60) else 'post_market'
+        ny_t = now_ny.hour * 60 + now_ny.minute
+        # Pre: 08:45–09:30 ET (45 min window before regular open)
+        if 8 * 60 + 45 <= ny_t < 9 * 60 + 30:
+            return 'pre_market'
+        # Post: after 20:00 ET (after-hours/夜盤 ends) OR HKT 07:00–13:00 (US night just ended)
+        if ny_t >= 20 * 60 or (7 * 60 <= hk_t <= 13 * 60):
+            return 'post_market'
+        return None
+
+    elif market == 'hk':
+        # Pre: 08:45–09:30 HKT
+        if 8 * 60 + 45 <= hk_t < 9 * 60 + 30:
+            return 'pre_market'
+        # Post: 16:30+ HKT (30 min after close)
+        if hk_t >= 16 * 60 + 30:
+            return 'post_market'
+        return None
+
+    elif market == 'tw':
+        # Pre: 08:30–09:00 HKT (TW opens 09:00 HKT)
+        if 8 * 60 + 30 <= hk_t < 9 * 60:
+            return 'pre_market'
+        # Post: 14:00+ HKT (30 min after close at 13:30 HKT)
+        if hk_t >= 14 * 60:
+            return 'post_market'
+        return None
+
+    elif market == 'jp':
+        # Pre: 07:30–08:15 HKT (JP opens 08:00 HKT)
+        if 7 * 60 + 30 <= hk_t < 8 * 60 + 15:
+            return 'pre_market'
+        # Post: 15:00+ HKT (30 min after close at 14:30 HKT)
+        if hk_t >= 15 * 60:
+            return 'post_market'
+        return None
+
+    return None
 
 
 def load_json(path):
@@ -128,18 +166,22 @@ def main():
     data = ensure_structure(load_json(data_path))
 
     for market, query in QUERIES.items():
-        print(f"Fetching {market}...")
+        section = get_section(market, now_utc)
+        if section is None:
+            print(f"  [{market}] Not in update window — skip")
+            continue
+
+        print(f"Fetching {market} ({section})...")
         news = fetch_google_news(query, limit=3)
         if not news:
-            print(f"  Skipping {market} (no results)")
+            print(f"  [{market}] No results")
             continue
 
         if market == 'crypto':
             data['crypto'] = {'updated_at': now_str, 'news': news}
         else:
-            section = get_section(market, now_utc)
             data[market][section] = {'updated_at': now_str, 'news': news}
-            print(f"  Updated {market}/{section} with {len(news)} articles")
+        print(f"  [{market}] {section} updated with {len(news)} articles")
 
     os.makedirs(os.path.dirname(data_path), exist_ok=True)
     with open(data_path, 'w', encoding='utf-8') as f:
