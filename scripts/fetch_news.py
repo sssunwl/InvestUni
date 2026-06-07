@@ -111,6 +111,9 @@ def fetch_google_news(query, limit=3, max_hours=36):
             source = ''
             if hasattr(entry, 'source') and isinstance(entry.source, dict):
                 source = entry.source.get('title', '')
+            # Google News appends " - SourceName" to titles — strip it
+            if source and title.endswith(f' - {source}'):
+                title = title[: -len(f' - {source}')].rstrip()
             pub = ''
             if entry.get('published_parsed'):
                 dt = datetime(*entry.published_parsed[:6], tzinfo=pytz.utc)
