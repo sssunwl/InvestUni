@@ -1,25 +1,28 @@
 {
   "us": {
     "pre_market": {
-      "updated_at": "2026-06-07 16:30 HKT",
+      "updated_at": "2026-06-07 21:28 HKT",
       "news": [
         {
-          "title": "NVIDIA展示Blackwell Ultra最新AI晶片，市場對次世代運算能力期待升溫",
-          "url": "https://news.google.com/search?q=NVIDIA+Blackwell&hl=zh-TW",
-          "source": "Reuters",
-          "related": ["NVDA", "QQQ"]
+          "title": "市場恐懼升溫！巴菲特「這句話」點出關鍵 錯過的人恐少賺1000%？ - news.cnyes.com",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xRzUxVGVLR0Fmc0NoTWljRFpxSFQtVXBkS21tZGxTRGJCXy1veFM4aFcxWjBDZEtiRDNfNWx0SWtMdFl4M2VLVXREU1ZUa0E?oc=5",
+          "source": "news.cnyes.com",
+          "published_hkt": "06/07 20:00",
+          "related": []
         },
         {
-          "title": "美聯儲官員重申通脹目標立場，市場靜待下週CPI數據公布",
-          "url": "https://news.google.com/search?q=%E7%BE%8E%E8%81%AF%E5%82%A8+%E9%80%9A%E8%84%B9&hl=zh-TW",
-          "source": "Bloomberg",
-          "related": ["SPY", "QQQ"]
+          "title": "記者編輯部| 【​​​​​​​蔡鎤銘專欄】美股回報縮水！風險溢酬跌至20年 - 梅花新聞網",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9haldaN25vYktEXzlpd2steTQxM09KclJEbm5mODFsM25JOF9zdFVjZ3dMTW1SOW5BSThXU0RjRGt1cDBMS1lvcjZtSjRTa3o1UEgyVzdBb2E?oc=5",
+          "source": "梅花新聞網",
+          "published_hkt": "06/07 20:00",
+          "related": []
         },
         {
-          "title": "美光科技季度財報每股盈利超預期，盤前股價漲逾5%",
-          "url": "https://news.google.com/search?q=%E7%BE%8E%E5%85%89%E8%B2%A1%E5%A0%B1&hl=zh-TW",
-          "source": "Yahoo Finance",
-          "related": ["MU"]
+          "title": "美股重挫科技股遭血洗、費半暴跌逾10%創疫情來最慘表現 - 蕃新聞",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1taG5DdFlHRmlKdlRPRF8xNnBZQWsta1VOMS16VGR4akVsT0R0VDl5bElOSkZkSmxfeHpsZXFnLVRYeF9jQmFnVkZMUG1ua2s3R2c?oc=5",
+          "source": "蕃新聞",
+          "published_hkt": "06/07 19:20",
+          "related": []
         }
       ]
     },
@@ -30,13 +33,18 @@
           "title": "標普500指數連續第三日上漲，科技股帶動指數創近期新高",
           "url": "https://news.google.com/search?q=%E6%A8%99%E6%99%AE500+%E6%BC%B2%E6%B6%ˆ&hl=zh-TW",
           "source": "MarketWatch",
-          "related": ["SPY", "QQQ"]
+          "related": [
+            "SPY",
+            "QQQ"
+          ]
         },
         {
           "title": "特斯拉宣布新款電動皮卡量產時間表，盤後股價上揚3%",
           "url": "https://news.google.com/search?q=%E7%89%B9%E6%96%AF%E6%8B%89+%E9%9B%BB%E5%8B%95%E8%BB%8A&hl=zh-TW",
           "source": "Reuters",
-          "related": ["TSLA"]
+          "related": [
+            "TSLA"
+          ]
         }
       ]
     }
@@ -49,30 +57,47 @@
           "title": "恒生指數期指夜盤上升逾150點，科技股板塊領漲",
           "url": "https://news.google.com/search?q=%E6%81%86%E7%94%9F%E6%8C%87%E6%95%B8&hl=zh-HK",
           "source": "信報",
-          "related": ["^HSI"]
+          "related": [
+            "^HSI"
+          ]
         },
         {
           "title": "阿里巴巴宣佈擴大香港電商業務，預計招聘逾千人",
           "url": "https://news.google.com/search?q=%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4+%E9%A6%99%E6%B8%AF&hl=zh-HK",
           "source": "SCMP",
-          "related": ["9988.HK"]
+          "related": [
+            "9988.HK"
+          ]
         }
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-07 09:00 HKT",
+      "updated_at": "2026-06-07 21:28 HKT",
       "news": [
         {
-          "title": "恒指收升312點，成交額達1,200億，南向資金淨流入逾50億",
-          "url": "https://news.google.com/search?q=%E6%81%86%E6%8C%87%E6%94%B6%E5%B8%82&hl=zh-HK",
-          "source": "RTHK",
-          "related": ["^HSI"]
+          "title": "港股 | 蕭猷華：美國科技股急挫，恒指24200點支持力強 - etnet 經濟通",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOVBHUEhmX0EzOGliV20yajVkUGNUWkVFd0ZUT1h1OTBiaUZzVkVJdzBKQ3kzYVoxby1FdlRRWF9Nc0tSRXdNc2k2Wl82YVJMdlF2QVlCRkVRY0lBX00yNTk5UHNHSF8xNG5keW8wa2ZzRmF3OFFhbzB4U0ljdkJyLWVwSGJwMXdleDlNdDdnaGdWdWdXYTk4aFJB?oc=5",
+          "source": "etnet 經濟通",
+          "published_hkt": "06/07 15:03",
+          "related": [
+            "^HSI"
+          ]
         },
         {
-          "title": "騰訊公布季度業績超出預期，遊戲業務海外收入創新高",
-          "url": "https://news.google.com/search?q=%E9%A8%B0%E8%A8%8A+%E6%A5%AD%E7%B8%BE&hl=zh-HK",
-          "source": "明報",
-          "related": ["0700.HK"]
+          "title": "港股收評：恒指跌1.15%失守25000點 科指跌1.75% 科網股低迷 芯片股集體下挫 內銀股逆勢走強 - flamingwheels.online",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Fb3lncDFDdGIwYWFhYnRXbDVBV1VTX2wwcE5BSnA1dUVocHlmTXJKVVVsZkhTLXNyUFRNck9WMzFCMVA4X3BtMGtvUU9FRGVhZmdrbFE3eGVsemp4Xy1vZVZSWDI4ZzE4Vmk5TVpfMjE1enFx?oc=5",
+          "source": "flamingwheels.online",
+          "published_hkt": "06/06 16:14",
+          "related": [
+            "^HSI"
+          ]
+        },
+        {
+          "title": "麥嘉嘉：港股四重考驗 投資者須打好防守戰 - on.cc東網",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNmt0ZkdPRDhja2hpOFhNYWxZa1pNcmNSY2ZlUmt5Y2pVRUxNOG1YNDQwUExNQTZFUzJXMmFkZGZJeXBsbi1RUlZTcHRFZTQ1VGFEYVBwVkhDRy1SM0JoVXBaamp3Nm5vRk9JYWhBdmZoT3lmY2ZDdENDajRQRXF5WklRWFEtN0czWTZaWlhtZw?oc=5",
+          "source": "on.cc東網",
+          "published_hkt": "06/06 12:20",
+          "related": []
         }
       ]
     }
@@ -85,24 +110,47 @@
           "title": "台積電獲美國晶片法案新一輪補貼確認，金額超出市場預期",
           "url": "https://news.google.com/search?q=%E5%8F%B0%E7%A9%8D%E9%9B%BB+%E8%A3%9C%E8%B2%BC&hl=zh-TW",
           "source": "鉅亨網",
-          "related": ["TSM", "^TWII"]
+          "related": [
+            "TSM",
+            "^TWII"
+          ]
         },
         {
           "title": "台灣5月出口數據年增18%，AI相關晶片需求持續強勁",
           "url": "https://news.google.com/search?q=%E5%8F%B0%E7%81%A3+%E5%87%BA%E5%8F%A3+AI&hl=zh-TW",
           "source": "MoneyDJ",
-          "related": ["^TWII", "TSM"]
+          "related": [
+            "^TWII",
+            "TSM"
+          ]
         }
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-07 09:00 HKT",
+      "updated_at": "2026-06-07 21:28 HKT",
       "news": [
         {
-          "title": "加權指數收漲1.2%，站上2萬3千點，台積電領漲半導體類股",
-          "url": "https://news.google.com/search?q=%E5%8A%A0%E6%AC%8A%E6%8C%87%E6%95%B8+%E6%94%B6%E7%9B%A4&hl=zh-TW",
-          "source": "工商時報",
-          "related": ["^TWII", "TSM"]
+          "title": "TWA00 加權指數- 當眾生恐懼時，你願意當老和尚嗎？ - 股市爆料同學會 - CMoney",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1JZTEydUJ6WUh3cEhiRzNVdzA0Wm9NZkVobWRFc0FrREIxVFpMbDJ3SXpXMmQ3RDEzSXplQkxXdXpsT0F6MWN0cERYQmNyOVF0T1UxZm1ZbFM?oc=5",
+          "source": "CMoney",
+          "published_hkt": "06/07 17:33",
+          "related": [
+            "^TWII"
+          ]
+        },
+        {
+          "title": "周一台股指數3種走勢一次看 平均跌點「在這」 國安基金護盤機率低 - 自由財經",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBhbllPQTNGdUpzNzJfeE4ycEMtT1laUUdpS080cEVVSlc5b2E1Q2w5ajA2bDQxc3Ixd3pLSHNnZGh0RV84QkFSaWV5OTZVX1g1N2lpN0tiMmtoZ2dRQm5N0gFkQVVfeXFMTlpQSHRwRTFNRFRZNWx2MkxURE85UTdfVVN0aW1nakFpQktmcFg2T0E3a2tQRkttdUI3SWYxUFRJMV9QS2FOSUZCX3pidEdXRnNHbVFEcnBFMEsxOVpOTVVfRFViWA?oc=5",
+          "source": "自由財經",
+          "published_hkt": "06/07 17:15",
+          "related": []
+        },
+        {
+          "title": "周一台股指數3種走勢一次看 平均跌點「在這」 國安基金護盤機率低 - 自由財經",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5aUEh0cEUxTURUWTVsdjJMVERPOVE3X1VTdGltZ2pBaUJLZnBYNk9BN2trUEZLbXVCN0lmMVBUSTFfUEthTklGQl96YnRHV0ZzR21RRHJwRTBLMTlaTk1VX0RVYljSAWRBVV95cUxOWlBIdHBFMU1EVFk1bHYyTFRETzlRN19VU3RpbWdqQWlCS2ZwWDZPQTdra1BGS211QjdJZjFQVEkxX1BLYU5JRkJfemJ0R1dGc0dtUURycEUwSzE5Wk5NVV9EVWJY?oc=5",
+          "source": "自由財經",
+          "published_hkt": "06/07 17:15",
+          "related": []
         }
       ]
     }
@@ -115,48 +163,78 @@
           "title": "日本央行維持利率不變，日圓兌美元略貶至155附近",
           "url": "https://news.google.com/search?q=%E6%97%A5%E6%9C%AC%E6%9E%90%E8%A1%8C+%E5%88%A9%E7%8E%87&hl=zh-TW",
           "source": "NHK",
-          "related": ["^N225"]
+          "related": [
+            "^N225"
+          ]
         },
         {
           "title": "豐田汽車宣佈新一代混合動力平台，全球電動化進程持續加速",
           "url": "https://news.google.com/search?q=%E8%B1%90%E7%94%B0+%E9%9B%BB%E5%8B%95%E8%BB%8A&hl=zh-TW",
           "source": "日経新聞",
-          "related": ["^N225"]
+          "related": [
+            "^N225"
+          ]
         }
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-07 09:00 HKT",
+      "updated_at": "2026-06-07 21:28 HKT",
       "news": [
         {
-          "title": "日經225指數收漲0.8%，軟銀集團與科技股領漲，帶動大盤走高",
-          "url": "https://news.google.com/search?q=%E6%97%A5%E7%B6%93225+%E6%94%B6%E7%9B%A4&hl=zh-TW",
-          "source": "Reuters",
-          "related": ["^N225"]
+          "title": "AI晶片需求推升愛德萬測試股價 日經指數攀上68000點 - 蕃新聞",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9IVXhyMnVvWDZTeVlIRU91eW5uZkZRZUM2NjFGZXJHRk5Iam9zeWNmazdHSTgydkFDaVhuai1MVEJESmhnRHZUWkZZZXllZG9Vc2c?oc=5",
+          "source": "蕃新聞",
+          "published_hkt": "06/07 19:56",
+          "related": [
+            "^N225"
+          ]
+        },
+        {
+          "title": "美日韓齊齊遭遇“黑色星期五”！美股被重擊，半導體蒸發超1兆美元！IPO之王來襲，業內人士：大騙局！歷史規律警告：美股恐將見頂 - 鉅亨號",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE53WmlTQjhZYmdoYVNXa1k1c0hvMllYX0RjLS15S2c4NWxZZ0trejIxdW1YZVBGemhteEtvQURTMDVkcTRUb0J6UQ?oc=5",
+          "source": "鉅亨號",
+          "published_hkt": "06/07 10:26",
+          "related": []
+        },
+        {
+          "title": "元大日經225 可留意 - 經濟日報",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONXE1MVo1ZGVjNUxrWG40bWdGeHFNV2R5dDFaMURSMURVMzh0ZkhCNlB0YzR1N0xUR0NjME1ubHl2MmluQTY1ZUEwZngybGFSLVhDR2ZIdlBQVzRqNWxjbVpQSFVvSFFieTZLYW5PR0FDWFlGOE1Pby1tczhXUldvYk5IWTZEV3ZoRzNzZnc2a03SAV9BVV95cUxNeXhWUUZXRU1CY2FkeUJsOFo1azY0cGF2WjUyNGQzLWpBSE5UeC1RMUFsemRUbDBneHZJQkpqSTFtT3UzRWo2ckg2c0tjdl9XM2FRNEx6M3BJYndUSGtPRQ?oc=5",
+          "source": "經濟日報",
+          "published_hkt": "06/06 22:54",
+          "related": [
+            "^N225"
+          ]
         }
       ]
     }
   },
   "crypto": {
-    "updated_at": "2026-06-07 16:30 HKT",
+    "updated_at": "2026-06-07 21:28 HKT",
     "news": [
       {
-        "title": "比特幣突破105,000美元關口，機構資金持續流入現貨ETF",
-        "url": "https://news.google.com/search?q=%E6%AF%94%E7%89%B9%E5%B9%A3+%E6%A9%9F%E6%A7%8B&hl=zh-TW",
-        "source": "CoinDesk",
-        "related": ["BTC"]
+        "title": "一週預告 | SpaceX將於6月12日登陸納斯達克；美國5月CPI資料出爐 - PANews",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRFpUTmJWU0tNUHoyVG9hVHl4NmUwMHpFOFFJNmZaVG0wMlUyRDN5eTdHQ29uSkNLU1BaMlhsNm9TODBNR2dzOHFlUms3ZHQ2Zmo5bHItNHhEbGxwdlBlbklOWnJFS0Q1TmVWbklFcDJUckxVZzZIdkZVSTRWcFJfRUhSVnExUQ?oc=5",
+        "source": "PANews",
+        "published_hkt": "06/07 20:04",
+        "related": []
       },
       {
-        "title": "以太坊網路升級進展順利，開發者預計Q3完成質押改進",
-        "url": "https://news.google.com/search?q=%E4%BB%A5%E5%A4%AA%E5%9D%8A+%E5%8D%87%E7%B4%9A&hl=zh-TW",
-        "source": "CryptoSlate",
-        "related": ["ETH"]
+        "title": "270億美元空頭壁壘籠罩Bitcoin市場結構| MEXC 新聞 - MEXC",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qM2dSUnEzX3dmYnAwWFY5SFVCdVM4cWVfVXU1bjhQVjdIMy1zVUNPc2JmZEM0T19EUk05WEdhTXJ1NWpvYUhFcHExLVk1bjZW?oc=5",
+        "source": "MEXC",
+        "published_hkt": "06/07 18:30",
+        "related": [
+          "BTC"
+        ]
       },
       {
-        "title": "幣安BNB突破700美元，交易所代幣整體市值創年內新高",
-        "url": "https://news.google.com/search?q=%E5%B9%A3%E5%AE%89+BNB&hl=zh-TW",
-        "source": "Decrypt",
-        "related": ["BNB"]
+        "title": "強勁就業數據推高利率預期，比特幣跌破62,000美元 - timetocoin.com",
+        "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOaEFJWXZfQ21RNVlrVFBzYWFaOFU4VWtnbDN0ZjhmcFZEYWNHNEk2cFNnX3VXelRMQjVxdmJac2hxRDlraGRRMWFlMFRfNjFqV0g5TzkzRWp1MkxnM2sxbGxoMUV3WnlFQU5hOE5pYmh6TGE5a0JBVWZXUmcyMnF4bWM0OHhaQTN0cnZjdURBTTNqUjhYSnZiTXZXOU0xSVBkZFFOeHVOZUp4Q2ZLVmRBRUNqYXZzUXRhcHRXTVZLaWlJMFhJY2xTWUhPVXU4ZW1iVHZEUzlFM3d1dG1GanVJQ0U0ZWpGYWRRRWVocXFDZlhlaTlKRmFGcWc5TVBGSElCcUlCR0p0cFJCX1hVNUc0WlpqV19yd2JTOWZ0MjVKYllTZXFqS3JCTi1MZG1CZUZfdXcxVDk0WkZ0N0hWYUpfUm5vem9VZFJNeHBtTWxn?oc=5",
+        "source": "timetocoin.com",
+        "published_hkt": "06/07 17:50",
+        "related": [
+          "BTC"
+        ]
       }
     ]
   }
