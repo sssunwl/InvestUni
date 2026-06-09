@@ -27,27 +27,27 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-09 10:48 HKT",
+      "updated_at": "2026-06-09 12:46 HKT",
       "news": [
         {
-          "title": "科技股投機跡象升溫！美銀警告美股觸發多項「熊市訊號」，建議投資人獲利了結",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSGNMZXk3QmF4QWtYZTkzcVZhV0JNWDNlRzBMMERiR2Q4T3lOSjFfRkNJOWVuX3kwM0UtekhpMmVwOWpfTVdhR2Z1a2ZJdjZVNjktS0d2bkdwb0tJaUxrT0ZucG5zNlpqa0ZMNUJ5al9tZ0RYcUd6aEJWWFRFN1RJVUJiWjRqU1FjRUd1WU5qVlQtbWRMcUVsNlpPRVVkMVMyQUZv?oc=5",
-          "source": "桑幣區識 Zombit",
-          "published_hkt": "06/09 10:30",
+          "title": "SpaceX一上市就改寫美股？30兆美元被動資金恐被迫大搬風",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9TaXpwdHpqRmQxdjMtMWIzSmtJWXRuX0N2dGtKV3N5QnFiMW5lNUREV01hd2FNUkJXLXZicE1OZ0daLU9mZEJfU0syb05FLWNEODVBWnl1M2IwSVlyQXI1dElLOUhmcEFzQ0pTZkN0a1k4SmRPTXVYcVFfcw?oc=5",
+          "source": "財訊",
+          "published_hkt": "06/09 12:16",
           "related": []
         },
         {
-          "title": "美股熊市訊號觸發70%！美銀建議獲利了結、大摩堅定看漲「回調有利於牛市持續到年底」",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ya2pCeEdvZFRHdFIwd3lHbV83NHFKX2QxWHVjQ2U4MktDcDlNdXFJYWNlWTE0R2d2NDcxY05KWnQtU2Qza1pLRmdGU3JfT0E?oc=5",
-          "source": "news.cnyes.com",
-          "published_hkt": "06/09 10:13",
+          "title": "BARK 預告 Q4 2026 營收結果，市場預期悲觀！",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTXZ3bnh4Q0c1SFkyMGQwYUtUbE13TkZDTUh1b3lZRjU1UmU2OXkyN0lNbFNseFkwUk5iY1hEaERjZG5kTk9aSGZPS2t6OEFNQmU2NS1ONXlqUUJtUHhuS2tuMnR3X05GbEh3a1k1WmdvU1BQNEI4TVNhcTBwaEtqNWpKR1hjZ01tTU5mNGE3TnppMEF3?oc=5",
+          "source": "forecastock.tw",
+          "published_hkt": "06/09 11:18",
           "related": []
         },
         {
-          "title": "昨崩盤今反彈！台股跟著美股走強力修復 ETF教父：市場修正雖劇烈回檔反是長線布局契機",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1iOWtLd3poOUVkTkJFNk0xQW1CbzhwQ05lZ0pnNVJDUjF0c2VhX1JGVTZ5SUZKUnk3dHlrWTg1TDNIQjQ5VDFsdHloLVpLcC1NZ3c?oc=5",
-          "source": "鏡報",
-          "published_hkt": "06/09 09:56",
+          "title": "主動式ETF新兵報到！安聯00402A掛牌首日遇強彈 重返發行價之上",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA0MlpXN21tOHdOdm54NHJJTWxDQlVUb2VGenBQUkxDSDRPbnc3NlBtbWxKTlVMZkpCUXNYeVBoWGtWT2ZZVFZ4UHNGYw?oc=5",
+          "source": "cnyes.com",
+          "published_hkt": "06/09 11:17",
           "related": []
         }
       ]
@@ -227,33 +227,34 @@
     }
   },
   "crypto": {
-    "updated_at": "2026-06-09 10:48 HKT",
+    "updated_at": "2026-06-09 12:46 HKT",
     "news": [
       {
+        "title": "Circle：cirBTC 已在以太坊上線，為機構 DeFi 提供 1:1 比特幣支持的抵押品",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOZHQzek5SbllEaF9xZGtMdFlyZUlqZkQtTTRZR0M1cFJzSUo5T2poWjJEU3NfRmhZXzU3ZmR0R2JSVEFEb3YwTjY5c09QN09PSWdxY1dqM0pkY1p3enE1emZ6NGV6b2xSbjF6MzI1NWpCNFlERVpWdmRQNUlTOGthazZaSkRVdm5qNFdHSXFMNHd0WkNsZFg0aWdwSDViUEZReUZNT2xzdWtXRDVtZXBXYXRiek9tUy1Sak9TNzVKMlNZZXR5TzBWc2Q4anY1Tk9kM1dyOWpDcDdSeU9DY3VOMGpJdE9YVFdvM19nY2k1TzF0QTljZGNiMnI2WXRydw?oc=5",
+        "source": "WEEX",
+        "published_hkt": "06/09 12:20",
+        "related": [
+          "BTC",
+          "ETH"
+        ]
+      },
+      {
+        "title": "長路說幣：6.9以太坊測試1500支撐反彈,到底了嗎？",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBibWRsT29UclVpVHRUSGtGMXRYTkVacFlRRUphS3FmZDFQdlRhQ0lMTXZBcmloWTg1b0xIdlpTeEoxWURtVUtqX05BckFVTzg?oc=5",
+        "source": "news.cnyes.com",
+        "published_hkt": "06/09 12:00",
+        "related": [
+          "ETH"
+        ]
+      },
+      {
         "title": "儘管加密市場在五月回調，代幣化真實資產（RWAs）仍激增589% — 幣安研究",
-        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOOXFEUVBRbHFIWVdyb3k0WGxtZ2FPc2FSR1BCZDlwMjBKcS1XVjNoNTliQjFUdjZTSjNMeXFfTFVxNFdid0lpN0dPeTBmazVUQUtmVjlyMUdtMmV1MEphRlZuZUFiMXlwNlBBNlNJUkM0Nmw4UGkzU0Z3VDRSWXE5R3ZMZEVmSjFkOHdXQXR0M0w3MUZsYmhiTnNMeXlLZ3NuWFdELWY4YlM5SnI3a1FoOG1KcEI2bW1VRmhaSndFVk9DWVJucnRaMFpaNU1FdzhfUkhPNElFeVA4ZVJWRnNfeFYwV2cteC1SSktqdWZkbnVBNkhBdDUwdVJ3eEPSAYICQVVfeXFMTlNmNXlRazBnZ3lINHNKNXlUUWVBdV9WdmQyTlJuOEhKMHo2WXVoSnVhNy00dy14bDRURVhvb3lCWWJFcWxKNmstRTBhT2tzYWFTdTQ5Nmk4Q3M5TThUZ3BnZmxJcV80N3R6Nm9Sb3oyQVV2U0xDN2RnRm8wbTNzWmQ1NzROZUYycE50eG9MbkdtSGNiM3hzQ3EtQ0hDX1MxV3JUUENtWHNsdjctRmNJckVJQXROMkEzU3FoNzdCdldud1lXbmVsLTA0MkMzb1hDdkkxSmRZLWZTWGp4bVF0V1hDT2ZXNVJ2SXR2LTE3YlplVzhXcUYxU1NLNTRwM3UzZnJR?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOU2Y1eVFrMGdneUg0c0o1eVRRZUF1X1Z2ZDJOUm44SEowejZZdWhKdWE3LTR3LXhsNFRFWG9veUJZYkVxbEo2ay1FMGFPa3NhYVN1NDk2aThDczlNOFRncGdmbElxXzQ3dHo2b1JvejJBVXZTTEM3ZGdGbzBtM3NaZDU3NE5lRjJwTnR4b0xuR21IY2IzeHNDcS1DSENfUzFXclRQQ21Yc2x2Ny1GY0lyRUlBdE4yQTNTcWg3N0J2V253WVduZWwtMDQyQzNvWEN2STFKZFktZlNYanhtUXRXWENPZlc1UnZJdHYtMTdiWmVXOFdxRjFTU0s1NHAzdTNmclHSAYICQVVfeXFMTlNmNXlRazBnZ3lINHNKNXlUUWVBdV9WdmQyTlJuOEhKMHo2WXVoSnVhNy00dy14bDRURVhvb3lCWWJFcWxKNmstRTBhT2tzYWFTdTQ5Nmk4Q3M5TThUZ3BnZmxJcV80N3R6Nm9Sb3oyQVV2U0xDN2RnRm8wbTNzWmQ1NzROZUYycE50eG9MbkdtSGNiM3hzQ3EtQ0hDX1MxV3JUUENtWHNsdjctRmNJckVJQXROMkEzU3FoNzdCdldud1lXbmVsLTA0MkMzb1hDdkkxSmRZLWZTWGp4bVF0V1hDT2ZXNVJ2SXR2LTE3YlplVzhXcUYxU1NLNTRwM3UzZnJR?oc=5",
         "source": "FXStreet",
         "published_hkt": "06/09 10:14",
         "related": [
           "BNB"
-        ]
-      },
-      {
-        "title": "主要加密貨幣行情，比特幣跌0.73%",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYVFoUUtycXBha0VMeVVHVHlTSDlPNmVfTFRtSkZHeElqUkpLbzJ0RWszb05hQ00xSVNVN0tKQ1BLbXdaYWd5Tjczc3U2N05RckN6QUNIR3J0M1Q0X2NBS2FjckdvbnpMV0tBRkJfQVJTSFJZQ2J6c1NJWEtYZDZLTmVJR2xSeVNoQXVBVVQxMHF2OUtVWmpCV205ZU1BN1ByaElZ?oc=5",
-        "source": "etnet 經濟通",
-        "published_hkt": "06/09 09:54",
-        "related": [
-          "BTC"
-        ]
-      },
-      {
-        "title": "比特幣跌回62400美元！ETF史上最大單週流出$34億，多軍爆倉2.83億遭血洗",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYzRIeld5LXY3STJQYzZvc255YVVwdmlWOHVHT2FCU25pTURTX1k3Y0tyWXNoWnlhampvVkVWakprVDV2NkRWQW05c2owVU5NUTBQOGlLbnktdVkwdHhMVW9nNWJkYlFZU2NfSzg5V1B4YlJ5SU1fSGgtdVE0ZFItbmgwV01TZUVSN3UzRUxYLW44RWF6dVVlSWJkeGhRTDF2ZDA4dQ?oc=5",
-        "source": "動區動趨",
-        "published_hkt": "06/09 09:21",
-        "related": [
-          "BTC"
         ]
       }
     ]
