@@ -227,7 +227,7 @@
     }
   },
   "crypto": {
-    "updated_at": "2026-06-09 13:00 HKT",
+    "updated_at": "2026-06-09 13:10 HKT",
     "news": [
       {
         "title": "Circle：cirBTC 已在以太坊上線，為機構 DeFi 提供 1:1 比特幣支持的抵押品",
@@ -249,13 +249,11 @@
         ]
       },
       {
-        "title": "儘管加密市場在五月回調，代幣化真實資產（RWAs）仍激增589% — 幣安研究",
-        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOU2Y1eVFrMGdneUg0c0o1eVRRZUF1X1Z2ZDJOUm44SEowejZZdWhKdWE3LTR3LXhsNFRFWG9veUJZYkVxbEo2ay1FMGFPa3NhYVN1NDk2aThDczlNOFRncGdmbElxXzQ3dHo2b1JvejJBVXZTTEM3ZGdGbzBtM3NaZDU3NE5lRjJwTnR4b0xuR21IY2IzeHNDcS1DSENfUzFXclRQQ21Yc2x2Ny1GY0lyRUlBdE4yQTNTcWg3N0J2V253WVduZWwtMDQyQzNvWEN2STFKZFktZlNYanhtUXRXWENPZlc1UnZJdHYtMTdiWmVXOFdxRjFTU0s1NHAzdTNmclHSAYICQVVfeXFMTlNmNXlRazBnZ3lINHNKNXlUUWVBdV9WdmQyTlJuOEhKMHo2WXVoSnVhNy00dy14bDRURVhvb3lCWWJFcWxKNmstRTBhT2tzYWFTdTQ5Nmk4Q3M5TThUZ3BnZmxJcV80N3R6Nm9Sb3oyQVV2U0xDN2RnRm8wbTNzWmQ1NzROZUYycE50eG9MbkdtSGNiM3hzQ3EtQ0hDX1MxV3JUUENtWHNsdjctRmNJckVJQXROMkEzU3FoNzdCdldud1lXbmVsLTA0MkMzb1hDdkkxSmRZLWZTWGp4bVF0V1hDT2ZXNVJ2SXR2LTE3YlplVzhXcUYxU1NLNTRwM3UzZnJR?oc=5",
+        "title": "XRP和XLM前景：多頭能否在看跌持倉中維持反彈？",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZ1FuSlVzYUdjMkI2LWhkYm83YkZwb01FSkVvME0tY3UwM3NBRWRNOElrZWxqWkp6OGhpdTNRZ29NMV9LV1NIekNFV0xhTWRXS1lfVFZMeGtFVTBhdl9vZk1GckZuLXp1MU41WGVpR1NfWDZRT3l5RnhwZWdLTUx1MXhwdWxyTUpyX0RXdWw3NlYyZVk0MjJINFRROEpxVlpYYm9YMnV5VEg0dGVJRXljWHIyMGdURFdPd25MSkVhVHVBUUtCdnfSAcYBQVVfeXFMTmdRbkpVc2FHYzJCNi1oZGJvN2JGcG9NRUpFbzBNLWN1MDNzQUVkTThJa2VsalpKejhoaXUzUWdvTTFfS1dTSHpDRVdMYU1kV0tZX1RWTHhrRVUwYXZfb2ZNRnJGbi16dTFONVhlaUdTX1g2UU95eUZ4cGVnS01MdTF4cHVsck1Kcl9EV3VsNzZWMmVZNDIySDRUUThKcVZaWGJvWDJ1eVRINHRlSUV5Y1hyMjBnVERXT3duTEpFYVR1QVFLQnZ3?oc=5",
         "source": "FXStreet",
-        "published_hkt": "06/09 10:14",
-        "related": [
-          "BNB"
-        ]
+        "published_hkt": "06/09 11:59",
+        "related": []
       }
     ]
   }
