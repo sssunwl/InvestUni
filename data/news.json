@@ -87,7 +87,7 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-09 19:35 HKT",
+      "updated_at": "2026-06-09 19:58 HKT",
       "news": [
         {
           "title": "【港股收市】好淡爭持恒指全日跌91點中芯聯想各升逾3% - 投資 - 香港文匯網",
@@ -144,7 +144,7 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-09 19:35 HKT",
+      "updated_at": "2026-06-09 19:58 HKT",
       "news": [
         {
           "title": "凱基國際:台灣加權指數今年目標上望5萬點",
@@ -156,21 +156,18 @@
           ]
         },
         {
+          "title": "台股一天就回血! 專家曝「神秘力量」 開外掛這群人是功臣",
+          "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxQbk92OUpDdlVaYzY2a3pteXRLS0ZBTVV5YWNUcVVJRjNienZuUm96UDVTSjlyalN2SGdTNW1yak44YWNtbEdfU016UHpfM2RicWNMZGhYNmFZdEVWT3RlOHRHQVc0ZDdTN3Q1MDhud2NkaXBadHRtWFVGaWNqS0RVc1V5eFRxX1Ezd2g0U2dLUExPbG1ZQ1VVbnl3ejFKSVhzY0hKTnRpaF84aHYwUGpDczdydldmQ2JFbTBjYVRZbm1XMmNGRmhxOHhSczA3ekE1MzIySXpRV3BsNzlLZXAwUGxFTUdXTE9nWGxIX29YelUxaDY0MWk3ZC1fWTNkTEpxTzNkME5vV0NLVFpXeEpOeEFadUdmNFNWamtrYU1YRVUwdlJvOWJIU1JBcVIxMWQydGRfcTJaWlU2V1JkaTUtaGhEWVgwaVdRTVJQaGVPeHRwYmdFY0VlekV2QXJfMmJ1LVExakRqalNRQlNYYng0QnQ2MkFoOVdwQW5GeXpkTQ?oc=5",
+          "source": "MSN",
+          "published_hkt": "06/09 19:05",
+          "related": []
+        },
+        {
           "title": "台股擂台／「佛系產業教練」白易弘：指數創新高後高檔震盪劇烈 沿月均線操作",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1qYTh0YWx6YmNyVmtmc1pjcDlMQ2R0dUZLay12QUd5ZE5PYl82ZnFTVnlrbV83SDFWOENGY3Q3WFNVZjFFbWdtaDBhX2l4QXIxZzJuTzRQSlBYUUd5?oc=5",
           "source": "經濟日報",
           "published_hkt": "06/09 18:33",
           "related": []
-        },
-        {
-          "title": "台積電跌幅收斂， 加權指數跌幅縮小",
-          "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxOcGZyeDEtUkVDc1lyNkRkNHlRZmZPemxCZFp1Si0yOTlwRmZfV2NyRHhVbExacUtHb0xIb204MWtnSFpwbGNPSTc2TnBjT2VNNGFTSktjSHhzTDJMZTNTRFhGa2R2dE5PZC1KbC1pT3ZlREhDVUx1OUlRTHVVdW1PRHFLVEc3OHUwSDNFd2ItOUVEcjFVdFJ4UlEzRW91dS1NcERMNXR5SFRadW5sdjB0aV9iQ3k4dGNqa09GLVotZFVzRnh4ZG8zOUg3Wk9xVkZxdEs4NjFpS2ZQUExKdU1razRfYkkyNGh4amNWLWJEQXc5Uy1mdk9JcW9hZXI1dm8tTTZQUGRSbnJDcFgtZ3FIQ0hJSXJRSDA2WWtrZ0xhTVFoX1U0OGlCUlRjTEVsVTF4bmdud0MyeEVXdGNod1ZWSjZtSW1SeDhMMzgza3d5OGFNNDA4bzZ1MTcySnBPeE5zUXM1NWxBSWdRelUwSEFUdmc3UU44LVFOWGlibnpacXZvMS1YVVdISUlzTndnWjVIdS1oaGs0SUJ4SFpYU0FWekxwT0Q2TzIwQ290RUUyUDU?oc=5",
-          "source": "MSN",
-          "published_hkt": "06/09 18:04",
-          "related": [
-            "TSM",
-            "^TWII"
-          ]
         }
       ]
     }
@@ -198,7 +195,7 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-09 19:35 HKT",
+      "updated_at": "2026-06-09 19:58 HKT",
       "news": [
         {
           "title": "《日股》半導體權值股領軍，日經收漲2.17%",
@@ -229,8 +226,26 @@
     }
   },
   "crypto": {
-    "updated_at": "2026-06-09 19:35 HKT",
+    "updated_at": "2026-06-09 19:58 HKT",
     "news": [
+      {
+        "title": "Arthur Hayes緊急清倉：當AI泡沫撞上高油價，比特幣能否死裡逃生？",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOXpNb2t4U3RVZ0dRRzlJOVlLVnUtU3A0WnNUQ2RhRl9aU1JDWkVkODdmMm9XeUR1TG1DX2dyTk8tRWw3d1cxakFxbVhVWVQzS1ZHelc3cXhIV1locW0tZGdXWVJwbzEyOFd5bFBaWFQ5U3k2NTQ1ejRUTFhOZV9rTVEycjQ2QQ?oc=5",
+        "source": "PANews",
+        "published_hkt": "06/09 19:41",
+        "related": [
+          "BTC"
+        ]
+      },
+      {
+        "title": "主要加密貨幣行情，比特幣跌0.74%",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSFdDT2ZSUzZiSzRMT2VqUEJaVHFRUDNVUXM4ZlFrMFctanZjbzJWWFJKYWNkSzZ1WmVJX2s2UzhmRndCak95b3puX2lzNThMMWtSNHg3cTI4ZUVUVlNZcm5IWkVwWG9SenZSX2Z5blUtQnlEZEJUbkMtUDQ2cVpLUUI0S0hERWpJR2xPOUdaMlAzaEJvTlJnM0V6Z0p6ajBmbms0?oc=5",
+        "source": "etnet 經濟通",
+        "published_hkt": "06/09 19:40",
+        "related": [
+          "BTC"
+        ]
+      },
       {
         "title": "Circle在以太坊上推出CirBTC，挑戰Coinbase在封裝比特幣市場的地位",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUTRhVWl4RWJ5b29vOUNJZkpDM24zd1VrbzlJYmhZTHRISEN5U0tzaVMxMWNxcXhYdGJnWHAtOXY0UEVHNm5SNmF2U1B5M1JCV2x4TG5jbDM4MEpTeDR5d0JVdnJhYThKNVlSQlBhNkJnTWRZbHZud2tVZmpRUkx1cEFlUHVPZDRGamNrUlZocDdxRC1sVzJiYzBrZW5WYThHVVNON08xd0NfVUJw?oc=5",
@@ -239,24 +254,6 @@
         "related": [
           "BTC",
           "ETH"
-        ]
-      },
-      {
-        "title": "Arthur Hayes緊急清倉：當AI泡沫撞上高油價，比特幣能否死裡逃生？",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOXpNb2t4U3RVZ0dRRzlJOVlLVnUtU3A0WnNUQ2RhRl9aU1JDWkVkODdmMm9XeUR1TG1DX2dyTk8tRWw3d1cxakFxbVhVWVQzS1ZHelc3cXhIV1locW0tZGdXWVJwbzEyOFd5bFBaWFQ5U3k2NTQ1ejRUTFhOZV9rTVEycjQ2QQ?oc=5",
-        "source": "PANews",
-        "published_hkt": "06/09 17:54",
-        "related": [
-          "BTC"
-        ]
-      },
-      {
-        "title": "主要加密貨幣行情，比特幣升0.18%",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRnVBZ1d1WTNTTlBhby12WjhVREF6NF90LWd5SUJCMWZDNUo2b3YxaktNYUZMN3pOaXZhTnQtQlNMRUtmR1JGWGxIcGQtR29lWUpmYm5mSk5IM1I0Qm9iUDAzdEROaEYzZlJqUG5HNW91czJNcWdEbEltY2ZJSlFTbFV5UldycVVOR2FjaExkeVhqdWFOaDRFZkZnb214a1ktY2Fz?oc=5",
-        "source": "etnet 經濟通",
-        "published_hkt": "06/09 16:45",
-        "related": [
-          "BTC"
         ]
       }
     ]
