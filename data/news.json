@@ -27,7 +27,7 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-09 12:46 HKT",
+      "updated_at": "2026-06-09 13:00 HKT",
       "news": [
         {
           "title": "SpaceX一上市就改寫美股？30兆美元被動資金恐被迫大搬風",
@@ -46,7 +46,7 @@
         {
           "title": "主動式ETF新兵報到！安聯00402A掛牌首日遇強彈 重返發行價之上",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA0MlpXN21tOHdOdm54NHJJTWxDQlVUb2VGenBQUkxDSDRPbnc3NlBtbWxKTlVMZkpCUXNYeVBoWGtWT2ZZVFZ4UHNGYw?oc=5",
-          "source": "cnyes.com",
+          "source": "news.cnyes.com",
           "published_hkt": "06/09 11:17",
           "related": []
         }
@@ -227,7 +227,7 @@
     }
   },
   "crypto": {
-    "updated_at": "2026-06-09 12:46 HKT",
+    "updated_at": "2026-06-09 13:00 HKT",
     "news": [
       {
         "title": "Circle：cirBTC 已在以太坊上線，為機構 DeFi 提供 1:1 比特幣支持的抵押品",
