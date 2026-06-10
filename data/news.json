@@ -27,27 +27,27 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-09 13:00 HKT",
+      "updated_at": "2026-06-10 09:34 HKT",
       "news": [
         {
-          "title": "SpaceX一上市就改寫美股？30兆美元被動資金恐被迫大搬風",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9TaXpwdHpqRmQxdjMtMWIzSmtJWXRuX0N2dGtKV3N5QnFiMW5lNUREV01hd2FNUkJXLXZicE1OZ0daLU9mZEJfU0syb05FLWNEODVBWnl1M2IwSVlyQXI1dElLOUhmcEFzQ0pTZkN0a1k4SmRPTXVYcVFfcw?oc=5",
-          "source": "財訊",
-          "published_hkt": "06/09 12:16",
+          "title": "市場權衡美伊局勢新進展 美股漲跌互見",
+          "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNbGlyclJnbzJERmdfTFRTdElXdmdsLTFncE1Sd3QwUGFSdEM0X3VnaHpJVkdQMWR4WE1XdGpGVWZORjU5dGVCZk1nU1hhdjlMM1d6aGhqOUJLaGRHQjZzRUJyVGZieUw1SmwyM2kzQ0xKbzlHaU1COHNXdjFvd1ZwNDRXN2NncHhfTldjOVMtVURLUUlJT0VSUEFscFNaSzU2cld6MFAxVmtrX1dYV3NJTE55Tkt6WWllc0Zhd1FEX2VMSnFMNDB6b19qSWxPVVFWeFhIZDJVTElUdDN0WjNtNDR5TDZ5ZWZGTGdmaFlNdUlHRi1NMnpkeWRBSFVoRE5MMDR1SW1McURKS19VbmkxRTdWclZXSjIwdVZnRXVwYzlLZ0FGb04tZ19pMG40c0xlNVdQZWJabGhUNDZaRW1YdFotaG42NEFTUkpTcUpxQ2RIR0xHZHc?oc=5",
+          "source": "MSN",
+          "published_hkt": "06/10 09:25",
           "related": []
         },
         {
-          "title": "BARK 預告 Q4 2026 營收結果，市場預期悲觀！",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTXZ3bnh4Q0c1SFkyMGQwYUtUbE13TkZDTUh1b3lZRjU1UmU2OXkyN0lNbFNseFkwUk5iY1hEaERjZG5kTk9aSGZPS2t6OEFNQmU2NS1ONXlqUUJtUHhuS2tuMnR3X05GbEh3a1k1WmdvU1BQNEI4TVNhcTBwaEtqNWpKR1hjZ01tTU5mNGE3TnppMEF3?oc=5",
-          "source": "forecastock.tw",
-          "published_hkt": "06/09 11:18",
-          "related": []
-        },
-        {
-          "title": "主動式ETF新兵報到！安聯00402A掛牌首日遇強彈 重返發行價之上",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA0MlpXN21tOHdOdm54NHJJTWxDQlVUb2VGenBQUkxDSDRPbnc3NlBtbWxKTlVMZkpCUXNYeVBoWGtWT2ZZVFZ4UHNGYw?oc=5",
+          "title": "市場快訊》美國升息疑慮再起，強數據不必然是壞事",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA2WDd6ZnhWUE0wRTlqTzRvSDhIWGh5dS1TbDZfTHk3SzFuQXRnYk1ScDRnNVNiSF9SblR5bk9oYlI2M3hLVnAyWklHcl9LYVE?oc=5",
           "source": "news.cnyes.com",
-          "published_hkt": "06/09 11:17",
+          "published_hkt": "06/10 09:13",
+          "related": []
+        },
+        {
+          "title": "法人觀點：摩根資產管理稱，企業盈利支撐市場情緒，美股仍有上漲空間",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPemUweUFLTG9DTjdKa1Nrc3JVb25RMXYzR2k2c1Y2M1NDaXZTaVJFZ09YcFkwV2lxbFNEYU93eEowaVAyX0ZmaTdfR3M1ZDNJZndZbjFvTGt3RlBtZHRQUVg5Y01zZHNaV1JZQ1ZydXRpMmxCSEwwQTBkcFVVM0N4NWNiT3hzYnA3?oc=5",
+          "source": "富聯網",
+          "published_hkt": "06/10 09:10",
           "related": []
         }
       ]
@@ -226,32 +226,30 @@
     }
   },
   "crypto": {
-    "updated_at": "2026-06-10 00:18 HKT",
+    "updated_at": "2026-06-10 09:34 HKT",
     "news": [
       {
-        "title": "Arthur Hayes緊急清倉：當AI泡沫撞上高油價，比特幣能否死裡逃生？",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOXpNb2t4U3RVZ0dRRzlJOVlLVnUtU3A0WnNUQ2RhRl9aU1JDWkVkODdmMm9XeUR1TG1DX2dyTk8tRWw3d1cxakFxbVhVWVQzS1ZHelc3cXhIV1locW0tZGdXWVJwbzEyOFd5bFBaWFQ5U3k2NTQ1ejRUTFhOZV9rTVEycjQ2QQ?oc=5",
-        "source": "PANews",
-        "published_hkt": "06/10 00:05",
+        "title": "比特幣回檔6.22萬鎂！24h 爆倉 $4.26 億美元，今晚 CPI 定方向",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWlc2WXRmbzBkcVFmRHl0MzhWV1p2czZ6T1FRbHh3Ri1tUG5VSnlpSnkzQnZ2UGFhRE55ZjkzZlpQRVQ1cjF6X21ndWhfZUhEUV9adXdEaDdxWjg0NW9td1J2NnEtSkNrQ0g5b0RiZUNRVGFEeTNNaHhjbG1vZmF2bXVGdUwxZXMzQ0puU0VFVDJRNkZGY01aNTd2X21KZw?oc=5",
+        "source": "動區動趨",
+        "published_hkt": "06/10 09:19",
         "related": [
           "BTC"
         ]
       },
       {
-        "title": "日本銀行考慮歷史性加息| MEXC 新聞",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1EM21jWnRRbWVJUzZaaEZZNFVRcG9kbGNuQktfZkk4SGcwa2xYdUJOWTdVdFBac0JzQWlpSWtYSmpOalVFLXN0b0hVVVZBQVQ5?oc=5",
-        "source": "MEXC",
-        "published_hkt": "06/09 23:35",
+        "title": "Quant (QNT) 是如何運作的？",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZ2ZWNFJpY0Z0Y2hUcWRsaWdUQkV1S3F6YmY0UTlQR0Q0c1JNQlJsSFJWMWd2WXBzOW0yNzF5enBKMFBWWUFEMk1hQWpMSHVkOG5XX25ZQmtkSndIR2xJNzdkU2VQQV9lUjNXNllqVTVwd3JsaFRISF82UkRsdTBhR2trZUREQQ?oc=5",
+        "source": "KuCoin",
+        "published_hkt": "06/10 08:07",
         "related": []
       },
       {
-        "title": "降息無望！比特幣跌破 6.3 萬美元，分析師警告：市場已進入派發階段",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTzFHa3hwam9PblVySkhVN2JLUGlhUUMweHZnOWhLbV9FNjdCZ2RNTDl3NTFkMWtXN3NBcXhrZDBKcXBROVQxMDY0RWV6LUVsQy15UC1Nc0l2bGotbGF2dHB2VF82QVJDSDB4Um1YTWRHZGpodnZuc25Ta2VGNXVieWdodnVGWkRsMllPdw?oc=5",
-        "source": "動區動趨",
-        "published_hkt": "06/09 23:29",
-        "related": [
-          "BTC"
-        ]
+        "title": "晶片股反彈熄火，台指期夜盤重挫，今日恐面臨修正壓力",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5OZEROQ3JZSTg3MnROdmIyU1ZYV1JnOHBWZFFxQ3poS05NeUpoLUliNzhwZG1BTzAtYno1WDBmLWVZcWd2ZkpTdFpGZDViaXBxRW1jaTZBc09jZ0U1VzNGTHh1Yw?oc=5",
+        "source": "鏈新聞 ABMedia",
+        "published_hkt": "06/10 08:07",
+        "related": []
       }
     ]
   }
