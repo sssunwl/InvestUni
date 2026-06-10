@@ -87,32 +87,34 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-10 18:47 HKT",
+      "updated_at": "2026-06-10 19:51 HKT",
       "news": [
         {
-          "title": "新时空丨港股收盘：三大指数继续下探、恒指收跌0.64%，造纸与包装、耐用消费品等题材逆势走强",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBzSWFCQWszR0FpcWpvVTUya05pRnA4RUppMUVsQ3RVR3hCYlI1QU9KYVhkV01xM2YtN29rMkt3Q05fV1RyRW1MMVYyU3kzaDZRUWFkRC1abDE2UmhaSENteDNUWW9OQQ?oc=5",
-          "source": "FX168财经",
-          "published_hkt": "06/10 17:00",
+          "title": "【港股夜期+北水】北水轉吸資逾82億元 買盈富基金 恒指夜期跌44點（不斷更新）",
+          "url": "https://news.google.com/rss/articles/CBMiiARBVV95cUxQQ21rOWlzcUNyZWJLTU9kU2NIYllNbkwxX09GRlVwLXNHNGx2N0hHaXA4ZlhBZTFBU3VhN0V6NGhrUXVOUjY3SW1reTdUNWNpaUNld050YmhtYlczaHdaLXF2WWk0TzQxX2pzcHpydlItR09ta2NpWHdlLXNPempzYWF0ckJ5TTB4WlFmZktMU00zeDlMV3kzdko4Q0stMThoR1lWVWdueHFkV3VlRV9mdlpJaUV0SUtIcnk1NFRFZHA3OHJ4ZHplb19rSVc2dWFOUTcyeTZtZDhPVXpqUDlLbHhkeS0tS2pBdVViR0FoRHhfYmRLd20zb2FQQjFHcDZDeUF4cm52WkxEc0MyOWpEeGlTUE5uczVsQk84VUd6b1dLQUpKTTdtajRlczc3WkpQRmZ3MmlCTlBRMUV4VF9WeFdoeG1iZnNCaVJuWXBwYm9DcGJFakN6bW5CNWxWalJjUlVrLTZJbWdYXzBac3RuTlRKVEo4dERGYVh6QzRHVzE4SFZfWGRhSHJ5NVExUXIxd1dDdE96b1ZCREJncHZKUUdVQVdHTUdJZ2V4VWVqcUVyRUxjcnB2RUk5alBRQmROT1BhSFN5eldMc2dZWkxBOHJuVzR6UDk3bG45QzM2R2VGYnY3cmo2OXNDYkZscXNSQ1NaXzZmekNVdlZ6RnBiMzR2N2ROZ1Bn?oc=5",
+          "source": "香港經濟日報HKET",
+          "published_hkt": "06/10 19:22",
           "related": [
             "^HSI"
           ]
         },
         {
-          "title": "【港股收市】恒指再挫157點 連跌6日 滙控瀉近5%",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE45aldnR1IzZS1JYlRRMVd2WFZKUlVVRXlXejJUbUtkcXBFbENwYjlLNlhEb0NHdkxBSHdISmdvT0lfRFAwbUkxc0xDQVgzSElmbHlvUHd2UXpYSUxqS0ttSlo1MUtkV2s?oc=5",
-          "source": "Now 新聞",
-          "published_hkt": "06/10 17:00",
+          "title": "【港股收市】恒指險守24400關吉利汽車受捧升逾4% - 投資 - 香港文匯網",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBnLWgwT1RIdXg1SnFqcTZQb21wUzV4dHJOaW9obkgxVEYxX1VaSU1xa3VacXdGVHkya0NJRzdobUpyQTByOFlLRHdxT0NOQmRGemhjMkFLV2pVNlhEdHQzWUM4Ni03MUJib0I2VEplUjNZVUpRS1c0?oc=5",
+          "source": "香港文匯網",
+          "published_hkt": "06/10 18:15",
           "related": [
             "^HSI"
           ]
         },
         {
-          "title": "港股低收157點 連跌6日 滙控及渣打跌近5%",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBDYnR5YzQ4Zlc0SmVGcXJtVFVZckRMeWNKak1saVZpd0NWMFhUenhQRFpDNUVSWHJpeHFNRi1kb0llTjRwVVRhc29HTGRpREVaUnNudzRyQ0V4VDdJaUtWVjc0OHU3Sl9Sc1VGSVFqWQ?oc=5",
-          "source": "香港電台新聞網",
-          "published_hkt": "06/10 16:53",
-          "related": []
+          "title": "港股走勢丨恒指全日跌157點六連跌 滙控挫近半成",
+          "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOV0JsYzN6YWprZDJDMzZPMlJBY3hxM1pZWm56X01KYlQwT3dfMW5rZW56RXd2Vkl6SVVuZnliUkt6NmpVTXFDZlFRS0F5eFdGQUF3QkstczRsNDRGYXNic01aSDFESzFzR01DS2VPZ09JbkFKLTJYdVZMRkMtVVktUDQ1NmlxWW5RaEZITHplS1NfOXpNLWlaemp0NlptdlJxYmJNOG8zLWZBeDI2b0dWci1CaElaR0tQcmRFa3UtQUFmSmRoOUVFT1ZiNUdvLU9HeF9KTW5FTjdPWllHcFBHS2FQOHBxU3ZTVlZnTUFaY1pVdkk2c1VKNmZlNzIxSEJjTjZ6TWN2NWFseGlhTnEybVYwaFI3NGRTNE5DUEMzLVpQUHFtbUwyY3JCLXppSGNoSnIzdzlma1JuaDZXM04wOExLN3c1S2xtTmRNQW5ZRlprdENLblJn?oc=5",
+          "source": "信報網站",
+          "published_hkt": "06/10 17:08",
+          "related": [
+            "^HSI"
+          ]
         }
       ]
     }
@@ -142,27 +144,31 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-10 18:47 HKT",
+      "updated_at": "2026-06-10 19:51 HKT",
       "news": [
+        {
+          "title": "TWA00 加權指數- 伊朗擊落美軍直升機，川普震怒！美方必須做出回應- 股市爆料同學會",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8wbjVYQTFjZjlzMEpfNGVSYXBaUWVJVzFxSy1IZjJBR1VRcHFqRTE3dDZGXzdQVVoyQTk3aU5MdzV6bVlOTzB2TjRGbWVGQjhQWVVoODM3UGs?oc=5",
+          "source": "CMoney",
+          "published_hkt": "06/10 18:52",
+          "related": [
+            "^TWII"
+          ]
+        },
+        {
+          "title": "台股盤中跌勢收斂 台積電撐場指數重回43000 點之上",
+          "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxNdTIySm1OSGgzYXVWSTRqb2N0Y285TGJOM0FVUVRkSkZPNnJOMTA2NC0wbkI0c2VnSkNVRGVTTHVaWWpfWXVhbW5NUXNjTWtBaFJ2NW1DZHhrNDEwR29tY0QyR0xraVd4My1KVW4zVjkxc1VWN3RCYk1xcTBUaUQtU3Y0MldvaUltZkZoV05IcmF4U2habTJrbWpBYUJVaHF3TUU5MXJKS0k5VTZMLS1rdnc3Qkg2TEtGMXRSanluRzMwSndoYjdRZDF5bnJDZ3NMUVB5LTFyeHNwME9pdGhWU2xsUjFYRW1MQmxRX05Ld1Q5OXVSRlhPT3Vyb1Yxdmt0SmI1ck9tYjNpOFIxRGs2QXhxU3ZXUU4tTWZwV0dhWWZ3OV9sb0h0VC1QRDJoWXdTS0pDaER3djdsN3VDQ0o5dmxRdWhKbzVOc0NFSnhfRzYyT3NCQVdJYVNLV18?oc=5",
+          "source": "MSN",
+          "published_hkt": "06/10 18:36",
+          "related": [
+            "TSM"
+          ]
+        },
         {
           "title": "台股10日指數進行回檔 光寶科5月營收雙增股價開高後震盪走低",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1MWGZNZWc4a3dPZE1IVXBIeVNySm1XZjNhV1JUMDFpaTc5TmdSZHNqd1JPWko4QmpsVkcySGx2d2Fxc09IazVDVDBnN2QzVmVyaUE?oc=5",
           "source": "蕃新聞",
           "published_hkt": "06/10 18:29",
-          "related": []
-        },
-        {
-          "title": "什麼都不必說!做就對了!!大立光⊕⊕、雷科⊕",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aRGdJc2RpTm12VklFOWlFU1JObEhMZGx3S1ZKRnJjT1hBRXVkUHVDVjd0THNuWTlnYmFmcE5HSUswMVRqZzZqckFZUHdZeVE?oc=5",
-          "source": "news.cnyes.com",
-          "published_hkt": "06/10 18:09",
-          "related": []
-        },
-        {
-          "title": "台股震盪劇烈，別讓FOMO賠光本金，融資爆增下的生存戰！",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBDeHM5TTZCMWN2SzBZUFc1eGgxRGFJQ3ZyQ2tUV0hsZGhtQXpEcEU0SmxwVEVxX284aWY4STVJLUhYS3dDTWhMNFFCaW1JYmM?oc=5",
-          "source": "news.cnyes.com",
-          "published_hkt": "06/10 18:04",
           "related": []
         }
       ]
@@ -191,7 +197,7 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-10 18:47 HKT",
+      "updated_at": "2026-06-10 19:51 HKT",
       "news": [
         {
           "title": "《日股》權值股走弱 日經重挫逾1200點",
@@ -212,17 +218,17 @@
           ]
         },
         {
-          "title": "AI 概念股領跌日股收黑",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPTjhkSXgtLWI0Q05RcUU2OHJiSk5MU3ZMVXAySXVTU1J2YXZyOGx5UjN5ejVSdXlCM0g2ZUFjdThyczJVYTRFeERlRHR6XzJEUUc1Nk5nVmRraDNiWVk4VUJMRmlWZVdLVC16eElRZWhQQ19wSmdyaUU3aThpUGZOWDA5dzFEUGJ4QnB3QVI1Y0UtaWFPd1pDOHZlaTdPUFN0c0Vxc2NRLWl3QlRrdmFQUUFlNkdqOHk1aUNkNUl6MDlQX2hiak92MTV4blRNTzROUGF2UTNxd1lLbE5rWnRMRy1peFFxemFSVmE5WWd1R04zT0NtVWsxOA?oc=5",
-          "source": "MSN",
-          "published_hkt": "06/10 15:41",
+          "title": "AI概念股領跌日股收黑| 全球財經| 全球",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBQMkNtdWxtZFJQbi1rM3lDN3JwU1NseEZGLU55d2RDQWhlWWgzMWFFaGp2bWU2TEsxaFlGa1ZUdXFEZF9Zbkk1Um9fTjY5c3o1?oc=5",
+          "source": "UDN",
+          "published_hkt": "06/10 15:54",
           "related": []
         }
       ]
     }
   },
   "crypto": {
-    "updated_at": "2026-06-10 18:47 HKT",
+    "updated_at": "2026-06-10 19:51 HKT",
     "news": [
       {
         "title": "卡爾達諾下跌趨勢加深，儘管鏈上出現築底信號",
