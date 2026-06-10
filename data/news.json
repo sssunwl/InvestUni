@@ -87,8 +87,17 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-10 19:51 HKT",
+      "updated_at": "2026-06-10 20:19 HKT",
       "news": [
+        {
+          "title": "恒生指數 六連跌累挫1630點：若企穩24,203點才可考慮下一步",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNN0k2djR3b1lfOXNta3BSZjBiSWhITldXUVlCMmEzdFZlUS0ybEl5UlU2Q19ldHlxZjJoV0tZUzZ4bFdkTFpOanhKckJlR00yNkptRnhCLTZhc3FkNmhkSHhET1JnUW1TWGN3WXRTSzQ5NUlxdlQ5ZlJvN0p6a2NhcjBlZVdoTjFXNzQ2dzZabThidGw4T3YweDlrODRwbGdEcVV4cUlsdklRbGJwT1BwcWhpSWV5OUxZTDVFUkJkRmpNczRPWXRtbUxZUk8yQmxwaDM5MWdpTzdVaWUydUE?oc=5",
+          "source": "香港財經時報HKBT",
+          "published_hkt": "06/10 20:08",
+          "related": [
+            "^HSI"
+          ]
+        },
         {
           "title": "【港股夜期+北水】北水轉吸資逾82億元 買盈富基金 恒指夜期跌44點（不斷更新）",
           "url": "https://news.google.com/rss/articles/CBMiiARBVV95cUxQQ21rOWlzcUNyZWJLTU9kU2NIYllNbkwxX09GRlVwLXNHNGx2N0hHaXA4ZlhBZTFBU3VhN0V6NGhrUXVOUjY3SW1reTdUNWNpaUNld050YmhtYlczaHdaLXF2WWk0TzQxX2pzcHpydlItR09ta2NpWHdlLXNPempzYWF0ckJ5TTB4WlFmZktMU00zeDlMV3kzdko4Q0stMThoR1lWVWdueHFkV3VlRV9mdlpJaUV0SUtIcnk1NFRFZHA3OHJ4ZHplb19rSVc2dWFOUTcyeTZtZDhPVXpqUDlLbHhkeS0tS2pBdVViR0FoRHhfYmRLd20zb2FQQjFHcDZDeUF4cm52WkxEc0MyOWpEeGlTUE5uczVsQk84VUd6b1dLQUpKTTdtajRlczc3WkpQRmZ3MmlCTlBRMUV4VF9WeFdoeG1iZnNCaVJuWXBwYm9DcGJFakN6bW5CNWxWalJjUlVrLTZJbWdYXzBac3RuTlRKVEo4dERGYVh6QzRHVzE4SFZfWGRhSHJ5NVExUXIxd1dDdE96b1ZCREJncHZKUUdVQVdHTUdJZ2V4VWVqcUVyRUxjcnB2RUk5alBRQmROT1BhSFN5eldMc2dZWkxBOHJuVzR6UDk3bG45QzM2R2VGYnY3cmo2OXNDYkZscXNSQ1NaXzZmekNVdlZ6RnBiMzR2N2ROZ1Bn?oc=5",
@@ -100,18 +109,9 @@
         },
         {
           "title": "【港股收市】恒指險守24400關吉利汽車受捧升逾4% - 投資 - 香港文匯網",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBnLWgwT1RIdXg1SnFqcTZQb21wUzV4dHJOaW9obkgxVEYxX1VaSU1xa3VacXdGVHkya0NJRzdobUpyQTByOFlLRHdxT0NOQmRGemhjMkFLV2pVNlhEdHQzWUM4Ni03MUJib0I2VEplUjNZVUpRS1c0?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBSMllhaUE2QjluR08zMkJFQ2V4c1ZyY1pvdG41b29nNVNpSkVDVW94RExnSE5QSlN1Y1hsSXkteGxNNThmMjd6UTB3UFZBUG1oYWNIZWRxWUhYbTVBaEltN2ZGT05yRXVheHhMcGlnX2RFSzVSVEtz?oc=5",
           "source": "香港文匯網",
-          "published_hkt": "06/10 18:15",
-          "related": [
-            "^HSI"
-          ]
-        },
-        {
-          "title": "港股走勢丨恒指全日跌157點六連跌 滙控挫近半成",
-          "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOV0JsYzN6YWprZDJDMzZPMlJBY3hxM1pZWm56X01KYlQwT3dfMW5rZW56RXd2Vkl6SVVuZnliUkt6NmpVTXFDZlFRS0F5eFdGQUF3QkstczRsNDRGYXNic01aSDFESzFzR01DS2VPZ09JbkFKLTJYdVZMRkMtVVktUDQ1NmlxWW5RaEZITHplS1NfOXpNLWlaemp0NlptdlJxYmJNOG8zLWZBeDI2b0dWci1CaElaR0tQcmRFa3UtQUFmSmRoOUVFT1ZiNUdvLU9HeF9KTW5FTjdPWllHcFBHS2FQOHBxU3ZTVlZnTUFaY1pVdkk2c1VKNmZlNzIxSEJjTjZ6TWN2NWFseGlhTnEybVYwaFI3NGRTNE5DUEMzLVpQUHFtbUwyY3JCLXppSGNoSnIzdzlma1JuaDZXM04wOExLN3c1S2xtTmRNQW5ZRlprdENLblJn?oc=5",
-          "source": "信報網站",
-          "published_hkt": "06/10 17:08",
+          "published_hkt": "06/10 17:47",
           "related": [
             "^HSI"
           ]
@@ -144,8 +144,17 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-10 19:51 HKT",
+      "updated_at": "2026-06-10 20:19 HKT",
       "news": [
+        {
+          "title": "快訊/證交所公告台積電重要消息！",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KNHVfV2JfRkY1UDlvWG5peDVlSTNDNDVuRUNGOGRTaWhZTHJpcjlMNGhtTURBNWNZbEI0d1ZTR0lXMElCQ1R2SlM1QndCNktCVEpF?oc=5",
+          "source": "中天新聞網",
+          "published_hkt": "06/10 19:55",
+          "related": [
+            "TSM"
+          ]
+        },
         {
           "title": "TWA00 加權指數- 伊朗擊落美軍直升機，川普震怒！美方必須做出回應- 股市爆料同學會",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8wbjVYQTFjZjlzMEpfNGVSYXBaUWVJVzFxSy1IZjJBR1VRcHFqRTE3dDZGXzdQVVoyQTk3aU5MdzV6bVlOTzB2TjRGbWVGQjhQWVVoODM3UGs?oc=5",
@@ -163,13 +172,6 @@
           "related": [
             "TSM"
           ]
-        },
-        {
-          "title": "台股10日指數進行回檔 光寶科5月營收雙增股價開高後震盪走低",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1MWGZNZWc4a3dPZE1IVXBIeVNySm1XZjNhV1JUMDFpaTc5TmdSZHNqd1JPWko4QmpsVkcySGx2d2Fxc09IazVDVDBnN2QzVmVyaUE?oc=5",
-          "source": "蕃新聞",
-          "published_hkt": "06/10 18:29",
-          "related": []
         }
       ]
     }
@@ -197,7 +199,7 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-10 19:51 HKT",
+      "updated_at": "2026-06-10 20:19 HKT",
       "news": [
         {
           "title": "《日股》權值股走弱 日經重挫逾1200點",
@@ -228,32 +230,30 @@
     }
   },
   "crypto": {
-    "updated_at": "2026-06-10 19:51 HKT",
+    "updated_at": "2026-06-10 20:19 HKT",
     "news": [
+      {
+        "title": "比特幣價格預測：通脹擔憂持續，威脅比特幣更深度拋售",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNLVdTMUVkYWNPT2t6eF9PS05ONUlQTVpQVy0wN2ltTGZ3UUJGSzJuS19qUFFaMjZSS2g1RGtEQS1kUHBXZjNxZGhXVVJoZW5nc2Z3cVFXV2VIVm1wRTNJREdaaFNJZDRtN3pXb3VyeFc2aEVBMVZOSzZKa1R6TFhPRGNpY1RkWHpEYjU0dFRzSmsxaHZJNzVOQUg2ZlNzQXZOWElqeWh5WnNwVER3SEkzTHg3NGlvNnNPUGQ0T0sydDctdHBqcFlVU0JtOXZnZzJNWHZfNjNxendMT1NFWUhTM19OVdIB4wFBVV95cUxNLVdTMUVkYWNPT2t6eF9PS05ONUlQTVpQVy0wN2ltTGZ3UUJGSzJuS19qUFFaMjZSS2g1RGtEQS1kUHBXZjNxZGhXVVJoZW5nc2Z3cVFXV2VIVm1wRTNJREdaaFNJZDRtN3pXb3VyeFc2aEVBMVZOSzZKa1R6TFhPRGNpY1RkWHpEYjU0dFRzSmsxaHZJNzVOQUg2ZlNzQXZOWElqeWh5WnNwVER3SEkzTHg3NGlvNnNPUGQ0T0sydDctdHBqcFlVU0JtOXZnZzJNWHZfNjNxendMT1NFWUhTM19OVQ?oc=5",
+        "source": "FXStreet",
+        "published_hkt": "06/10 17:58",
+        "related": [
+          "BTC"
+        ]
+      },
+      {
+        "title": "Pi Network繼續下跌，中心化交易所資金流出未能抵消看跌壓力",
+        "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPSFdXXzZ6c3cwYTBDR0lvYVd4LWUyVDZKSGl3UkxkazU3X1FOcDZ1NmtWcXBOLXVmZzRkeHh0NEJhT05Cc0tsQWxMN2NERDVZWHhXT3JtSnlEbTZIWmxwVkZYUG90Ylo1cFp0c3c5ZEZDS19Gb2ZJT2ZNYmVwYWVHNTh4ODhiZERjbkU4RFpmR1p6Ri10SGFycG9pd3BwY2xncnJfTnBtdHVXS2NqLURodHhtU3dmcDVHSS16VE43S3RpM2hseHlmak5Cd0QyNWVPa3R2Q29pM3BacXR3Mi04MVpuMERnTGpjeUJldXFVVm02YWVzdnktaEFTTmV2dDFib1ZsY0VoYkZydVQydENOMEUxR2dkMDhM0gGYAkFVX3lxTE9IV1dfNnpzdzBhMENHSW9hV3gtZTJUNkpIaXdSTGRrNTdfUU5wNnU2a1ZxcE4tdWZnNGR4eHQ0QmFPTkJzS2xBbEw3Y0RENVlYeFdPcm1KeURtNkhabHBWRlhQb3RiWjVwWnRzdzlkRkNLX0ZvZklPZk1iZXBhZUc1OHg4OGJkRGNuRThEWmZHWnpGLXRIYXJwb2l3cHBjbGdycl9OcG10dVdLY2otRGh0eG1Td2ZwNUdJLXpUTjdLdGkzaGx4eWZqTkJ3RDI1ZU9rdHZDb2kzcFpxdHcyLTgxWm4wRGdMamN5QmV1cVVWbTZhZXN2eS1oQVNOZXZ0MWJvVmxjRWhiRnJ1VDJ0Q04wRTFHZ2QwOEw?oc=5",
+        "source": "FXStreet",
+        "published_hkt": "06/10 17:55",
+        "related": []
+      },
       {
         "title": "卡爾達諾下跌趨勢加深，儘管鏈上出現築底信號",
         "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQN2JKcm5OcXVlejV1QTZVUlQ2UzZJam1UYk5PZnlucWwzeTBGb2VIRXE0Z3BFdFY1T1JlMVJQWGhyandfTkQyREpkN3R6RktPRWpMNEV2a2JHU0c1NDRWY29oZjVfODMxdnhCbjQ2d3c3TEYzVjBsVFF3Z0Zhb0w2OVJocm00MnMtaEZYa1hMNUxnaUZINjhUSEVZYzJDSThTRDE5SXI5bjRkNnVHZkw0S3RNZ1NZQ3FDX1VwNFpnZjItSjl1OXV6Sm1Udi1pbmVWOWpaSFFEQy1EVkJOYnNYZ21lTG9TUkMxUi1B0gHrAUFVX3lxTFA3Ykpybk5xdWV6NXVBNlVSVDZTNklqbVRiTk9meW5xbDN5MEZvZUhFcTRncEV0VjVPUmUxUlBYaHJqd19ORDJESmQ3dHpGS09Fakw0RXZrYkdTRzU0NFZjb2hmNV84MzF2eEJuNDZ3dzdMRjNWMGxUUXdnRmFvTDY5UmhybTQycy1oRlhrWEw1TGdpRkg2OFRIRVljMkNJOFNEMTlJcjluNGQ2dUdmTDRLdE1nU1lDcUNfVXA0WmdmMi1KOXU5dXpKbVR2LWluZVY5alpIUURDLURWQk5ic1hnbWVMb1NSQzFSLUE?oc=5",
         "source": "FXStreet",
         "published_hkt": "06/10 15:20",
         "related": []
-      },
-      {
-        "title": "BNB價格預測：持續回調可能導致跌破570美元，進一步下跌",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZE9UUmVyMVZGSXUzcXYtbUxmbUtydVkwOHFlRDJvUFdFYXBDbDJMM0lqckUxTkVBTVlwV3FZVWNIV1JvYkQ3cm9Zc0JVSnV4WlEwOFdWQUZkd2hRNEl1RU1nZkpfc2hvR1l2N3lrNWJ0QUROZnljR3FuVThZbXZnWnAyZ2wyaFVHWks3b3pmcFFwZXBORVo4SzM4V2dIaHJSOU5Renc4cE1QeVRCSDVkOUlSaExjU2RLY2paakpXQW54VG1HS2h5bHBkdmY4OHprMGphNzh4VzhfeFF0LThZaE14eF92UWfSAecBQVVfeXFMT2RPVFJlcjFWRkl1M3F2LW1MZm1LcnVZMDhxZUQyb1BXRWFwQ2wyTDNJanJFMU5FQU1ZcFdxWVVjSFdSb2JEN3JvWXNCVUp1eFpRMDhXVkFGZHdoUTRJdUVNZ2ZKX3Nob0dZdjd5azVidEFETmZ5Y0dxblU4WW12Z1pwMmdsMmhVR1pLN296ZnBRcGVwTkVaOEszOFdnSGhyUjlOUXp3OHBNUHlUQkg1ZDlJUmhMY1NkS2NqWmpKV0FueFRtR0toeWxwZHZmODh6azBqYTc4eFc4X3hRdC04WWhNeHhfdlFn?oc=5",
-        "source": "FXStreet",
-        "published_hkt": "06/10 14:52",
-        "related": [
-          "BNB"
-        ]
-      },
-      {
-        "title": "加密貨幣價格預測：索拉納、萊特幣和比特幣——亞洲盤點 6月10日",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxONGxBX1JuWFp4OTFtbFIzV2VWZ0otRDN0ZzRUNUpuazZUaEpJNzlOQ1l3eUF1amlFZXd5ZFM3WXBsTWxqQ003WGZnazhDUjdSUnQ5ekpsT2NIM19GM1JIYjlfcG5tdGRxaEtpNzFHMVZJem5rOVZ3ci1NR1JZc0VDOEJYTHBHYkVJVG5RTVc2ZFZmeGFKWE1OYUhYMklrbzZJU0xCMkdGMEhjVnpqZTNVU3hSMnVLd2trQTMyX05iMlNGeW1ZdHg2YUgxeW9LQ3B2dnNDUFFLWmFTX1gzUGxrTkxB0gHiAUFVX3lxTE40bEFfUm5YWng5MW1sUjNXZVZnSi1EM3RnNFQ1Sm5rNlRoSkk3OU5DWXd5QXVqaUVld3lkUzdZcGxNbGpDTTdYZmdrOENSN1JSdDl6SmxPY0gzX0YzUkhiOV9wbm10ZHFoS2k3MUcxVkl6bms5VndyLU1HUllzRUM4QlhMcEdiRUlUblFNVzZkVmZ4YUpYTU5hSFgySWtvNklTTEIyR0YwSGNWemplM1VTeFIydUt3a2tBMzJfTmIyU0Z5bVl0eDZhSDF5b0tDcHZ2c0NQUUtaYVNfWDNQbGtOTEE?oc=5",
-        "source": "FXStreet",
-        "published_hkt": "06/10 14:45",
-        "related": [
-          "BTC"
-        ]
       }
     ]
   }
