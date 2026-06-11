@@ -230,30 +230,32 @@
     }
   },
   "crypto": {
-    "updated_at": "2026-06-11 11:37 HKT",
+    "updated_at": "2026-06-11 13:11 HKT",
     "news": [
       {
-        "title": "Bitwise ：穩定幣與代幣化為當前關注焦點 BTC不再受青睞",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrQklRMmVpSG1POW9NRG9MS2J3R01iVm9oTDMxZm9BMmppeXFTVWoyY09qYl9nZ0J5WlBBN0NCRzhEVk9IUC1tYjlrVGV3MW8?oc=5",
-        "source": "news.cnyes.com",
-        "published_hkt": "06/11 10:30",
-        "related": []
-      },
-      {
-        "title": "比特幣較高點回落五成 散戶轉向潛力加密貨幣預售案",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zSlJURjVoRnhGZ3hoam8xMjVyZFZVel9nak90RFdKSU02RHZva0o2VUFqaDg3YWxZV2FyQzJmWnRkV1BXUk5FQTZ6bHFvQXJpb1E?oc=5",
-        "source": "蕃新聞",
-        "published_hkt": "06/11 10:12",
+        "title": "比特幣跌進熊市深估值區，恐懼指數僅剩 9，6 月 FOMC 前最艱難時刻或將到來",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSDdHSExsQkthdV9mck1CVGczX3FqM2Zlc2lWWFdQM0JtR21Wek1nRUU4UVN0bDlCUUpONnN5blJoN2YtQWhxUUkzRERDMllheVRBN0ozSE1ZcjFvZGZVU0FHekprQ2hjcnpjS3h6SkNWUjQ4WF95UV9KX1FPakpJMFNrc1BRd3VTcFBPcTMxOVQ0c3V5S2xoUkFoV3o5Qk0?oc=5",
+        "source": "動區動趨",
+        "published_hkt": "06/11 13:02",
         "related": [
           "BTC"
         ]
       },
       {
-        "title": "幣圈全面潰敗麻吉大哥還在場上 爆倉10次仍死守以太幣",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KckZtWTZtcF82NU13V0xTcGdEekRFMmF6aW4xQ0hLZ0J2Y2dldzkwR3NmbFQxM3kzM1R0UHRDSDRNYzBNUW9NZTQ1WmU5ZG01Q3fSAVJBVV95cUxNSnJGbVk2bXBfNjVNd1dMU3BnRHpERTJhemluMUNIS2dCdmNnZXc5MEdzZmxUMTN5MzNUdFB0Q0g0TWMwTVFvTWU0NVplOWRtNUN3?oc=5",
-        "source": "NOWnews今日新聞",
-        "published_hkt": "06/11 09:30",
+        "title": "AI 與鏈上安全 | 跑分洗錢傳銷等非法虛擬幣地址無處遁形",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBScjlGRTE1Um5LTlJKOXdfMUZ5TzZvUUM5Y0dYbjZqS1IxSG14LUQ3UlNHSXZQRDNJa3V4X0FkNkFhbmI3a1NZTDlvZENrVWc?oc=5",
+        "source": "news.cnyes.com",
+        "published_hkt": "06/11 12:00",
         "related": []
+      },
+      {
+        "title": "Glassnode：比特幣正進一步進入投降階段，長期需求尚未出現",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeHJxZ05wN09wbnFNQXNyaC1wc19jcXhKUkhfUGdoZTBvVDNuSkptZnh3bjFEdEF4R096ZEF5WDJxYmdzdWw5QU9jbG03SXJfbWR0b2NkLW5qM09pUk9veGp2RGNHY2VOOUFGQTlaTlFHaFNFZ09iaXRWSTZxNVpWRFJwZ0VKWVM4S2hQSDJRdXY3WW1WdEJDV2oya0V5TFpWVEw5UUtyTQ?oc=5",
+        "source": "動區動趨",
+        "published_hkt": "06/11 10:57",
+        "related": [
+          "BTC"
+        ]
       }
     ]
   }
