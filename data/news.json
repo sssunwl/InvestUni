@@ -87,7 +87,7 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-11 20:26 HKT",
+      "updated_at": "2026-06-11 20:44 HKT",
       "news": [
         {
           "title": "【港股夜期+北水】北水轉走資逾27億元 沽阿里中海油、買建滔系 恒指夜期升54點（不斷更新）",
@@ -144,7 +144,7 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-11 20:26 HKT",
+      "updated_at": "2026-06-11 20:44 HKT",
       "news": [
         {
           "title": "槓桿ETF也買台積電現貨？00631L曝險破百，成「含積量」冠軍-觀點新聞",
@@ -156,18 +156,22 @@
           ]
         },
         {
-          "title": "台股狂牛行情還能追？00406A主動選股＋掩護性買權 參與行情又能抗震",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE90MG9ONnNvblFIMHE3Vm5teTZObXFUbG5tNHEtLWYzbnpaTnY5QnE2YU92Z1RxM3FxSThHdmJ6b3dUVUNtcWdWV09vSUplYWdqTVE?oc=5",
-          "source": "蕃新聞",
-          "published_hkt": "06/11 18:39",
-          "related": []
+          "title": "TWA00 加權指數- 往下逢低佈局，泠靜思考，觀查美股走勢。 反映美股費半指數重... - 股市爆料同學會",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB0cnVtWTlKbjBFR0hMS1VNNnJpUmNKWGFPMHNqRGYxUlRvOUhNTmR4YmpNR3o2NFU2VlVldVFmd1NUNmVRMUxXYU1xZGdNQnZSVm5nbGhYWUI?oc=5",
+          "source": "CMoney",
+          "published_hkt": "06/11 18:28",
+          "related": [
+            "^TWII"
+          ]
         },
         {
-          "title": "台股震盪跌千點尾盤收斂，外資連六日賣超-財經焦點情報站",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWEcxSmlxWmwzTFdEWEcyVXNZd0JNZWlnQjhKS2tIWkNZQ29IaGtLaEd0M2NhVXUycTh0RmN0QkFSV2l3Y3VYa3BwU2xaTFFKeGNWSHRTTXFsb2ZQNHlVako3TWNaWWh2NG80ekpvbllhUEpvdWRyaU9zN1hPN1lxaGZR?oc=5",
-          "source": "CMoney投資網誌",
-          "published_hkt": "06/11 17:16",
-          "related": []
+          "title": "台股盤中跌勢收斂 台積電撐場指數重回43000 點之上",
+          "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxNdTIySm1OSGgzYXVWSTRqb2N0Y285TGJOM0FVUVRkSkZPNnJOMTA2NC0wbkI0c2VnSkNVRGVTTHVaWWpfWXVhbW5NUXNjTWtBaFJ2NW1DZHhrNDEwR29tY0QyR0xraVd4My1KVW4zVjkxc1VWN3RCYk1xcTBUaUQtU3Y0MldvaUltZkZoV05IcmF4U2habTJrbWpBYUJVaHF3TUU5MXJKS0k5VTZMLS1rdnc3Qkg2TEtGMXRSanluRzMwSndoYjdRZDF5bnJDZ3NMUVB5LTFyeHNwME9pdGhWU2xsUjFYRW1MQmxRX05Ld1Q5OXVSRlhPT3Vyb1Yxdmt0SmI1ck9tYjNpOFIxRGs2QXhxU3ZXUU4tTWZwV0dhWWZ3OV9sb0h0VC1QRDJoWXdTS0pDaER3djdsN3VDQ0o5dmxRdWhKbzVOc0NFSnhfRzYyT3NCQVdJYVNLV18?oc=5",
+          "source": "MSN",
+          "published_hkt": "06/11 18:15",
+          "related": [
+            "TSM"
+          ]
         }
       ]
     }
@@ -195,7 +199,7 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-11 20:26 HKT",
+      "updated_at": "2026-06-11 20:44 HKT",
       "news": [
         {
           "title": "AI概念股漲多引發獲利了結外資連兩週賣超日股、撤出7010億日圓| 優分析",
@@ -214,17 +218,17 @@
           ]
         },
         {
-          "title": "亞洲股市「大奇蹟日」!日股扭轉2 千點跌勢",
-          "url": "https://news.google.com/rss/articles/CBMiuANBVV95cUxNZjVkZTJXRXZvcmxlcEd2Nk5ualFteXlyaDFxc0o3Q0duZnYwb1JFcTFuWGlBNDNOSGN6WlROdV82QUtBX0JPQVVBbmZTdWd6bTMydDRUMnpPa002NUQ5bEF0MWN6WHRlMzk3X1hab05JR3FHUTJQak5yM3dBck9xa3BPdFpoTkpVbDdkX1ZmU3JOcE5DTTdOLVJFTVVPRFRHZnAtOWppZkpUSEszVlFIY3IxN3VTcHMtZ05jcnExN3ZpT1c5SHdMNDVEY2FNSU9ZTEU1aEx1TksteU4zY050QmlKUmVYRlhaaWRXNXEtZmwtcC1TLXlsUTkwejE4WlNIRTRkaGlPaGhEenVVWG5ob0xlNTBvV0t5Y3Qyem5uaHZ3V09JNEtoY051c0dWdENUYloySldCRDZ0WmozZ0RhaG94MGVMU0Z2TTdFbzNSRlhxQTBxQlc4RmJia1VSWG5aVVBWaVFnUmZXME1nenZxRGlTdmItNmlVbWNOeXAwdlRYYkMxb3NCTER0VzRlMTVQZnliQ01jR0N3cTlKdW9ZQkZ2c2dIVmpla3hXLUt5Wk5xaFlvT2g3bg?oc=5",
-          "source": "MSN",
-          "published_hkt": "06/11 17:03",
+          "title": "日本：35年熊市結束，經濟結構巨變",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1oUThVQ1J1NHRITVNyM0drMWRMbW1STUxiVDdmSG81LURRcGR6MWxVcE4xaWNkUHM4TTZ3bTU1dXZnZjdrUkppZg?oc=5",
+          "source": "鉅亨號",
+          "published_hkt": "06/11 16:42",
           "related": []
         }
       ]
     }
   },
   "crypto": {
-    "updated_at": "2026-06-11 20:26 HKT",
+    "updated_at": "2026-06-11 20:44 HKT",
     "news": [
       {
         "title": "比特幣上漲，守穩於以太坊和Solana無法突破的關鍵技術位之上",
