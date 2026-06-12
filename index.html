@@ -673,6 +673,22 @@
     .calc-total { font-size: 16px !important; }
     .calc-disclaimer { font-size: 10px; color: #B8A880; margin-top: 10px; line-height: 1.6; }
 
+    /* ── Tools Tab: Resource Links ── */
+    .resource-list { display: flex; flex-direction: column; gap: 14px; }
+    .resource-card { background: #fff; border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; transition: box-shadow 0.2s, transform 0.15s; }
+    .resource-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.07); transform: translateY(-2px); }
+    .resource-header { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+    .resource-title { font-size: 15px; font-weight: 700; color: var(--dark); text-decoration: none; }
+    .resource-title:hover { color: var(--gold); }
+    .resource-tag { font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 10px; }
+    .tag-free     { background: var(--green-bg); color: var(--green); }
+    .tag-freemium { background: var(--yellow-bg); color: var(--yellow); }
+    .tag-cn       { background: var(--blue-bg); color: var(--blue); }
+    .tag-en       { background: #F0EDE8; color: var(--mid); }
+    .tag-dev      { background: var(--orange-tag-bg); color: var(--orange-tag); }
+    .resource-desc { font-size: 12px; color: var(--mid); line-height: 1.75; margin-bottom: 8px; }
+    .resource-use { font-size: 12px; color: var(--dark); background: var(--cream); border-radius: 6px; padding: 8px 10px; line-height: 1.65; }
+
     /* ── Footer ── */
     footer { background: var(--dark); color: #A09070; text-align: center; font-size: 11px; padding: 16px; line-height: 1.8; }
     footer strong { color: var(--gold); }
@@ -704,8 +720,9 @@
     <button class="tab-main-btn" id="main-tools" onclick="toggleGroup('tools')">🔧 工具 ▾</button>
   </nav>
   <div class="tab-subnav" id="sub-tools">
-    <button class="tab-sub-btn" id="sub-etf"  onclick="switchSub('etf','tools')">📊 高息ETF</button>
-    <button class="tab-sub-btn" id="sub-calc" onclick="switchSub('calc','tools')">🧮 股息計算器</button>
+    <button class="tab-sub-btn" id="sub-etf"   onclick="switchSub('etf','tools')">📊 高息ETF</button>
+    <button class="tab-sub-btn" id="sub-calc"  onclick="switchSub('calc','tools')">🧮 股息計算器</button>
+    <button class="tab-sub-btn" id="sub-links" onclick="switchSub('links','tools')">🔗 實用網站</button>
   </div>
   <div class="tab-subnav" id="sub-basic">
     <button class="tab-sub-btn" id="sub-glossary" onclick="switchSub('glossary','basic')">📖 名詞</button>
@@ -1896,6 +1913,60 @@
         <div class="calc-result-row"><span class="calc-result-label">總回報（%）</span><span class="calc-result-val calc-total" id="res-pct"></span></div>
         <div class="calc-result-row"><span class="calc-result-label">年化回報（%）</span><span class="calc-result-val calc-total" id="res-ann"></span></div>
         <div class="calc-disclaimer" id="res-note"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════
+       TAB: 實用網站
+  ═══════════════════════════════════════ -->
+  <div id="tab-links" class="tab-panel">
+    <div class="section-intro">
+      精選外部投資工具與資訊平台，點擊標題直接開啟。隨時更新，歡迎告知新增。
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">📊 選股 &amp; 分析工具</div>
+      <div class="resource-list">
+
+        <div class="resource-card">
+          <div class="resource-header">
+            <a class="resource-title" href="https://private-stock-terminal.lovable.app/" target="_blank" rel="noopener">Plainly — 私人股票終端 ↗</a>
+            <span class="resource-tag tag-free">免費</span>
+            <span class="resource-tag tag-cn">中文</span>
+          </div>
+          <p class="resource-desc">把市場數據「翻譯成人話」的中文股市儀表板。整合技術評分、KOL 持倉動向、新聞聚合與市場情緒，用顏色（🟢🟡🔴）快速判斷股票健康度，無需自己解讀原始數據。</p>
+          <div class="resource-use"><strong>如何用：</strong>建立自選股清單，每日盤前快速掃一遍評級與 KOL 動向，輔助選股判斷。</div>
+        </div>
+
+        <div class="resource-card">
+          <div class="resource-header">
+            <a class="resource-title" href="https://github.com/muxuuu/serenity-skill" target="_blank" rel="noopener">Serenity Skill — AI 產業鏈研究 ↗</a>
+            <span class="resource-tag tag-free">免費</span>
+            <span class="resource-tag tag-dev">開發者</span>
+          </div>
+          <p class="resource-desc">給 AI Agent 使用的投資研究 Skill（Claude Code / OpenAI Agent 皆支援）。採用供應鏈分析方法論：將產業鏈分層 → 找瓶頸 → 定位公司 → 排出研究優先順序，最後輸出結構化研究報告與評分卡。</p>
+          <div class="resource-use"><strong>如何用：</strong>整合到 Sterling / Steve 的 AI 工作流程，做系統性產業研究，而不是靠直覺分析。<a href="https://github.com/muxuuu/serenity-skill" target="_blank" rel="noopener" style="color:var(--gold)">Clone repo →</a></div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">📡 即時市場情報</div>
+      <div class="resource-list">
+
+        <div class="resource-card">
+          <div class="resource-header">
+            <a class="resource-title" href="https://www.financialjuice.com/home" target="_blank" rel="noopener">Financial Juice — 即時市場新聞流 ↗</a>
+            <span class="resource-tag tag-freemium">Freemium</span>
+            <span class="resource-tag tag-en">英文</span>
+          </div>
+          <p class="resource-desc">日內交易者用的即時市場情報平台，提供文字＋語音即時新聞推播。覆蓋股票/債券/大宗商品/加密/外匯/宏觀指標，可設定「實際 vs 預期數據」的偏差警報。有 TradingView 插件可嵌入圖表介面，有 RSS 訂閱。</p>
+          <div class="resource-use"><strong>如何用：</strong>訂閱 RSS 補強盤中突發新聞監控；特別適合宏觀數據公布瞬間（CPI / NFP / FOMC 等）的市場反應追蹤。</div>
+        </div>
+
       </div>
     </div>
   </div>
