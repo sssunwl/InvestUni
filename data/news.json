@@ -230,8 +230,15 @@
     }
   },
   "crypto": {
-    "updated_at": "2026-06-12 13:27 HKT",
+    "updated_at": "2026-06-12 13:52 HKT",
     "news": [
+      {
+        "title": "Cardano 合約於 CME 上線，ADA 撲至五年低點",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdHQ0T2p3UnExMWdLUXFSUlpQck9hYVRqaFc2algweXAzZ1V5VU81eUxocGFZVWljbEVBcmNiWlpFY1JlUUZma29KRnRzOTVqZlI1S3E2SG5RYnpIRWIyMWJnVnA4X1pvXzFSN0JGTm5uYWNvZzN6X042dFhWTHpCY1FkTl9xOENMeUtuX2RKMVdJS2FZZWc?oc=5",
+        "source": "KuCoin",
+        "published_hkt": "06/12 13:42",
+        "related": []
+      },
       {
         "title": "日本眾議院通過法案！加密貨幣擬列「金融商品」，稅率從 55% 降至",
         "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1PNjU2SzVLblJXVTJlRGxDckRIMW5kVHZSUFBXNVdFcWdqMW1mNGpEelllaHU4VEVid1cwdkJreTNEMGJSOU85aEMtTVRqWGM?oc=5",
@@ -244,13 +251,6 @@
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbm9STXRFOF80V2laTjY0RFp0ejA2VFdCR1BjcWpVYjlPTlhVSnBLdWtLem9uYWZ2ZC1zOTRzUmgyUktUTTNjV3hmV2NyTnJkdHVpVXZjclM5RmJRaXNYSXJoS2dWX1BycXVhb2Z3NXlnclRXelNGcFpKS05VZEtoMkRpV05Sa1h5bnFZeUNlZFpCN29xbEdrd25pNFJLcGZUeXUxUnBJeTFCRDJhVTd6QjN3?oc=5",
         "source": "KuCoin",
         "published_hkt": "06/12 11:43",
-        "related": []
-      },
-      {
-        "title": "Korea Republic vs Czechia",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55VHFjTkM2dnpRLXpHNEkwclNzY25nZ0FsVE1MTTIwaGFvQW1KTk5xN2pFUGVYZ0JQUFEza0pwaXZBN2ROQmpHQXBmZ2lVcFdSal9ZN0xodG1fUWVtck5OR1VOTHdQbzUtVC1HazNreUdXQVVRbWEzZE85QQ?oc=5",
-        "source": "Coinbase",
-        "published_hkt": "06/12 11:25",
         "related": []
       }
     ]
