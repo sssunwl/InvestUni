@@ -233,7 +233,7 @@
     }
   },
   "crypto": {
-    "updated_at": "2026-06-17 02:06 HKT",
+    "updated_at": "2026-06-17 02:18 HKT",
     "news": [
       {
         "title": "美伊協議提振市場信心 比特幣飆破 6.6 萬美元 機構押注聯準會動向",
@@ -252,11 +252,13 @@
         "related": []
       },
       {
-        "title": "Humanity 公布復甦計劃：已部署全新 H 代幣合約",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE80U3U1NHRMTTlfSVhiYThPYkRfcVhFM1JRVGJtVVRPVnliV1dnSmtOZGhoc2FudjM2OGxQZ0NrZEUyU2loYjVCY2pQUnphTFBxQlc0dHRPYTFHOGMxMjY4clR0LWVYNm4zd21N0gFrQVVfeXFMTzRTdTU0dExNOV9JWGJhOE9iRF9xWEUzUlFUYm1VVE9WeWJXV2dKa05kaGhzYW52MzY4bFBnQ2tkRTJTaWhiNUJjalBSemFMUHFCVzR0dE9hMUc4YzEyNjhyVHQtZVg2bjN3bU0?oc=5",
-        "source": "Bitget",
-        "published_hkt": "06/16 23:55",
-        "related": []
+        "title": "比特幣底部之爭：Galaxy、NYDIG 和渣打銀行的觀點分歧，但 Bitwise 認為上漲空間才是真正的問題。",
+        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4wNmtxQm9DVE1DTjdVRXBrNmprNlBlVTByRVVqX3A1cFZnWmFPT0l5YTgwZzk2NVMyaEx2d3dQZlpqQ1FxY00wSWdn?oc=5",
+        "source": "区块周刊BlockWeeks",
+        "published_hkt": "06/16 23:56",
+        "related": [
+          "BTC"
+        ]
       }
     ]
   }
