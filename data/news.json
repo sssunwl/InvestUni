@@ -228,8 +228,17 @@
     }
   },
   "crypto": {
-    "updated_at": "2026-06-18 11:35 HKT",
+    "updated_at": "2026-06-18 13:19 HKT",
     "news": [
+      {
+        "title": "AWS與QuEra攜手 力拚2028年量子糾錯電腦 挑戰加密貨幣安全",
+        "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxNY2ZsMm8wandkcUo1dmttSW41VGNCWno4UXFuYjdXOWdGNUF6RjRsS1F6SnUxaW5Oc21kWWxNekZ5ekppMHM0Z1p5WS1wWE1GYTlMbWxQaFBjcTVFYVBYckpMeG9vcWM4ZWtsVzg3eTU1WHl5SlhqT3NJak9XMkZwV0k5bVFEejA3WjRvUkdsZE5zVlAwZkxwNFNTRnl5NVNya2lobmNSVG0tSzVDTmpjSmRnX2pEb0lYM1I0azZLR1RaMVN4YmktdVVEU01LSlpLV3NXY1J6NGVrSjBNcF9NN1hiMEFjN05LZjROVXNhQlZUdGlzc1ZySjJFU3dtU29FSTFzUHpGaGhJMVpqeG1XTUNWbUFOYXNDd01KMmc1SlJfNVViMWJJZGxHbEhvUGdLakV4M1RjdzRQcE80bUhLbDZsR2Q5dVlaYVA5OG56LTF1MGtLOGFuLWdITmo2Zw?oc=5",
+        "source": "商傳媒",
+        "published_hkt": "06/18 12:11",
+        "related": [
+          "BNB"
+        ]
+      },
       {
         "title": "6月17今日分析：多空雙殺!比特幣、以太坊漲不動？為何龍蝦、WLD、UNI爆拉!DOGE、AAVE、PENDLE",
         "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WRTJtS0JWb1FTanlOR3dVVXZpMWxxUEpzR3NGRDZnQUU4MkFkX0Q3dmsza0JXdS1neUM5RlJaaTBqTE5wU2s5SVBaS3dvOUE?oc=5",
@@ -247,15 +256,6 @@
         "published_hkt": "06/18 09:23",
         "related": [
           "BTC"
-        ]
-      },
-      {
-        "title": "幣安創始人CZ呼籲各國政府對股票市場進行代幣化並推出主權穩定幣",
-        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPeHBTZkg2YnNWaHNyMmpiWlpnSVNVaHRsbXVxU0lmT2V2elhHd3pmRDMzd1dNU1Z1TE1jZEcySGZld3NFQmR4dElpWGZLRU1OS0J1OXJOU3dvdmxYdk1jTTBxbGFRVnFmbGduaVA0Ull3MlREdnlHSmpacjJra3NzdlA0d1FwZlNUX3lEMEJCdEx6ZnJaVTM2bFdMVmU1c1NHdXZyaFJYc1R4MEJNZDlSelVtRzJab3dFT0JUMjkxY3FGVThrclJhUEhIRlhqRE9lRjQ1UTI5NWdUUm5zNUc3Ny1ocmpVSFhIVXhOQXdHQndPcTB1bk5ZbUpXV2hPV2h5Z2NiODB5am5zZFRLMWxLctIBkAJBVV95cUxPeHBTZkg2YnNWaHNyMmpiWlpnSVNVaHRsbXVxU0lmT2V2elhHd3pmRDMzd1dNU1Z1TE1jZEcySGZld3NFQmR4dElpWGZLRU1OS0J1OXJOU3dvdmxYdk1jTTBxbGFRVnFmbGduaVA0Ull3MlREdnlHSmpacjJra3NzdlA0d1FwZlNUX3lEMEJCdEx6ZnJaVTM2bFdMVmU1c1NHdXZyaFJYc1R4MEJNZDlSelVtRzJab3dFT0JUMjkxY3FGVThrclJhUEhIRlhqRE9lRjQ1UTI5NWdUUm5zNUc3Ny1ocmpVSFhIVXhOQXdHQndPcTB1bk5ZbUpXV2hPV2h5Z2NiODB5am5zZFRLMWxLcg?oc=5",
-        "source": "FXStreet",
-        "published_hkt": "06/18 08:27",
-        "related": [
-          "BNB"
         ]
       }
     ]
