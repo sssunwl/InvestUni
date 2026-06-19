@@ -226,30 +226,33 @@
     }
   },
   "crypto": {
-    "updated_at": "2026-06-19 20:44 HKT",
+    "updated_at": "2026-06-20 00:09 HKT",
     "news": [
       {
-        "title": "Algorand 公布「抗量子路線圖」，力拚 2027 年全面大升級",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZVFp0TmVFbHRyemQ0VGIwZkp0UW5sS1BIMlgyVHBXUEZFSjY4LXl5LTdvV3RpS0VIaTN2LUJoZTdoSzJFZWd2VWxheU0zNEU?oc=5",
-        "source": "news.cnyes.com",
-        "published_hkt": "06/19 18:00",
+        "title": "這就是為什麼XRP交易者關注1.00美元水平的原因",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcjRxUVpSdUJTb0VnQ1F0ZHRFaDlDdlJRcGdlQk5yUkRaYnJmOVRyYjBHR1VCSlNDMUsyX2plY0p1WkQ1SjZfMm53Z09mQjlVUWJDN1UteVdKVmJNTGxvc0tGbWdOdURoQ1hzNXN0WFFEeldzUnppalhYLVJkZGhTZ3J0OWwwc0ltN1RSS1Rndngxa2Fza0NwdDhQbmNsdVhIZGI1bmUwM0hzNHZ2U0UtYk9DWkxfV2Vmd3dOTGphZk0tQ0RzXy1XMWRib0lsel91VXd2ZFhneHJOMlnSAdsBQVVfeXFMTXI0cVFaUnVCU29FZ0NRdGR0RWg5Q3ZSUXBnZUJOclJEWmJyZjlUcmIwR0dVQkpTQzFLMl9qZWNKdVpENUo2XzJud2dPZkI5VVFiQzdVLXlXSlZiTUxsb3NLRm1nTnVEaENYczVzdFhRRHpXc1J6aWpYWC1SZGRoU2dydDlsMHNJbTdUUktUZ3Z4MWthc2tDcHQ4UG5jbHVYSGRiNW5lMDNIczR2dlNFLWJPQ1pMX1dlZnd3TkxqYWZNLUNEc18tVzFkYm9JbHpfdVV3dmRYZ3hyTjJZ?oc=5",
+        "source": "FXStreet",
+        "published_hkt": "06/19 21:32",
         "related": []
       },
       {
-        "title": "今日 BTC、ETH 期權到期逾 21 億鎂！比特幣最大痛點高掛 6.5 萬美元",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU3BfUzBobXktb3RxQ1N2dVl5ajEwaEVzamxFTy00OFQwLTFPaVNIWW1BT1ZMc3lfRlh2NXpuT0lFOHlubHdMSWZoaW8zNjVpdmk4UEdoMXdteTFUbEZ5YW5ZRGtJT0NOZjFQMUZ1TVc4UllzUmhLTThjLXl1NGxlRjM4ZDFyOWo4Z01BX1U3YmlsSWhwa1E?oc=5",
-        "source": "動區動趨",
-        "published_hkt": "06/19 17:27",
+        "title": "加密今日：比特幣、以太坊、XRP下跌可能持續的原因",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT2NZMERiMkZyUGY4bnZoX3c2VVhGaEduMlh1NzQtU0M4X3lySGNidk5ISHZYRndBdmV0Yk4ydnJUbWFqdFU1SzNKblE4QUZSY2dVLUU2QzJFU193XzlwN3dZWGdaUDZQN3dwd0ROZ29MVkNTazFOZ2tqLVloM3M0VzFocVEzakYtT1gxVEJzV0tLSkU1c2o1MjFUbG81UHBUUFBlUjFDWE9TdFNPWUFpcHVzX0l1OXhJT3EwZU05SnZtRmV1ZE1vZHA0ZC01cmJ2bGIw0gHTAUFVX3lxTFBPY1kwRGIyRnJQZjhudmhfdzZVWEZoR24yWHU3NC1TQzhfeXJIY2J2TkhIdlhGd0F2ZXRiTjJ2clRtYWp0VTVLM0puUThBRlJjZ1UtRTZDMkVTX3dfOXA3d1lYZ1pQNlA3d3B3RE5nb0xWQ1NrMU5na2otWWgzczRXMWhxUTNqRi1PWDFUQnNXS0tKRTVzajUyMVRsbzVQcFRQUGVSMUNYT1N0U09ZQWlwdXNfSXU5eElPcTBlTTlKdm1GZXVkTW9kcDRkLTVyYnZsYjA?oc=5",
+        "source": "FXStreet",
+        "published_hkt": "06/19 20:03",
         "related": [
-          "BTC"
+          "BTC",
+          "ETH"
         ]
       },
       {
-        "title": "儘管鏈上表現堅韌，Sui仍面臨更深的下跌風險",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQRkxDeE9saGhhLTZudlVscVRpLU9FYzJUZ2UwWkkyWG9CbU1hc1A0MVJjTlFPRlRaODBsR3pEN2M1WUd2OEtOZGRGNHVNVk1LVW9IZHg3eDFZUU0xYWNpUHZYc3lMVDQ0Wkp4RjlFRlpNdWRMUXhRdlBRR3lxVE1sWk1WdXZwamc2WHFfUTN3UFVZUi1Jd2wybl9sVEY4MEhFN2V3QldqMTZHTzJEWEVxZ1VvRGZ5Q1M1Q0ZidUxoaXBVSVVQLUJWX25raDR3WmVxUGdGaWdkbFBoSUM5aXRqdjZEQ3A4aGp4QVZIUkZHV3VodUZ4c005YdIB-AFBVV95cUxQRkxDeE9saGhhLTZudlVscVRpLU9FYzJUZ2UwWkkyWG9CbU1hc1A0MVJjTlFPRlRaODBsR3pEN2M1WUd2OEtOZGRGNHVNVk1LVW9IZHg3eDFZUU0xYWNpUHZYc3lMVDQ0Wkp4RjlFRlpNdWRMUXhRdlBRR3lxVE1sWk1WdXZwamc2WHFfUTN3UFVZUi1Jd2wybl9sVEY4MEhFN2V3QldqMTZHTzJEWEVxZ1VvRGZ5Q1M1Q0ZidUxoaXBVSVVQLUJWX25raDR3WmVxUGdGaWdkbFBoSUM5aXRqdjZEQ3A4aGp4QVZIUkZHV3VodUZ4c005YQ?oc=5",
+        "title": "加密貨幣價格預測：索拉納、比特幣與SUI——歐洲市場綜述 6月19日",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWlVsV2ZhXzlqZFIzaW8tbmRzckM0cEtLMXZQRmlqUkhzcU9vMWtZaWFwWlpVcjFBUkFYNEN5S3cyYTFjeEpxYXh1U0Fsa09ZY1R0Zlk5QU5ITXI3ajNkeVNwdURPZjV2eF9oSzFiajJ0THZ4emVFOF91ZkJwYTEwNUNWNk1iNzBMUjNSUHZ4VkNMQzFPYXBrbnBUZ3JZUVVwOWpVaGwyVzlZeUJfR0N0OTIzdnVIeVlMbzFqRTJndkxFMDhKWHNsWnU4c0xyMjJBY3I5MlB0YThOZHh0THF0c3RpX21ZV1HSAecBQVVfeXFMTVpVbFdmYV85amRSM2lvLW5kc3JDNHBLSzF2UEZpalJIc3FPbzFrWWlhcFpaVXIxQVJBWDRDeUt3MmExY3hKcWF4dVNBbGtPWWNUdGZZOUFOSE1yN2ozZHlTcHVET2Y1dnhfaEsxYmoydEx2eHplRThfdWZCcGExMDVDVjZNYjcwTFIzUlB2eFZDTEMxT2Fwa25wVGdyWVFVcDlqVWhsMlc5WXlCX0dDdDkyM3Z1SHlZTG8xakUyZ3ZMRTA4SlhzbFp1OHNMcjIyQWNyOTJQdGE4TmR4dExxdHN0aV9tWVdR?oc=5",
         "source": "FXStreet",
-        "published_hkt": "06/19 16:57",
-        "related": []
+        "published_hkt": "06/19 19:48",
+        "related": [
+          "BTC"
+        ]
       }
     ]
   }
