@@ -659,6 +659,7 @@
     <button class="tab-main-btn active" id="main-home" onclick="goHome()">🏠 首頁</button>
     <button class="tab-main-btn" id="main-basic" onclick="toggleGroup('basic')">📚 基本 ▾</button>
     <button class="tab-main-btn" id="main-advanced" onclick="toggleGroup('advanced')">⚡ 高階 ▾</button>
+    <button class="tab-main-btn" id="main-trading" onclick="toggleGroup('trading')">🎯 實戰 ▾</button>
   </nav>
   <div class="tab-subnav" id="sub-basic">
     <button class="tab-sub-btn" id="sub-glossary" onclick="switchSub('glossary','basic')">📖 名詞</button>
@@ -671,6 +672,10 @@
     <button class="tab-sub-btn" id="sub-bonds"     onclick="switchSub('bonds','advanced')">🏛 債券</button>
     <button class="tab-sub-btn" id="sub-contracts" onclick="switchSub('contracts','advanced')">📋 合約</button>
     <button class="tab-sub-btn" id="sub-futures"   onclick="switchSub('futures','advanced')">📈 期貨</button>
+  </div>
+  <div class="tab-subnav" id="sub-trading">
+    <button class="tab-sub-btn" id="sub-premkt"    onclick="switchSub('premkt','trading')">🌍 盤前</button>
+    <button class="tab-sub-btn" id="sub-momentum"  onclick="switchSub('momentum','trading')">📈 動能</button>
   </div>
 </div>
 
@@ -1206,6 +1211,20 @@
       <div class="glossary-def">開盤後特定時間（通常是前 15-30 分鐘）所形成的最高價與最低價區間。是當日重要的支撐阻力參考線。突破 Opening Range 高點視為看漲；跌破低點視為看跌。</div>
     </div>
 
+    <div class="glossary-category">動能 & 市場指標</div>
+    <div class="glossary-item" onclick="toggleGlossary(this)">
+      <div class="glossary-term">美元指數 <span class="glossary-en">DXY</span><span class="glossary-arrow">▼</span></div>
+      <div class="glossary-def">追蹤美元對六大主要貨幣（歐元、日圓、英鎊等）強弱的指數。DXY↑（美元走強）→ 風險資產承壓；DXY↓（美元走弱）→ 利好股市、黃金、大宗商品。是分析全球資金流向的核心指標。</div>
+    </div>
+    <div class="glossary-item" onclick="toggleGlossary(this)">
+      <div class="glossary-term">相對成交量 <span class="glossary-en">RVOL (Relative Volume)</span><span class="glossary-arrow">▼</span></div>
+      <div class="glossary-def">當日成交量 ÷ 過去 20 日平均成交量。RVOL &gt; 2 代表今天的成交量是平時的兩倍以上，通常意味著有機構資金異常介入。動能選股中最重要的單一篩選指標：RVOL &gt; 2 入選門檻，RVOL &gt; 3 優先候選。</div>
+    </div>
+    <div class="glossary-item" onclick="toggleGlossary(this)">
+      <div class="glossary-term">流通股數 <span class="glossary-en">Float</span><span class="glossary-arrow">▼</span></div>
+      <div class="glossary-def">市場上實際可供買賣的股份數量（總股數扣除內部人、機構長期鎖倉持股）。Float 小 → 少量資金即可推動大幅波動（機會與風險並存）。動能交易的甜蜜區間：Float 2000 萬–1 億股，流動性夠且容易被資金推動。</div>
+    </div>
+
     <div class="glossary-category">期權希臘字母 Greeks</div>
     <div class="greek-grid">
       <div class="greek-card">
@@ -1313,9 +1332,9 @@
         <div class="strat-choose-grid">
           <div class="strat-choose-card">
             <div class="scq">① 你對方向的判斷？</div>
-            <div class="sca sca-bull">📈 看漲 → Long Call · Bull Call Spread · Covered Call</div>
-            <div class="sca sca-bear">📉 看跌 → Long Put · Bear Put Spread · Protective Put</div>
-            <div class="sca sca-neutral">➡️ 看平橫行 → Iron Condor · Short Put · Calendar Spread</div>
+            <div class="sca sca-bull">📈 看漲 → Long Call · Bull Call Spread · Bull Put Spread · Covered Call</div>
+            <div class="sca sca-bear">📉 看跌 → Long Put · Bear Put Spread · Bear Call Spread · Protective Put</div>
+            <div class="sca sca-neutral">➡️ 看平橫行 → Iron Condor · Bull Put Spread · Bear Call Spread · Calendar Spread</div>
             <div class="sca sca-vol">⚡ 方向不明但賭大波動 → Straddle · Strangle</div>
           </div>
           <div class="strat-choose-card">
@@ -1424,6 +1443,30 @@
         <div class="warning-title">⚠️ 風險紀律——這條線不能碰</div>
         <p>實驗期間嚴格限制每次最多 <strong>1-2 手</strong>。手數乘以 10 = 最大虧損同步乘以 10，心理壓力也會乘以 10，最終導致決策崩潰。<br><br>
         <strong>拒絕高頻操作</strong>：每次交易都有 Bid-Ask Spread 與手續費摩擦損耗，頻繁進出是利潤的慢性殺手。</p>
+      </div>
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">⑥ 預期波幅 Expected Move</div>
+      <div class="bond-intro-box"><p>📐 <strong>定義：</strong>市場預期股票在特定期間（通常是財報日到期日）內可能移動的幅度。用來判斷是否值得買 Straddle，或市場是否低估 / 高估了即將到來的波動。</p></div>
+      <div class="cards-grid" style="margin-top:14px;">
+        <div class="card">
+          <div class="card-header"><span class="card-icon">🧮</span><span class="card-title">計算公式</span></div>
+          <p class="card-desc"><strong>Expected Move = ATM Call 保費 + ATM Put 保費</strong><br><br>即買入最近到期的平值 Straddle（ATM Call + ATM Put）的總成本，就是市場對這段時間波幅的預期。</p>
+        </div>
+        <div class="card">
+          <div class="card-header"><span class="card-icon">🎯</span><span class="card-title">實際用途</span></div>
+          <p class="card-desc">
+            · 財報前判斷「這只股票市場預期波動多大」<br>
+            · 若實際走勢 &gt; Expected Move → 買 Straddle 值得<br>
+            · 若實際走勢 &lt; Expected Move → 賣 Iron Condor 更有優勢<br>
+            · 可在 TastyTrade / Thinkorswim 直接查看
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-header"><span class="card-icon">⚠️</span><span class="card-title">搭配 IV Crush 理解</span></div>
+          <p class="card-desc">Expected Move 是基於當前 IV 計算的。財報前 IV 高 → Expected Move 大 → Straddle 貴。財報後 IV 崩（IV Crush），即使股價有移動，也可能低於 Expected Move，導致 Straddle 虧損。</p>
+        </div>
       </div>
     </div>
   </div>
@@ -1699,6 +1742,466 @@
   </div>
 
   <!-- TAB: 期貨 -->
+  <!-- ═══════════════════════════════════════
+       TAB: 盤前 — 宏觀掃描
+  ═══════════════════════════════════════ -->
+  <div id="tab-premkt" class="tab-panel">
+    <div class="section-intro">
+      開盤前 30 秒看四件事：VIX 恐不恐、原油漲不漲、美債殖利率往哪走、美元強不強。這四個指標比任何盤前新聞更快告訴你今天市場的情緒方向。
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">① 市場結構原則</div>
+      <div class="bond-intro-box">
+        <p>🧠 <strong>核心原則：價格先動，新聞後出現。</strong><br>大型機構和量化基金通常在消息發布後數秒內完成交易。散戶的優勢不是比機器快，而是比大部分散戶更早理解市場情緒——而情緒藏在 VIX、原油、美債、美元裡。</p>
+      </div>
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">② 宏觀四寶 — 開盤前必看</div>
+      <div class="bond-type-list">
+        <div class="bond-type-item">
+          <span class="bond-type-rating rating-risk">VIX</span>
+          <div class="bond-type-name">😱 CBOE Volatility Index — 市場恐慌計</div>
+          <div class="bond-type-desc">
+            衡量市場預期未來 30 天波動程度，俗稱「恐慌指數」。<br>
+            <strong>10-15：</strong>非常樂觀 &nbsp;·&nbsp; <strong>15-20：</strong>正常 &nbsp;·&nbsp; <strong>20-30：</strong>開始恐慌 &nbsp;·&nbsp; <strong>30-40：</strong>高度恐慌 &nbsp;·&nbsp; <strong>40+：</strong>危機模式<br>
+            <strong>VIX↓ = 科技股利多 &nbsp;&nbsp; VIX↑ = 科技股利空</strong>
+          </div>
+        </div>
+        <div class="bond-type-item">
+          <span class="bond-type-rating rating-mid">WTI</span>
+          <div class="bond-type-name">🛢️ 西德克薩斯原油 — 能源與通脹溫度計</div>
+          <div class="bond-type-desc">
+            美國原油基準價格，反映全球能源需求與地緣政治風險。<br>
+            <strong>油價↑：</strong>通脹擔憂升溫 → 利率壓力上升 → 科技股承壓<br>
+            <strong>油價↓：</strong>通脹降溫 → 降息預期增加 → 科技股利多<br>
+            關注：中東衝突、荷姆茲海峽、OPEC 決策、EIA 庫存（每週三）
+          </div>
+        </div>
+        <div class="bond-type-item">
+          <span class="bond-type-rating rating-safe">US10Y</span>
+          <div class="bond-type-name">🏦 美國 10 年期公債殖利率 — 利率風向球</div>
+          <div class="bond-type-desc">
+            全球最重要的「無風險利率」基準。<br>
+            <strong>殖利率↑：</strong>借貸成本上升 → 成長股估值壓縮 → 科技股下跌<br>
+            <strong>殖利率↓：</strong>通常代表降息預期增加 → 科技股受益<br>
+            關鍵觸發：FOMC、CPI、NFP 數據超預期時殖利率波動最大
+          </div>
+        </div>
+        <div class="bond-type-item">
+          <span class="bond-type-rating rating-mid">DXY</span>
+          <div class="bond-type-name">💵 美元指數 — 全球資金流向指針</div>
+          <div class="bond-type-desc">
+            追蹤美元對六大主要貨幣（歐元、日圓、英鎊等）的強弱。<br>
+            <strong>DXY↑（美元走強）：</strong>資金回流美元資產，風險資產（科技股、新興市場）承壓<br>
+            <strong>DXY↓（美元走弱）：</strong>資金流出美元，利好風險資產、黃金、大宗商品
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">③ Risk-on / Risk-off 框架</div>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-header"><span class="card-icon">🟢</span><span class="card-title">Risk-on（風險偏好）</span><span class="tag tag-bullish">看多</span></div>
+          <p class="card-desc">
+            <strong>觸發：</strong>停火消息、制裁解除、和平協議、能源供應穩定<br>
+            <strong>四寶信號：</strong>WTI↓ &nbsp;·&nbsp; VIX↓ &nbsp;·&nbsp; US10Y↓ &nbsp;·&nbsp; DXY↓<br>
+            <strong>受益資產：</strong>QQQ、NVDA、TSLA、成長股
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-header"><span class="card-icon">🔴</span><span class="card-title">Risk-off（避險情緒）</span><span class="tag tag-bearish">看空</span></div>
+          <p class="card-desc">
+            <strong>觸發：</strong>戰爭升級、制裁、能源供應中斷、地緣衝突<br>
+            <strong>四寶信號：</strong>WTI↑ &nbsp;·&nbsp; VIX↑ &nbsp;·&nbsp; US10Y↑ &nbsp;·&nbsp; DXY↑<br>
+            <strong>避險資產：</strong>現金、美債、黃金、防禦股
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">④ 30 秒市場快速清單</div>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-header"><span class="card-icon">🟢</span><span class="card-title">偏多信號</span><span class="tag tag-bullish">Nasdaq 利多</span></div>
+          <p class="card-desc">✅ VIX 下跌<br>✅ WTI 下跌<br>✅ US10Y 下跌<br>✅ DXY 下跌<br><br><em>四個同時綠 → 科技成長股友好環境</em></p>
+        </div>
+        <div class="card">
+          <div class="card-header"><span class="card-icon">🔴</span><span class="card-title">偏空信號</span><span class="tag tag-bearish">Nasdaq 利空</span></div>
+          <p class="card-desc">❌ VIX 上漲<br>❌ WTI 上漲<br>❌ US10Y 上漲<br>❌ DXY 上漲<br><br><em>四個同時紅 → 謹慎，縮手或空倉</em></p>
+        </div>
+      </div>
+      <div class="bond-intro-box" style="margin-top:12px;"><p>📌 <strong>混合信號時</strong>不要強行做決定。市場模糊就等待，等信號清晰再動手。</p></div>
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">⑤ 每日例行程序</div>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-header"><span class="card-icon">🌅</span><span class="card-title">盤前清單</span><span class="tag tag-info">開市前</span></div>
+          <p class="card-desc">
+            1. 查 VIX 方向<br>
+            2. 查 WTI 方向<br>
+            3. 查 US10Y 方向<br>
+            4. 查 DXY 方向<br>
+            5. 看經濟數據日曆（今天有什麼數據？）<br>
+            6. 看 Fed 官員講話（今天有沒有？）<br>
+            7. 看大型科技股財報（今晚有沒有？）
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-header"><span class="card-icon">📊</span><span class="card-title">盤中監控</span><span class="tag tag-info">開市中</span></div>
+          <p class="card-desc">
+            · 觀察個股成交量異常<br>
+            · 監控新聞快訊（Walter Bloomberg、FinancialJuice）<br>
+            · 監控 VIX 異動（急升 = 危險信號）<br>
+            · 監控油價異動（地緣政治即時反應）
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">⑥ 重要數據日曆</div>
+      <div class="bond-type-list">
+        <div class="bond-type-item">
+          <span class="bond-type-rating rating-risk">最高影響</span>
+          <div class="bond-type-name">🏦 FOMC 議息會議（每年 8 次）</div>
+          <div class="bond-type-desc">聯準會利率決策。升息壓制估值，降息推升成長股。鮑威爾講話通常引發劇烈波動。會後記者會比利率決定本身更重要——看措辭是否「鷹」或「鴿」。</div>
+        </div>
+        <div class="bond-type-item">
+          <span class="bond-type-rating rating-risk">最高影響</span>
+          <div class="bond-type-name">🌡️ CPI 通脹數據（每月中旬，HKT 20:30）</div>
+          <div class="bond-type-desc">CPI 高於預期 → 通脹頑固 → 市場擔憂升息延長 → 股市承壓。CPI 低於預期 → 通脹降溫 → 降息預期升溫 → 股市通常上漲。</div>
+        </div>
+        <div class="bond-type-item">
+          <span class="bond-type-rating rating-mid">高影響</span>
+          <div class="bond-type-name">📊 非農就業 NFP（每月第一個週五，HKT 20:30）</div>
+          <div class="bond-type-desc">就業超預期 → 市場擔心升息；就業不及預期 → 期待降息。公布後通常出現快速單邊行情，是期權交易者的高危時段。</div>
+        </div>
+        <div class="bond-type-item">
+          <span class="bond-type-rating rating-mid">高影響</span>
+          <div class="bond-type-name">🏭 PPI 生產者物價指數</div>
+          <div class="bond-type-desc">企業端的通脹先行指標。PPI 高 → 未來 CPI 可能跟漲 → 通脹預警。通常在 CPI 前一天發布，是通脹趨勢的前瞻信號。</div>
+        </div>
+        <div class="bond-type-item">
+          <span class="bond-type-rating rating-safe">個股影響</span>
+          <div class="bond-type-name">📋 大型科技股財報（NVDA、AAPL、MSFT 等）</div>
+          <div class="bond-type-desc">NVDA 等 AI 核心股的財報可帶動整個科技板塊。財報前注意 IV 飆升（期權保費貴），財報後防 IV Crush。</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">⑦ Tier-1 免費資訊來源</div>
+      <div class="cards-grid">
+        <div class="card"><div class="card-header"><span class="card-icon">⚡</span><span class="card-title">Walter Bloomberg</span><span class="tag tag-alert">最快</span></div><p class="card-desc">X（Twitter）上最快的華爾街快訊帳號。重大消息第一時間出現在這裡，比 Bloomberg Terminal 只慢幾秒。</p></div>
+        <div class="card"><div class="card-header"><span class="card-icon">📡</span><span class="card-title">FinancialJuice</span><span class="tag tag-alert">即時</span></div><p class="card-desc">即時市場消息快訊，覆蓋央行、地緣政治、財報。格式簡潔，適合盤中快速掃描。</p></div>
+        <div class="card"><div class="card-header"><span class="card-icon">🌐</span><span class="card-title">Reuters Business</span><span class="tag tag-info">可靠</span></div><p class="card-desc">最可靠的官方金融新聞來源之一。適合核實重要消息，避免假新聞引起過度反應。</p></div>
+        <div class="card"><div class="card-header"><span class="card-icon">📰</span><span class="card-title">First Squawk</span><span class="tag tag-info">快訊</span></div><p class="card-desc">專注美股盤前盤後快訊，特別是財報後的即時數字解讀（EPS、Revenue vs 預期）。</p></div>
+      </div>
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">⑧ 實用平台</div>
+      <div class="bond-type-list">
+        <div class="bond-type-item">
+          <span class="bond-type-rating rating-safe">圖表</span>
+          <div class="bond-type-name">📈 TradingView（tradingview.com）</div>
+          <div class="bond-type-desc">免費版已足夠。建議 Watchlist：SPY、QQQ、NVDA、TSLA、USOIL（WTI）、VIX、US10Y、DXY。可設價格 Alert，VIX 突破 20 自動通知。</div>
+        </div>
+        <div class="bond-type-item">
+          <span class="bond-type-rating rating-mid">數據</span>
+          <div class="bond-type-name">📊 Investing.com</div>
+          <div class="bond-type-desc">經濟數據日曆（查今日有哪些數據）、市場報價、財經新聞。盤前必看「今日日曆」功能。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════
+       TAB: 動能選股 — Momentum Breakout Radar
+  ═══════════════════════════════════════ -->
+  <div id="tab-momentum" class="tab-panel">
+    <div class="section-intro">
+      Momentum Breakout Radar V1 — 尋找 1-4 週內可能大幅移動的美股。核心邏輯：找「機構已經在買、散戶還沒跟上」的股票，在突破確認時進場，嚴格止損。
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">① 系統概覽</div>
+      <div class="cards-grid">
+        <div class="card"><div class="card-header"><span class="card-icon">🎯</span><span class="card-title">交易風格</span></div><p class="card-desc">動能交易（Momentum Trading）<br>持倉週期：1–20 個交易日<br>風險等級：中高</p></div>
+        <div class="card"><div class="card-header"><span class="card-icon">⚙️</span><span class="card-title">每日流程</span></div><p class="card-desc">① 30 秒宏觀掃描（見「盤前」Tab）<br>② 跑 Scanner A + B（Finviz）<br>③ 選出最多 5 隻候選股<br>④ 研究前 3 名<br>⑤ 等待有效進場 Setup</p></div>
+      </div>
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">② 關鍵指標詳解</div>
+      <div class="bond-type-list">
+        <div class="bond-type-item">
+          <span class="bond-type-rating rating-risk">最重要</span>
+          <div class="bond-type-name">📊 相對成交量 RVOL（Relative Volume）</div>
+          <div class="bond-type-desc">
+            當日成交量 ÷ 過去 20 日平均成交量。<br>
+            <strong>RVOL &gt; 2：</strong>入選條件（有異常機構資金介入）<br>
+            <strong>RVOL &gt; 3：</strong>優先候選（強烈機構參與信號）<br>
+            <em>RVOL 是篩選動能股最重要的單一指標。</em>
+          </div>
+        </div>
+        <div class="bond-type-item">
+          <span class="bond-type-rating rating-mid">重要</span>
+          <div class="bond-type-name">📉 RSI 動能視角（與傳統超買超賣不同）</div>
+          <div class="bond-type-desc">
+            動能交易中 RSI 的解讀與傳統不同：<br>
+            <strong>&lt; 30：</strong>超賣（避免做多，通常是弱勢股）<br>
+            <strong>50：</strong>多空分界線（突破 50 = 開始有動能）<br>
+            <strong>60–75：</strong>理想動能區間（強勢但尚未過熱，最佳進場區）<br>
+            <strong>&gt; 80：</strong>過熱警戒（不宜追入，等回調）
+          </div>
+        </div>
+        <div class="bond-type-item">
+          <span class="bond-type-rating rating-safe">流通籌碼</span>
+          <div class="bond-type-name">🔢 流通股數 Float</div>
+          <div class="bond-type-desc">
+            市場上實際可供買賣的股份數量（扣除內部人持股）。<br>
+            <strong>&lt; 2000 萬：</strong>高投機性，容易被炒（慎入）<br>
+            <strong>2000 萬–1 億：</strong>動能交易甜蜜區間（移動快但相對穩定）<br>
+            <strong>&gt; 5 億：</strong>大型浮動股，需要更大資金才能推動
+          </div>
+        </div>
+        <div class="bond-type-item">
+          <span class="bond-type-rating rating-safe">市值分類</span>
+          <div class="bond-type-name">💰 市值 Market Cap</div>
+          <div class="bond-type-desc">
+            <strong>&lt; 3 億：</strong>微型股（流動性風險高，Scanner 排除）<br>
+            <strong>3 億–20 億：</strong>小型股（動能交易主要獵場）<br>
+            <strong>20 億–100 億：</strong>中型股（穩定性較好）<br>
+            <strong>&gt; 100 億：</strong>大型股（需更大資金才能大幅移動）
+          </div>
+        </div>
+        <div class="bond-type-item">
+          <span class="bond-type-rating rating-mid">趨勢過濾</span>
+          <div class="bond-type-name">📈 50 日均線 SMA50</div>
+          <div class="bond-type-desc">
+            <strong>規則：股價必須站在 SMA50 上方才考慮做多。</strong><br>
+            SMA50 是區分「趨勢向上」vs「趨勢向下」的分水嶺。股價在 SMA50 下方的突破失敗率大幅升高，不碰。
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">③ Scanner 篩選條件（Finviz）</div>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-header"><span class="card-icon">🚀</span><span class="card-title">Scanner A — 已突破</span><span class="tag tag-bullish">立即行動型</span></div>
+          <p class="card-desc">
+            <strong>目標：找正在突破的股票</strong><br><br>
+            ✓ 市值 &gt; $3 億<br>
+            ✓ 股價 &gt; $10<br>
+            ✓ RVOL &gt; 2<br>
+            ✓ 股價高於 SMA50<br>
+            ✓ 接近 52 週高點<br>
+            ✓ 流通股 &gt; 2000 萬<br>
+            ✓ 日均成交量 &gt; 50 萬股
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-header"><span class="card-icon">⏳</span><span class="card-title">Scanner B — 準備突破</span><span class="tag tag-info">提前佈局型</span></div>
+          <p class="card-desc">
+            <strong>目標：找即將突破的候選股</strong><br><br>
+            ✓ 市值 &gt; $3 億<br>
+            ✓ 股價 &gt; $10<br>
+            ✓ RVOL &gt; 2（量開始異常）<br>
+            ✓ 股價高於 SMA50<br>
+            ✓ 流通股 &gt; 2000 萬<br>
+            ✓ 日均成交量 &gt; 50 萬股<br>
+            <em>（不需 52 週高點條件）</em>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">④ Finviz 實操教學 — 一步步設好 Scanner</div>
+      <div class="bond-intro-box"><p>🔗 <strong>入口：</strong>finviz.com → 上方選單 <strong>Screener</strong> → 切換到 <strong>Filters</strong> 頁簽。免費帳號登入即可使用 Relative Volume 篩選。</p></div>
+
+      <div style="margin-top:16px;">
+        <div class="options-section-title" style="font-size:13px; margin-bottom:10px;">🚀 Scanner A 設定（找已突破）</div>
+        <div class="bond-type-list">
+          <div class="bond-type-item">
+            <span class="bond-type-rating rating-risk">Descriptive</span>
+            <div class="bond-type-name">Market Cap → Small and above（&gt;$300M）</div>
+            <div class="bond-type-desc">排除微型股。流動性不夠的股票就算突破也容易被操控，散戶很難全身而退。</div>
+          </div>
+          <div class="bond-type-item">
+            <span class="bond-type-rating rating-risk">Descriptive</span>
+            <div class="bond-type-name">Price → Over $10</div>
+            <div class="bond-type-desc">排除仙股（Penny Stock）。$10 以下的股票買賣價差大、波動不穩定，不適合動能策略。</div>
+          </div>
+          <div class="bond-type-item">
+            <span class="bond-type-rating rating-risk">Descriptive</span>
+            <div class="bond-type-name">Average Volume → Over 500K</div>
+            <div class="bond-type-desc">日均成交量底線。低於 50 萬股的股票流動性不足，大單進出容易滑點。</div>
+          </div>
+          <div class="bond-type-item">
+            <span class="bond-type-rating rating-risk">Descriptive</span>
+            <div class="bond-type-name">Float → Over 20M（需登入）</div>
+            <div class="bond-type-desc">流通股 &gt; 2000 萬。太少的 Float 容易被炒，不適合跟進；太多則需要更大資金推動。</div>
+          </div>
+          <div class="bond-type-item">
+            <span class="bond-type-rating rating-mid">Technical</span>
+            <div class="bond-type-name">20-Day SMA → Price above SMA20（或 SMA50）</div>
+            <div class="bond-type-desc">確認股票處於上升趨勢。在均線下方的「突破」失敗率高得多，直接過濾。</div>
+          </div>
+          <div class="bond-type-item">
+            <span class="bond-type-rating rating-mid">Technical</span>
+            <div class="bond-type-name">52-Week High → New High</div>
+            <div class="bond-type-desc">接近或創 52 週新高 = 上方沒有積壓的套牢盤，突破後阻力最小，是 Scanner A 的核心條件。</div>
+          </div>
+          <div class="bond-type-item">
+            <span class="bond-type-rating rating-mid">Technical</span>
+            <div class="bond-type-name">Relative Volume → Over 2（需登入）</div>
+            <div class="bond-type-desc">今日量是平均的 2 倍以上。這個條件必須盤中跑，開盤後 1-2 小時篩出來的結果最準。</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:20px;">
+        <div class="options-section-title" style="font-size:13px; margin-bottom:10px;">⏳ Scanner B 設定（找準備突破）</div>
+        <div class="bond-intro-box" style="margin-bottom:12px;"><p>📌 與 Scanner A 完全相同，<strong>唯一差別：移除「52-Week High」條件</strong>。目的是找量開始異動、但還沒突破的候選股，提前觀察。</p></div>
+      </div>
+
+      <div style="margin-top:20px;">
+        <div class="options-section-title" style="font-size:13px; margin-bottom:10px;">🔍 篩出結果後 — 5 步研究流程</div>
+        <div class="cards-grid">
+          <div class="card"><div class="card-header"><span class="card-icon">1️⃣</span><span class="card-title">查催化劑</span><span class="tag tag-alert">最重要</span></div><p class="card-desc">Google 股票代號 + News。有沒有：FDA 批准、重大合同、財報超預期、收購消息？沒有催化劑 = 風險升高，謹慎對待。</p></div>
+          <div class="card"><div class="card-header"><span class="card-icon">2️⃣</span><span class="card-title">看圖表結構</span><span class="tag tag-info">TradingView</span></div><p class="card-desc">切到日線圖：突破位清不清晰？上影線大不大？收盤是否靠近日高？SMA50 在哪裡？</p></div>
+          <div class="card"><div class="card-header"><span class="card-icon">3️⃣</span><span class="card-title">確認板塊強弱</span><span class="tag tag-info">板塊 ETF</span></div><p class="card-desc">同板塊 ETF 今天漲還是跌？逆板塊方向的個股突破持續性低。順風比逆風容易。</p></div>
+          <div class="card"><div class="card-header"><span class="card-icon">4️⃣</span><span class="card-title">查近期財報日</span><span class="tag tag-caution">避雷</span></div><p class="card-desc">Finviz 個股頁面有 Earnings Date。財報前 1-2 週進場需注意 IV 飆升；財報後才進場最安全。</p></div>
+          <div class="card"><div class="card-header"><span class="card-icon">5️⃣</span><span class="card-title">對比量能擴張</span><span class="tag tag-info">確認力度</span></div><p class="card-desc">RVOL 多少？是 2x 還是 5x？量能越大，機構參與越明顯，突破越可信。</p></div>
+        </div>
+      </div>
+
+      <div class="bond-intro-box" style="margin-top:16px;"><p>⏰ <strong>最佳掃描時間：</strong>美股開盤後 30-60 分鐘（HKT 22:30-23:30）。這時 RVOL 數字已有參考性，但盤勢還未走遠，進場空間充足。</p></div>
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">⑤ 進場三種 Setup</div>
+      <div class="signal-grid">
+        <div class="signal-card">
+          <div class="signal-card-head"><span class="signal-icon">💥</span><span class="signal-title">突破進場（Breakout）</span><span class="tag tag-bullish" style="margin-left:auto">最常用</span></div>
+          <ul class="signal-body">
+            <li>股價突破重要阻力位（前高、整數關口）</li>
+            <li>RVOL &gt; 2（成交量確認突破）</li>
+            <li>收盤接近日高（強收 = 機構不賣）</li>
+            <li>無大上影線（有上影線 = 賣壓，等下一根確認）</li>
+          </ul>
+        </div>
+        <div class="signal-card">
+          <div class="signal-card-head"><span class="signal-icon">🔄</span><span class="signal-title">回調進場（Pullback）</span><span class="tag tag-bullish" style="margin-left:auto">勝率最高</span></div>
+          <ul class="signal-body">
+            <li>前一輪突破已確認（有上漲歷史）</li>
+            <li>回調至支撐位（前突破點、SMA50）</li>
+            <li>回調期間成交量縮（無恐慌性拋售）</li>
+            <li>股價守住支撐不破 → 確認後進場</li>
+          </ul>
+        </div>
+        <div class="signal-card">
+          <div class="signal-card-head"><span class="signal-icon">⚡</span><span class="signal-title">動能進場（Momentum）</span><span class="tag tag-info" style="margin-left:auto">催化劑驅動</span></div>
+          <ul class="signal-body">
+            <li>RVOL &gt; 3（極強成交量）</li>
+            <li>當日為強勢動能日（大陽線、跳空高開）</li>
+            <li>RSI &lt; 75（未過熱）</li>
+            <li>無大上影線（收盤接近日高）</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">⑥ 假突破警示信號</div>
+      <div class="bond-intro-box"><p>⚠️ 出現以下任一信號，<strong>不要進場</strong>，耐心等待下一次機會。</p></div>
+      <div class="cards-grid" style="margin-top:12px;">
+        <div class="card"><div class="card-header"><span class="card-icon">🕯️</span><span class="card-title">大上影線</span><span class="tag tag-bearish">假突破</span></div><p class="card-desc">股價衝高後被打回，上方有大量賣壓。突破即遭機構出貨，是最典型的假突破形態。</p></div>
+        <div class="card"><div class="card-header"><span class="card-icon">📊</span><span class="card-title">量升價滯</span><span class="tag tag-bearish">分配信號</span></div><p class="card-desc">成交量大幅放大但股價幾乎沒動。有資金進，也有資金在同步出貨——機構分配（Distribute）的典型信號。</p></div>
+        <div class="card"><div class="card-header"><span class="card-icon">📉</span><span class="card-title">收盤跌破突破位</span><span class="tag tag-bearish">失敗確認</span></div><p class="card-desc">盤中突破了阻力，但收盤收回阻力位下方。日線收破 = 假突破確認，立刻離場或取消掛單。</p></div>
+        <div class="card"><div class="card-header"><span class="card-icon">📰</span><span class="card-title">無催化劑</span><span class="tag tag-caution">高風險</span></div><p class="card-desc">找不到任何新聞消息驅動的「無因突破」持續性低。沒有催化劑的突破往往是短線逼空，不是真實需求。</p></div>
+      </div>
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">⑦ 出場規則</div>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-header"><span class="card-icon">🛡️</span><span class="card-title">止損規則</span><span class="tag tag-bearish">紀律底線</span></div>
+          <p class="card-desc">
+            <strong>預設止損：-5%</strong>（最大容忍：-8%）<br><br>
+            超過 -8% 絕對離場，不找理由留守。<br><br>
+            <em>止損是給自己保留子彈，不是承認失敗。</em>
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-header"><span class="card-icon">📈</span><span class="card-title">移損規則（Trailing Stop）</span><span class="tag tag-bullish">保護利潤</span></div>
+          <p class="card-desc">
+            <strong>盈利 +5%：</strong>把止損移至成本價（保本）<br>
+            <strong>盈利 +10%：</strong>把止損移至 +5%（鎖定部分利潤）<br><br>
+            <em>讓利潤奔跑，但要有護欄。</em>
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-header"><span class="card-icon">🚪</span><span class="card-title">止盈信號</span><span class="tag tag-info">獲利了結</span></div>
+          <p class="card-desc">
+            出現以下任一，考慮減倉或離場：<br>
+            · RSI &gt; 80（過熱）<br>
+            · RVOL 暴跌（動能消失）<br>
+            · 股價跌破 SMA50<br>
+            · 出現大陰線或大上影線
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">⑧ 選股優先排序</div>
+      <div class="bond-type-list">
+        <div class="bond-type-item"><span class="bond-type-rating rating-risk">第 1 優先</span><div class="bond-type-name">📰 強力催化劑</div><div class="bond-type-desc">FDA 批准、重大合同、財報大超預期、收購消息等。有明確催化劑的突破持續性最高，是最值得追入的類型。</div></div>
+        <div class="bond-type-item"><span class="bond-type-rating rating-risk">第 2 優先</span><div class="bond-type-name">🏦 機構參與確認</div><div class="bond-type-desc">大型機構買盤（看 13F 申報、暗池交易、期權異常大單）。機構是真正能持續推動股價的資金力量。</div></div>
+        <div class="bond-type-item"><span class="bond-type-rating rating-mid">第 3 優先</span><div class="bond-type-name">📊 高 RVOL</div><div class="bond-type-desc">RVOL &gt; 3 的異常成交量，代表有「大錢」在行動，即使暫時不知道為什麼。</div></div>
+        <div class="bond-type-item"><span class="bond-type-rating rating-mid">第 4 優先</span><div class="bond-type-name">📈 強勢圖表結構</div><div class="bond-type-desc">清晰的阻力突破、SMA50 之上、RSI 在 60–75 區間。好的圖表是機構積累後能量釋放的視覺化記錄。</div></div>
+        <div class="bond-type-item"><span class="bond-type-rating rating-safe">第 5 優先</span><div class="bond-type-name">🏭 板塊強勢</div><div class="bond-type-desc">所在板塊 ETF 整體表現強勢，處於資金輪動的受追捧方向。順勢做多比逆勢容易得多。</div></div>
+      </div>
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">⑨ 進階概念</div>
+      <div class="cards-grid">
+        <div class="card"><div class="card-header"><span class="card-icon">🌊</span><span class="card-title">Options Flow</span><span class="tag tag-info">機構動向</span></div><p class="card-desc">追蹤異常的期權大額訂單。機構在買入大量 Call 時，往往早於正股突破——是領先指標。工具：Unusual Whales、Fintel。</p></div>
+        <div class="card"><div class="card-header"><span class="card-icon">🌑</span><span class="card-title">Dark Pool</span><span class="tag tag-info">隱性積累</span></div><p class="card-desc">機構透過場外「暗池」進行的大額交易，不在公開交易所顯示。暗池買盤出現後，往往數天內反映到正股。工具：BullFlow、Unusual Whales。</p></div>
+        <div class="card"><div class="card-header"><span class="card-icon">⚡</span><span class="card-title">GEX（Gamma Exposure）</span><span class="tag tag-caution">技術向</span></div><p class="card-desc">做市商對沖期權倉位時對股價形成的磁鐵效應。GEX 正值時股價傾向被「吸引」在特定價位，GEX 翻負時波動放大。</p></div>
+        <div class="card"><div class="card-header"><span class="card-icon">👔</span><span class="card-title">Insider Buying</span><span class="tag tag-bullish">管理層信心</span></div><p class="card-desc">公司內部人（CEO/CFO）公開買入自家股票。管理層用真錢買進時，通常是他們認為股票被低估的信號。查詢：SEC EDGAR 或 Fintel。</p></div>
+        <div class="card"><div class="card-header"><span class="card-icon">🔄</span><span class="card-title">Sector Rotation</span><span class="tag tag-info">資金流向</span></div><p class="card-desc">大資金在不同板塊間轉移的現象。識別哪個板塊正在「被資金追」，在強勢板塊中找個股，比逆勢做多容易得多。</p></div>
+      </div>
+    </div>
+
+    <div class="options-section">
+      <div class="options-section-title">⑩ 實用網站</div>
+      <div class="bond-type-list">
+        <div class="bond-type-item"><span class="bond-type-rating rating-risk">必備</span><div class="bond-type-name">🔍 Finviz（finviz.com）</div><div class="bond-type-desc">主要選股掃描器，Scanner A + B 的執行平台。免費版已足夠基本篩選。</div></div>
+        <div class="bond-type-item"><span class="bond-type-rating rating-risk">必備</span><div class="bond-type-name">📈 TradingView（tradingview.com）</div><div class="bond-type-desc">圖表平台。看宏觀四寶（VIX/WTI/US10Y/DXY）＋個股技術分析。</div></div>
+        <div class="bond-type-item"><span class="bond-type-rating rating-mid">進階</span><div class="bond-type-name">🌊 Unusual Whales（unusualwhales.com）</div><div class="bond-type-desc">期權異常流量、暗池交易、內部人買賣。追蹤「大錢」動向的核心工具。</div></div>
+        <div class="bond-type-item"><span class="bond-type-rating rating-mid">進階</span><div class="bond-type-name">📊 Fintel（fintel.io）</div><div class="bond-type-desc">機構持股變化（13F 申報）、期權流量。查某股票是否有機構大幅增倉。</div></div>
+        <div class="bond-type-item"><span class="bond-type-rating rating-safe">輔助</span><div class="bond-type-name">🌑 BullFlow（bullflow.io）</div><div class="bond-type-desc">專注暗池交易監控，查隱性機構積累。</div></div>
+        <div class="bond-type-item"><span class="bond-type-rating rating-safe">輔助</span><div class="bond-type-name">🐳 WhaleWisdom（whalewisdom.com）</div><div class="bond-type-desc">13F 機構申報數據，查大型對沖基金最新持倉。季度更新，可識別長線趨勢。</div></div>
+        <div class="bond-type-item"><span class="bond-type-rating rating-safe">官方</span><div class="bond-type-name">📜 SEC EDGAR（sec.gov/edgar）</div><div class="bond-type-desc">美國 SEC 官方申報系統。查內部人交易（Form 4）、機構申報（13F）、財報原文（10-K、10-Q）。</div></div>
+      </div>
+    </div>
+  </div>
+
   <div id="tab-futures" class="tab-panel">
     <div class="section-intro">
       期貨是「現在約定、未來交割」的合約。買賣雙方今天鎖定未來的價格，無論到期時市場怎麼走，都必須按約定執行。高槓桿使它成為散戶最危險的工具之一，但也是對沖風險的利器。
@@ -2022,7 +2525,9 @@
     { name:'寬跨式策略', en:'Long Strangle', desc:'同時買入不同行使價的虛值認購和認沽期權，成本較跨式低，但需要更大的波動才能盈利，適合波幅極大時使用。', tags:[{t:'波動策略',c:'neutral'},{t:'低成本',c:'income'},{t:'需大波動',c:'neutral'}], payoff:[[-3,1.5],[-1.5,0],[0,-1],[1.5,0],[3,1.5]] },
     { name:'鐵禿鷹', en:'Iron Condor', desc:'同時賣出認購價差和認沽價差的組合策略。股價在中間區間橫行時賺取全部權利金，兩端均有有限虧損上限。', tags:[{t:'看平',c:'neutral'},{t:'高勝率',c:'income'},{t:'有限風險',c:'neutral'}], payoff:[[-3,-1.5],[-1.5,0],[-0.5,1],[0.5,1],[1.5,0],[3,-1.5]] },
     { name:'蝶式價差', en:'Butterfly Spread', desc:'買入低行使價和高行使價期權，並賣出兩份中間行使價期權。預期股價到期時接近中間行使價，盈虧均有限。', tags:[{t:'精確預判',c:'neutral'},{t:'低成本',c:'income'},{t:'有限盈虧',c:'neutral'}], payoff:[[-3,-0.5],[-1.5,-0.5],[0,1.5],[1.5,-0.5],[3,-0.5]] },
-    { name:'日曆價差', en:'Calendar Spread', desc:'賣出近月期權，同時買入遠月相同行使價期權。利用時間值衰減速度差異獲利，股價在行使價附近橫行時效果最佳。', tags:[{t:'時間價值',c:'income'},{t:'低成本',c:'income'},{t:'方向中性',c:'neutral'}], payoff:[[-3,-0.5],[-1,0],[0,1],[1,0],[3,-0.5]] }
+    { name:'日曆價差', en:'Calendar Spread', desc:'賣出近月期權，同時買入遠月相同行使價期權。利用時間值衰減速度差異獲利，股價在行使價附近橫行時效果最佳。', tags:[{t:'時間價值',c:'income'},{t:'低成本',c:'income'},{t:'方向中性',c:'neutral'}], payoff:[[-3,-0.5],[-1,0],[0,1],[1,0],[3,-0.5]] },
+    { name:'牛市認沽價差', en:'Bull Put Spread', desc:'賣出較高行使價的認沽，同時買入較低行使價的認沽。收取權利金差額（Credit），看漲或橫盤時均可獲利，風險與盈利均有限。財報前常用策略，Theta 對賣方有利。', tags:[{t:'看漲/橫盤',c:'bull'},{t:'Credit Spread',c:'income'},{t:'有限風險',c:'neutral'}], payoff:[[-3,-0.7],[-1.5,-0.7],[-0.5,0.3],[0,0.8],[3,0.8]] },
+    { name:'熊市認購價差', en:'Bear Call Spread', desc:'賣出較低行使價的認購，同時買入較高行使價的認購。收取權利金差額（Credit），看跌或橫盤時均可獲利，風險與盈利均有限。Iron Condor 的上半部即為 Bear Call Spread。', tags:[{t:'看跌/橫盤',c:'bear'},{t:'Credit Spread',c:'income'},{t:'有限風險',c:'neutral'}], payoff:[[-3,0.8],[0,0.8],[0.5,0.3],[1.5,-0.7],[3,-0.7]] }
   ];
 
   let currentStrat = -1;
