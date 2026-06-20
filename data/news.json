@@ -29,31 +29,27 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-19 11:57 HKT",
+      "updated_at": "2026-06-20 10:58 HKT",
       "news": [
         {
-          "title": "估值超越所有標普成分股！SpaceX躍美股最貴股票 引發網景級網路泡沫化大辯論",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9pSlFnSjNFS1g4cGdSdDNORXlEVmdqOU1zaDJSeW9MdkpFR1FEZlItRXFUWE16eklydWZ6bUJ6ZHFOZ0pzSHNhVU9vYzJ3d00?oc=5",
-          "source": "news.cnyes.com",
-          "published_hkt": "06/19 10:40",
-          "related": [
-            "SPY"
-          ]
+          "title": "美股賣出多久入帳？ T+1時代資金到帳全流程解析",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9GOXBKRWtPMDAtQ0RFS0FDR1hMLU8xUTR6WXFtUmFJX21TV0lYdVpKR0NDeWVUMWtfMi10bExkaDNiOXBaQzFjQnctM2FtcW94VFY2dQ?oc=5",
+          "source": "EBC Financial Group",
+          "published_hkt": "06/20 10:15",
+          "related": []
         },
         {
-          "title": "美伊停火激勵美股，晶片股領台積電大漲-財經焦點情報站",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdzlzMkdLTEY2UF9PUTVuOFFaMFU4bHNsenppelhjaF9hRll3NXZVVDlKLVF2cUJGNU9hZFR6eEs1MWRUSWNrSkpXeEc3WHpVWnBUdjQ0UXRxVjRlUkRocnlhUHlaalJuR0FtRzluOVRvQ1B5Y21rZEE0WTRwY2dWeHFR?oc=5",
-          "source": "CMoney投資網誌",
-          "published_hkt": "06/19 10:18",
-          "related": [
-            "TSM"
-          ]
+          "title": "SpaceX 掛牌點火！低軌衛星概念股有哪些？太空連網供應鏈該怎麼看？｜美股產業｜豐雲學堂2026 年 06 月",
+          "url": "https://news.google.com/rss/articles/CBMi_wNBVV95cUxPbWJJd2ROTllBYzlVempXRkE4QlBKNHJmLWxwM3RtX1FDY0tEczNiNmxpNnNKSmNPLXdhdjA3VFZPeEVWaTlFbjJ2dXI1RjZUZno1X0RySHp6Z2hzaGN2WjdWaWZPRjhlbHRJN3lGd1JLSmZ3Q2tseHdIejhYMEpaUV9mR2haR2pjeXFBV2FIV3VhNEZWOGIyejJlSEp3NGpnMFVDR3FTbEpVbUY3a012Y1JOZHVwMG1CQ0dXUDE4d2dlVVZzLVhjckN6cy16QW9rRDJVRlJlczBVWW9kVmRJMWJ0elJKRE11Y2t0WWtwdnNCY0pYS1FYU3dkQ0JLTTkyMUNZeGhyOThoWnJYVG04VVJ0V2YtamY3VzROTklfTnBiWnBIYm8xS2gwdHV1NXRDVEl6aF8wZFJQaUY1VktkN2pkdHg5dFh4N1JaVW54S2tNTUVaM0I0ZFlmZVB2VWZFUlJLenpMdHNIVjNBZXVZTVJCTEdZQmpMek1jZklwUDdqYW9xRnhlaEVEU1NpQmkwVl9ybEwwQmk2OG5sNjMwbkdPdmNZR2swbm9RVkpjY1NTZ05vQ3ppOUVCYXZsdnA3REMxLUhEbHc5RFhmZF85LWJCQ1UzTGw3UVkzSWhaVTF5YkV4N0o4M193X193R3JHVUFiUWRaQXZKSG95ZUxr?oc=5",
+          "source": "sinotrade.com.tw",
+          "published_hkt": "06/20 08:26",
+          "related": []
         },
         {
-          "title": "AI狂潮推升美股 巴菲特指標突破229%引發憂慮",
-          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBabVZrNW9MZDVKT1hkbXNjVzVacjRqU2VFbW91TFdKZWhSOWNqWTg5OHNZSWZCWXBvdVQ2R0lobEczZw?oc=5",
-          "source": "墨新聞-MORE News",
-          "published_hkt": "06/19 09:54",
+          "title": "CEX集體殺進美股：穩定幣買股票，正在成為新入口？",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNjFoQjlzbV9wczEzeU5taWdpV0RELXJmYWJFNF9BYl82WmMzbzI3ci05dThHVkVQdjFCVmZ5eDJUaVR5N3JiY2ZNLVpXS0Y3cUtBcmlVM21mNG9xOC1TdTBFWVhXaGJkVlFoSFVfZlNZWjVEZ2hqX1Nxek9ZNHNDTXhrVC1GZw?oc=5",
+          "source": "PANews",
+          "published_hkt": "06/20 06:27",
           "related": []
         }
       ]
@@ -226,30 +222,29 @@
     }
   },
   "crypto": {
-    "updated_at": "2026-06-20 00:19 HKT",
+    "updated_at": "2026-06-20 10:58 HKT",
     "news": [
       {
-        "title": "這就是為什麼XRP交易者關注1.00美元水平的原因",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcjRxUVpSdUJTb0VnQ1F0ZHRFaDlDdlJRcGdlQk5yUkRaYnJmOVRyYjBHR1VCSlNDMUsyX2plY0p1WkQ1SjZfMm53Z09mQjlVUWJDN1UteVdKVmJNTGxvc0tGbWdOdURoQ1hzNXN0WFFEeldzUnppalhYLVJkZGhTZ3J0OWwwc0ltN1RSS1Rndngxa2Fza0NwdDhQbmNsdVhIZGI1bmUwM0hzNHZ2U0UtYk9DWkxfV2Vmd3dOTGphZk0tQ0RzXy1XMWRib0lsel91VXd2ZFhneHJOMlnSAdsBQVVfeXFMTXI0cVFaUnVCU29FZ0NRdGR0RWg5Q3ZSUXBnZUJOclJEWmJyZjlUcmIwR0dVQkpTQzFLMl9qZWNKdVpENUo2XzJud2dPZkI5VVFiQzdVLXlXSlZiTUxsb3NLRm1nTnVEaENYczVzdFhRRHpXc1J6aWpYWC1SZGRoU2dydDlsMHNJbTdUUktUZ3Z4MWthc2tDcHQ4UG5jbHVYSGRiNW5lMDNIczR2dlNFLWJPQ1pMX1dlZnd3TkxqYWZNLUNEc18tVzFkYm9JbHpfdVV3dmRYZ3hyTjJZ?oc=5",
-        "source": "FXStreet",
-        "published_hkt": "06/19 21:32",
-        "related": []
-      },
-      {
-        "title": "加密今日：比特幣、以太坊、XRP下跌可能持續的原因",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT2NZMERiMkZyUGY4bnZoX3c2VVhGaEduMlh1NzQtU0M4X3lySGNidk5ISHZYRndBdmV0Yk4ydnJUbWFqdFU1SzNKblE4QUZSY2dVLUU2QzJFU193XzlwN3dZWGdaUDZQN3dwd0ROZ29MVkNTazFOZ2tqLVloM3M0VzFocVEzakYtT1gxVEJzV0tLSkU1c2o1MjFUbG81UHBUUFBlUjFDWE9TdFNPWUFpcHVzX0l1OXhJT3EwZU05SnZtRmV1ZE1vZHA0ZC01cmJ2bGIw0gHTAUFVX3lxTFBPY1kwRGIyRnJQZjhudmhfdzZVWEZoR24yWHU3NC1TQzhfeXJIY2J2TkhIdlhGd0F2ZXRiTjJ2clRtYWp0VTVLM0puUThBRlJjZ1UtRTZDMkVTX3dfOXA3d1lYZ1pQNlA3d3B3RE5nb0xWQ1NrMU5na2otWWgzczRXMWhxUTNqRi1PWDFUQnNXS0tKRTVzajUyMVRsbzVQcFRQUGVSMUNYT1N0U09ZQWlwdXNfSXU5eElPcTBlTTlKdm1GZXVkTW9kcDRkLTVyYnZsYjA?oc=5",
-        "source": "FXStreet",
-        "published_hkt": "06/19 20:03",
+        "title": "富蘭克林坦伯頓申請 2 檔「比特幣 DRIP」ETF，股利自動加倉 BTC、最快 9 月上市",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1WERnVGNnbDZKWE90ZkZFaDdjVUtBRkU1NTltYmZoUTVMWnZIRFBCRlBfejBDbllRa3VsQ01PNU9xYzhYSHFJOEJKckdQNklLQ0IzUU1IUWxkdTBreFFyTTFEcms4X3luT0thZHBQLXdSY2NtUENWcl9jWjJIUTg?oc=5",
+        "source": "動區動趨",
+        "published_hkt": "06/20 02:50",
         "related": [
-          "BTC",
-          "ETH"
+          "BTC"
         ]
       },
       {
-        "title": "加密貨幣價格預測：索拉納、比特幣與SUI——歐洲市場綜述 6月19日",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWlVsV2ZhXzlqZFIzaW8tbmRzckM0cEtLMXZQRmlqUkhzcU9vMWtZaWFwWlpVcjFBUkFYNEN5S3cyYTFjeEpxYXh1U0Fsa09ZY1R0Zlk5QU5ITXI3ajNkeVNwdURPZjV2eF9oSzFiajJ0THZ4emVFOF91ZkJwYTEwNUNWNk1iNzBMUjNSUHZ4VkNMQzFPYXBrbnBUZ3JZUVVwOWpVaGwyVzlZeUJfR0N0OTIzdnVIeVlMbzFqRTJndkxFMDhKWHNsWnU4c0xyMjJBY3I5MlB0YThOZHh0THF0c3RpX21ZV1HSAecBQVVfeXFMTVpVbFdmYV85amRSM2lvLW5kc3JDNHBLSzF2UEZpalJIc3FPbzFrWWlhcFpaVXIxQVJBWDRDeUt3MmExY3hKcWF4dVNBbGtPWWNUdGZZOUFOSE1yN2ozZHlTcHVET2Y1dnhfaEsxYmoydEx2eHplRThfdWZCcGExMDVDVjZNYjcwTFIzUlB2eFZDTEMxT2Fwa25wVGdyWVFVcDlqVWhsMlc5WXlCX0dDdDkyM3Z1SHlZTG8xakUyZ3ZMRTA4SlhzbFp1OHNMcjIyQWNyOTJQdGE4TmR4dExxdHN0aV9tWVdR?oc=5",
-        "source": "FXStreet",
-        "published_hkt": "06/19 19:48",
+        "title": "加密貨幣恐懼與貪婪指數上升至23，市場情緒轉為「極度恐懼」",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5XNUc2cnNvaXZobHh5TzlRZWJuelZDSTZDT0l4N2pCNHFLM2tld0J3czdFTjF2TTY1b05iWFBkdms1d2VWSEJWS2UxbG00TmQxMFA0LUFMdV9TUEpFWWk3eVRmdnVpZ9IBa0FVX3lxTE5jeE1LVml2MklyYVRUaGRlS21Kbl9QNkQtcHFDcHExa3l0QlRITVFGM1phRFB5ZWJLX3F2WVYxWWoxYlJOZjlTOWhNYzRpRE95THJ4VFY2NjhhSHA4eVo3SXNOX0V3cC1kakRJ?oc=5",
+        "source": "Bitget",
+        "published_hkt": "06/20 01:07",
+        "related": []
+      },
+      {
+        "title": "比特幣長期持有者在市場波幅中保持冷靜",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNkFRckowSXA1R0tGVTlFZVBhTm1IQVcyVGY3d1V2ZTh1Q3NxMUluUG52dmx2RlpRTHQ1c2xwNlFjV1l5dXlVb3pyaUJQMUd5TmVsa3hDQTdPekVyeHZWeWxLYVJMNVR3WEJVQnJCRUZQa0RTWnNDU194bWdGT1ZsZjktYVFmWG8teU9tWmJzc0dpdEtZblNyMlBHdkxYYUFoMVVGSQ?oc=5",
+        "source": "KuCoin",
+        "published_hkt": "06/20 00:38",
         "related": [
           "BTC"
         ]
