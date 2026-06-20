@@ -1,6 +1,6 @@
 # InvestUni 投資學堂 — 專案進度
 
-> 最後更新：2026-06-18
+> 最後更新：2026-06-21
 
 ---
 
@@ -18,24 +18,27 @@ Suniverse 旗下投資教育平台，由 Sterling 主導，Steve 技術協助。
 
 ## 完成
 
-### 網站 index.html（9 個 Tab）
+### 網站 index.html（11 個 Tab）
 
 | Tab | 內容 | 狀態 |
 |-----|------|------|
 | 🏠 首頁 | 香港時鐘、五大市場狀態（美/港/台/日/加密）、開收市時間表、7日假日提醒、盤前盤後新聞 | ✅ |
 | 📊 成交量 | 8種量價信號，各含 CSS 迷你量價圖示 | ✅ |
 | 🕯 K線 | 8種形態，各含 CSS 迷你 K 線圖示 | ✅ |
-| 📖 名詞 | 基礎概念、訂單類型、技術指標、動能&市場指標（DXY/RVOL/Float 新增）、期權希臘字母 | ✅ |
-| ⚡ 期權 | 四種核心玩法、策略選擇器（15種含 Bull Put/Bear Call Spread 新增）+ 損益圖、Expected Move（新增）、黃金窗口、操盤 SOP | ✅ |
+| 📖 名詞 | 基礎概念、訂單類型、技術指標、動能&市場指標（DXY/RVOL/Float）、期權希臘字母 | ✅ |
+| ⚡ 期權 | 四種核心玩法、策略選擇器（15種含 Bull Put/Bear Call Spread）+ 損益圖、Expected Move、黃金窗口、操盤 SOP | ✅ |
 | 🏛 債券 | 6大術語、利率反向關係比喻、5種類型、風險說明 | ✅ |
 | 📋 合約 | 期貨/CFD/遠期合約/互換，各附小學生比喻 | ✅ |
 | 📈 期貨 | 期貨原理、常見品種、保證金制度、期貨 vs 期權比較 | ✅ |
-| 🌍 盤前（新）| 市場結構原則、宏觀四寶（VIX/WTI/US10Y/DXY）、Risk-on/off、30秒清單、例行程序、數據日曆、Tier-1 資訊來源、平台 | ✅ |
-| 📈 動能（新）| Momentum Breakout Radar V1：RVOL/RSI/Float/SMA50 詳解、Scanner A+B、進場三種 Setup、假突破警示、出場規則、選股排序、進階概念（Options Flow/Dark Pool/GEX/Insider Buying/Sector Rotation）、實用網站 | ✅ |
+| 📊 高息ETF | 原理說明（Covered Call/NAV侵蝕/ROC稅務）、4項風險提示、16支 ETF 即時參考表（每日 GH Actions 更新） | ✅ |
+| 🧮 股息計算器 | 選 ETF 自動填入現價，輸入入場/金額/月數/離場，輸出股數/股息/資本損益/總回報/年化回報 | ✅ |
+| 🌍 盤前 | 市場結構原則、宏觀四寶（VIX/WTI/US10Y/DXY）、Risk-on/off、30秒清單、例行程序、數據日曆、Tier-1 資訊來源、平台 | ✅ |
+| 📈 動能 | Momentum Breakout Radar V1：指標詳解、Scanner A+B、Finviz 實操教學、進場 Setup、假突破警示、出場規則、進階概念、實用網站 | ✅ |
 
 ### 自動化系統
 
-- **GitHub Actions**：每日定時抓取新聞並 commit（`chore: news update`）
+- **GitHub Actions（新聞）**：每日定時抓取新聞並 commit（`chore: news update`）
+- **GitHub Actions（ETF）**：每日 13:00 HKT 抓取 16 支高息 ETF 資料 → `data/etf_data.json`（`chore: etf data update`）
 - **Telegram Bot**：4次/天推送
   - 08:00 HKT — 美股夜盤後
   - 09:00 HKT — 亞洲盤前
@@ -54,7 +57,7 @@ Suniverse 旗下投資教育平台，由 Sterling 主導，Steve 技術協助。
 
 ## 目前狀態
 
-- 網站正常運行，內容已更新至最新版（9 個 Tab，新增 🎯 實戰 群組）
+- 網站正常運行，共 11 個 Tab（基本 4 + 高階 4 + 工具 3 + 實戰 2）
 - TG Bot 正在運行，08:00 / 09:00 HKT 基本準時
 - 17:00 / 21:30 HKT 通知有系統性延遲（詳見問題/風險）
 
