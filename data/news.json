@@ -222,34 +222,33 @@
     }
   },
   "crypto": {
-    "updated_at": "2026-06-22 09:44 HKT",
+    "updated_at": "2026-06-22 13:42 HKT",
     "news": [
       {
-        "title": "BitMine Immersion 大手筆購入 1.36 億美元以太坊 創今年最大手筆",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3SldvVzlwVUxNUzJxOFBwTXVSbENaYkV6YjdlLVVDc0VrRVFNOVhnQ0VERlJGVkRkdWRjYUYtUl9jWHcwM0NydGVyby14eVR4TlE?oc=5",
-        "source": "蕃新聞",
-        "published_hkt": "06/22 07:47",
+        "title": "微軟警告新型 USB 蠕蟲病毒肆虐！專偷加密錢包助記詞，還會竄改轉帳地址",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95OFdtYVBfZjdsa3h5TjdPYlNtODM1Vk5fOERDWG8wVnlIZ2x6ZWF2OUI5YTlBeWh6Q2dBOGZxczdjNjR2Vk05OTVrMUJ6SW5pMzVOaHgtVVNzdWE0T1U3RTNibFNrbXVSMkZKMnZWblg?oc=5",
+        "source": "桑幣區識 Zombit",
+        "published_hkt": "06/22 12:12",
         "related": [
-          "ETH"
+          "MSFT"
         ]
       },
       {
-        "title": "華爾街加速以太坊資產代幣化 歐盟監管新制考驗加密平台",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5CdmJIUExhYmJubHNpU2NVS3dIV2lMbVBnUENqSHNTdkJQNVM2SlpONEVtRVRHalYyVjdtVEd2Z1lYV3R5cGlKYUhERFNIWVV2LUE?oc=5",
-        "source": "蕃新聞",
-        "published_hkt": "06/22 07:25",
+        "title": "HYPE ETF逆勢吸金3140萬美元 比特幣以太幣資金出走 - 財經新聞 - PChome Online 新聞",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWXlyVVV1b1NaM2VCNG1KdHREQmNNOGVuZjhNdm9ESmhzeklUOGdPQkM3RWM3c1VnSE11Z3g3Tl9iX01lSnFmTURwNVJHNzd3ajFaRmx3ZlJMVjNqS2QtR196MElKNVJZZ3BNV3hUSkRWaU5ObFVMeFh0MHhLQ01jMWE5WFVFMm5Rc1c1cg?oc=5",
+        "source": "PChome Online 新聞",
+        "published_hkt": "06/22 10:33",
         "related": [
-          "ETH"
+          "BTC"
         ]
       },
       {
-        "title": "加密貨幣回顧：比特幣、以太坊暴跌，拋售加劇",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeThwbFN1d1RTeHpjZzY4U2V0S1pBcFY5LXJuSDFZSncwZDl0RlFzcGdWc3lZU0hfc0Z2MmNCbVA5X3dxaE00dC1KZlFzcjRVTWlMSkpPZF9xRjM3aG9OOTVpaEU4ZXd3Y01tbm9tRFA3azcxTkJ0YS1LcGJDSm04NVJ5MWJ4R25xY1R3WXIzUUFwVDRPWFBXM3o0ckxqMWI4M05jRA?oc=5",
-        "source": "Moomoo",
-        "published_hkt": "06/22 03:44",
+        "title": "鷹影壓頂！比特幣跌破63270鎂窒息盤整，恐懼指數剩 20、單日 1.4 億爆倉",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPazhvblNoT25HM0FrNmFHQkRscExMbXJMX3MwbUNkSnBrU1RKSEZsVkhMb2JZM3BmYnYxcXZyQmltbm5BY3U5ZVplTE8yUTBUSUFLVDRKVko4UmxHQlVZbWpmZ1ZreU5NNkRLa1k2QzNiVnZxTU5rWDYwRXJqOWJxR2EtT1A1enZxemFHTVk1S011d05SZXE0X19MSEo5b0tneDNHZUxkdmc?oc=5",
+        "source": "動區動趨",
+        "published_hkt": "06/22 09:25",
         "related": [
-          "BTC",
-          "ETH"
+          "BTC"
         ]
       }
     ]
