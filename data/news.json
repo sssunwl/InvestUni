@@ -89,30 +89,33 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-19 20:44 HKT",
+      "updated_at": "2026-06-22 20:15 HKT",
       "news": [
         {
-          "title": "HSI港股為何老在打折？",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdVJPejRjbGgwREMyT1htOFRVNG1VT2k2M3JIT3FuNFpmNTNYZVZzRHdoUnh0bGhSZkY3Vm9LeWx2TmVBZm5aczNjSmlCZEJNdXFiTWlCQ0ItYWNIbF8yQmJfS3RWbk1WRDN2TVhWYjVxajJmNzAtalNVT0ZKRUtTRUlMRlVxWlpfNjFHelRXbWllZVFQUEJuNndRcWd4Q1Z6VzJfM0pBUEYyQ21tbTg4Z2Fia1dFaVFiOUpVQWFpZldndw?oc=5",
+          "title": "【恒指夜期+北水】北水周一走資58億繼續大手買建滔系、沽阿里巴巴長飛光纖恒指夜期升70點（不斷更新）",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHeWwyZnMtNTN5WTVqU1pVNXJ0Z050Y0tfUTdOdXd5azRkZWU3YUdHYnNOaExLLThNcm9udzNBYkZ6Qm9RYnRmZ0ZUNGZTM1pKOFVLWEJpY0VZM01LalE?oc=5",
           "source": "香港經濟日報HKET",
-          "published_hkt": "06/19 17:18",
+          "published_hkt": "06/22 19:28",
           "related": [
-            "^HSI"
+            "^HSI",
+            "9988.HK"
           ]
         },
         {
-          "title": "港股走勢丨半日跌412點北水走資 中資金融股向下",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XNzBaZWd5ZnkwVWNuQ203VkZheWlxRVhVU2RhRDcwUElYcVRPeVR0U2M1NHNwUG5FVklxemF6eWJwQm5zVnZQQXRpZmpaLW5rQV9XN0lHbjlfVXhCZm9QdA?oc=5",
-          "source": "信報網站",
-          "published_hkt": "06/19 14:00",
+          "title": "高盛 美銀 鱷王 揭港股積弱 瘋狂虹吸2.0",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOSGZ6VHdURE1ZMGpfWVgwQ05oMS0wYWxYV0FjeVlwbGZ3UDlFMGRmTUZReHVlWlF3bWNpVGJLX0p2TzctMVZxZnpOWjB4MmNFYjJ2RVdJVXh0c3U4Z05DcU5Hd3VQMkt6S2xtTnFpWE1URlExX1NPZjVhVng5XzVLV1V0Y3NMZUFFa3REWDB1WW5yczNoWTNkS2ZHOGFRNGptUTYwbDhnd2o4WGNvREpoZ0d4SlpKbUhjVkhEUTBHeng0M05kel8zTVZFcDhWM3pOWDVaUXAtc2ZxdUNqNGpjZDNSWDFqMTNaSGN0ajR2cG5PR25BeUFGejdHVTQ0amgxTFJheTV3T3pYNm5tdXgzUTdRM0FUWFlyMTZxWGpB?oc=5",
+          "source": "香港經濟日報HKET",
+          "published_hkt": "06/22 19:26",
           "related": []
         },
         {
-          "title": "北水走向｜北水68億買6股 VS 72億沽5股",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOM1pZRV9rTm5LenkxWEwyVjBVZHRDYjNmajZIVVJQaDNfWVJhMEt0aTFaVkNoRGlwdWhuZ01mWjlkdkt0OHp2V2hUUGx1aDI1VHJnRTd6OTh3c2pWVEJ3UHhwTHo4RkFWUldSTEZLWVhNXzBlMUpnQjZZcHg4aUdSYkxJWklOUU1tN1FtX1VqRmlrRTRTdmpGWjIyZXduZHBNQkwtR0NZZDJqdTFad1RocDJyMVhnTFE2MklaOXpnaE1ZdGUtQnczc3lSc1Y0RFlqNUxieTVjYllJN1Nic3phOHY1MnFFSDFBNVJBMWExN2FBWXAxcGdqTmMxOUFmaFE3?oc=5",
-          "source": "香港經濟日報HKET",
-          "published_hkt": "06/19 11:44",
-          "related": []
+          "title": "恒指連跌四日 跌至一年低位",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYTZFRlg2UnJtZVJBRWExR054Qml2VFpfMlZFTk5FVVpoV2xfbExlbDdjcFlRbXM2dEJHUmI4SkpmWTlRemsydDQ2SmxrazZoNlA3Sjg3WVNJNWJJTjFoUmZPUUtnV3BVVTBuX3AzalY5SWFQLXVOYWRvUzB4djlzcVE5enNLWkxLWkRCMFBMY0J1WEZnVGlCZVI2S3d3NjVLcEppLVlqRUVKUnVvMVVCSlk3NVg1dU1EVExxU1BoOFJWZjlBRVJaWVVSWEpuMHhBV1h1WFNRbw?oc=5",
+          "source": "TVB",
+          "published_hkt": "06/22 17:50",
+          "related": [
+            "^HSI"
+          ]
         }
       ]
     }
@@ -142,29 +145,31 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-22 14:24 HKT",
+      "updated_at": "2026-06-22 20:15 HKT",
       "news": [
         {
-          "title": "打破「端午變盤」魔咒！　台股暴漲千點輕鬆攻破47K",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB1ZXZoeFFxXzlhdDQtSGNLcTNwRklTZnk2eWtRLWZtRHp1d0dRQjBVNl9GNmxYOEp0cGtaczZzTkhoV2pXNTlWY3JTeUpxSkdPbjJOTFowM03SAV5BVV95cUxPUC1DbUtuSHRlZnRORGhfQWxicWowYTNXbV8zNU1COFpHeDlnVVhzN1otRU41Z0lTbmRIaGdHb19KSkpFQzdYdW5UUF9sUFpMY1Y1d1Z5bnZranA0UWtR?oc=5",
-          "source": "鏡新聞",
-          "published_hkt": "06/22 14:05",
-          "related": []
-        },
-        {
-          "title": "飆漲1276點站穩47K！台積電收2510元改寫新天價 日月光強鎖漲停674元",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB3SEZ4cDhBMUtrRXd0RmFmcHRqWXU5Vy1FclZPeks3aVBkSWJrOHVhMjkyNUdBLUkzcHE4WmJxZkEyRmQ0Qnk1dVVobw?oc=5",
-          "source": "FTNN 新聞",
-          "published_hkt": "06/22 13:51",
+          "title": "TWA00 加權指數- 善用VIX 恐慌指數，看懂市場情緒！ - 股市爆料同學會",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Zb0hpTEE2bzZBaWpVcHZfdnZWaDU1R1NPM051Q3VDMEhHdWVpMDIyMGwxSVdHZ2FveTFuZl9ZczhjSGdOZEd3VVBMMWdLZU9fdE04aTVHVG4?oc=5",
+          "source": "CMoney",
+          "published_hkt": "06/22 19:57",
           "related": [
-            "TSM"
+            "^TWII"
           ]
         },
         {
-          "title": "TWA00 加權指數- 口袋第二季新戶活動- 股市爆料同學會",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE45b0RNcHBPLTEtWUNHVlpRQ0FIRUdVNVB6QUJRanVVaGsxQnFCeXEyTmdDZ0sxZEFha1hLaGtranVxb2cyak10Q1dWSFFWREFkcXpiT0tXUDA?oc=5",
+          "title": "TWA00 加權指數- 買的時候信心滿滿，跌下來卻沒了準則？別讓鴕鳥心態吃掉你本金！ - 股市爆料同學會",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1PLTVlX3FkSzJvR2NGaXc3TWk3OGFGcWIyalBUVTlDYXRoLWl2cjMtcEp5QjlqOHVCOHZQV1BjS281Q2ZOQ3JfdU9TOWF6TG1YSkFmSC1WSVk?oc=5",
           "source": "CMoney",
-          "published_hkt": "06/22 13:46",
+          "published_hkt": "06/22 17:51",
+          "related": [
+            "^TWII"
+          ]
+        },
+        {
+          "title": "【亞股收市】日韓台股齊破頂 加權指數首破47000關",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zR1J3UlM1NGpIOEF2eGFzbzhQZTJ5eXVUQ0lWUUxpVERkTUNJX0FSN1l3TFkwWUlqNGJ3N2NfTDBNckt4bzVBWUpnLTdHdmVfemxhV1Y0YThHQzZyVGw5bDFsSHY4QkE?oc=5",
+          "source": "Now 新聞",
+          "published_hkt": "06/22 16:55",
           "related": [
             "^TWII"
           ]
@@ -195,40 +200,51 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-19 20:44 HKT",
+      "updated_at": "2026-06-22 20:15 HKT",
       "news": [
         {
-          "title": "韓股衝破9300點創高三星.SK海力士登新天價| 國際",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0taUpSVjdfRlRiR0FmSzRDZG1jRHRCdng3emp6MmRYd0hXZU9rTklRQXU5NGwyd0JxdG1wSVA4UkFic011U2tBQlpVU0dQRU5jdWd5ZDdhekxPdlQ4?oc=5",
-          "source": "非凡新聞台",
-          "published_hkt": "06/19 19:23",
+          "title": "股市匯市兩樣情 日股破7萬2 日圓逼歷史低點",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9NVkk2TXh6bGxIZHh6amM3S2xKblUxLTQwbkMxT2JYU3BRcFhySm9wZ1psLWJkVU1LakhnYjVfLTc4WFlMWkp0bWlhSm9xWFk?oc=5",
+          "source": "TVBS新聞網",
+          "published_hkt": "06/22 20:00",
           "related": []
         },
         {
-          "title": "美半導體股助攻日韓股市齊揚 日經首站71000點",
-          "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPNXRULXFvcm1jaDhTNzdVYUZiQ0t6cGdjNjdSTHpUYmhsMm5pR0hHTFBabm9Ma0ItSnd6ZVRfVDhGYmRsRmw2UDhIdDE1Nk1aMjI3YlRSUk9rSFlYcjJtSXlkSkxwUllySkJUVkc1Y0hIS1lJbXNaT3cxSHRJcWxYV3ZEUS1GZXdVV29udUxIWlFqMUVlRkk5eFB5X0hDVkVFY1RNN3E1Nnh0V2xGM2NpRDlzR1FvcWFrM0F2NjhrcUR4RXBfUXNwV2ZlYi1nNVhkOWRYSGRaaUNiaXZndC1mOVNkemVDdS14ODhWb1VpWURRZm95Ym5nSmVOa1pZQnpHWU91UE5KMXd2VlU3RXlnVmlTSkhMaVFLd1ZrZDJuc0dOanBmemlieGx5by05UjFySFV0aFpGSk4wanZXZFhQS00tdW8?oc=5",
-          "source": "MSN",
-          "published_hkt": "06/19 17:17",
+          "title": "日韓股市開低走高，日經首破72000點，SK海力士漲逾5.6%，市值超越三星電子",
+          "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQbEFjc2wyUTF1OF94QkJETFUwY2NXM1RFRjhhSmNaLVRYUGc3TnRRUlQ4ZmF2YXdvZEh2UUhnRjd3WWVFYkJsa2hBbElnVk9QS18zOU1SQ2dGNFVvVDdBTlVZWEQyOTZxZjBWXzVleFdLbUsweHNBVHZSdzVxSl9yeklIR0NlZ24zRlZXUFlVVzFjc1pkWmtLLVN4VTVvQUo0RHNHSXNNbzVjZmFfVEtIcGxTT2M2cmp0M0tSaEstWm9hZFhkSE1oUk9pcHlQSm9rREhrcnFMSW5YTUdJb0lWZVE4UFNZdmtmcnY2dnpYeUw0Y2FuSzJTMmxobS1SNURoR1p0cllucDB1RHpiT2xtSEhHRWtpYnlvUVIyX1hVaTBNMmEyY1p5aVJ0RWloMzllQngwbjdnbUZYaGRTWjV1VncwYjhYczJlemVvU3hUaVd6dFlscEgwSzJYWQ?oc=5",
+          "source": "HK MoneyClub",
+          "published_hkt": "06/22 16:36",
           "related": [
             "^N225"
           ]
         },
         {
-          "title": "美伊會談喊卡亞股收盤互有漲跌| 全球財經| 全球",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBLamZxMGhTNkpBMFVRcm9rbHZWbDhYVEp3U0doYVF1Mm5MazhpdzhYMl9heXlIcEFBclgxZnVwdUxiNTYxc0ROcWpQTzBOeWJL?oc=5",
-          "source": "UDN",
-          "published_hkt": "06/19 17:14",
-          "related": []
+          "title": "AI、半導體投資熱 日經收盤首破7.2 萬點創新高",
+          "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxNOEUzMElIeU1LSjJIVE8yWXQyQnUxd2N0TWdGZk9LLW1kNl9ZWDhPMklfcDNPbGtVekRkT2c5TWdOX21xZ2F4dzZUN0stRDlwNGp0ektqblNiU1pIdHZBZzVuVGRTZmZPZTkwTWluZXgxMEs2V29jUkViTXdOMkZqRW9Zc0pRbUtsOGI4aW16YTJSWDZ5Nm9lVWo1Z2d3N1FlMm83eW12N1A2SkZ4dlBEMnRJZDNLdEpUS2x0Z29ZTzYxLW00V05Gbm92OUkxVHh3SGJrLVB0b1NsVzhVSlNyM2N0SjQycC1XZ2o5MnhOVTVmemNodWIzOVMwUkpVMFdzTnN2d3Nkc1BFVklGckV1S2JMdUN5V29JUjZSS2s3bHVZU0JxSjQzVmlURmZQZjRyU1FTMzdZWnh3ZTVMd0RRY0w2emtkVnVwSmRPeGcyNUlnb1lpV1hlc2d1dzhkdw?oc=5",
+          "source": "MSN",
+          "published_hkt": "06/22 15:23",
+          "related": [
+            "^N225"
+          ]
         }
       ]
     }
   },
   "crypto": {
-    "updated_at": "2026-06-22 14:24 HKT",
+    "updated_at": "2026-06-22 20:15 HKT",
     "news": [
       {
+        "title": "加密貨幣週報 | 比特幣跌破$6.5萬；FOMC會議前ETF資金流出$2.27億；礦企拋售全部產量",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZGtSYThQVjBhRkRuZnRvVzczdEJ0MXFQalo0Tng2aFRVbnJrNzF0ZmsyN3A5b3lTWkdRTDJOUHBpbVVCUlVVT3BMaHpyMTdVNUJYYXphOVVjYVR6ZUFOUzdKc1lOZFhwWVQ1SHUySi16amFUeG9XTTlwRlRjNjRIU1pQUEsxblJQVHE3MTZ5WFItX3lZb0RzMWxKeVNac2JuZV9VWGlMMUF2aHNQTDRaU1cyUEpfLUV6Snp3?oc=5",
+        "source": "Moomoo",
+        "published_hkt": "06/22 14:56",
+        "related": [
+          "BTC"
+        ]
+      },
+      {
         "title": "微軟警告新型 USB 蠕蟲病毒肆虐！專偷加密錢包助記詞，還會竄改轉帳地址",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95OFdtYVBfZjdsa3h5TjdPYlNtODM1Vk5fOERDWG8wVnlIZ2x6ZWF2OUI5YTlBeWh6Q2dBOGZxczdjNjR2Vk05OTVrMUJ6SW5pMzVOaHgtVVNzdWE0T1U3RTNibFNrbXVSMkZKMnZWblg?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9uU1RzTllTSkM0NHM2ZklURW9oNkk2bVdDazhVNGNaaGR3OHZvOUtySV9jVjYyRHBIaVlPQlA0Y1RtZGZnMGtpZFAxdFNJdDVETGVuaVZFalVMQmJDaGRibTludEhPMWVaNkFIWlM4MVQ4TUNHSFE?oc=5",
         "source": "桑幣區識 Zombit",
         "published_hkt": "06/22 12:12",
         "related": [
@@ -236,21 +252,13 @@
         ]
       },
       {
-        "title": "以太坊 Pectra 升級下半年登場 幣價迎來關鍵考驗",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5iLTZoYmtmRE9rckZmTVpPaE5oMUdIWkFuZjJFX3AtM0tFUzdLTHBraGZYMm5PemFtN1l4R0RYWnRNWjYzMUpMY0szNVBXNUNIWHc?oc=5",
-        "source": "蕃新聞",
-        "published_hkt": "06/22 10:57",
+        "title": "前3名價格預測：比特幣、以太坊、瑞波幣 – BTC回升，以太坊依託支撐，XRP盤整",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQckhJazVrRFVfWjVBT3hJWTEwSEpsTkozTjlDa25oV0RBczVJMUdIVHV5UmVmUDdsc1FJcW9XMVpJeFIya1E1R0ZNaTgyaVRTcHNnd1RnekF5Y1lQVnVqMDYtb0dva0VPd2FEd3l3bzIyZjQwS01lSzVTa0FEQ1hTZGRuM083UmItMlN5MzAyWjdJUnR1RDRZSUNOOHhZN3p6OERfWXpXM1RxdWp1eTNwLTVya2dCWm5pUlZxdll5eEQ4dWpnRlhxQ2NCWkt3LW45QUhJTnhrem5VTWtiZVp2VUg0c2NSR2lsZWE5WHJYNEtZa3Fnc28yMkhidC3SAYICQVVfeXFMUERhSS1pQWh4eXlrNWUza2JrakM4YTdFSUJMWTFFeFNZcWlnUGJFclhyOHJ4M2RRTW02MDdtOVU1eEJGM2U2VTFlc2E5eG8wTVdwcUc4cVhqdzVUVXM0SXR1aDA2Z0UxcHlSNTlYMnE4RlN2V3d5bUVJQjR1dmJrblhEb01aYXlZOUk3ejdULWRUWHdUV0ZLbkVVMV83cmlES0R4cWxvRkktYmhiQVRyM09jY0VWVE81S3NDVFpzdVpKNTk4bjRtYlpJNFp6ZE9MSjRTcU9pQzdCSl9BRDVJa25Ed3FFSXpYd1NwUkJWTV8tQ21FdjcxakpXc0dVeEtVUFVB?oc=5",
+        "source": "FXStreet",
+        "published_hkt": "06/22 12:06",
         "related": [
+          "BTC",
           "ETH"
-        ]
-      },
-      {
-        "title": "HYPE ETF逆勢吸金3140萬美元 比特幣以太幣資金出走 - 財經新聞 - PChome Online 新聞",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWXlyVVV1b1NaM2VCNG1KdHREQmNNOGVuZjhNdm9ESmhzeklUOGdPQkM3RWM3c1VnSE11Z3g3Tl9iX01lSnFmTURwNVJHNzd3ajFaRmx3ZlJMVjNqS2QtR196MElKNVJZZ3BNV3hUSkRWaU5ObFVMeFh0MHhLQ01jMWE5WFVFMm5Rc1c1cg?oc=5",
-        "source": "PChome Online 新聞",
-        "published_hkt": "06/22 10:33",
-        "related": [
-          "BTC"
         ]
       }
     ]
