@@ -233,29 +233,31 @@
     }
   },
   "crypto": {
-    "updated_at": "2026-06-23 01:41 HKT",
+    "updated_at": "2026-06-23 02:05 HKT",
     "news": [
       {
-        "title": "Bitget推出Stock+功能，讓加密貨幣投資者能夠投資真正的美國股票| MEXC 新闻",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5HSnhfYmxWbk5GQTRnbGRndzhDLXF3TXEyRVl1dEYzMi1kRk8wemVTZjVqMWVOWXZIVFh2dkxHd2otOW9xN2FxXzVQVm9FbVhM?oc=5",
+        "title": "Joseph Lubin回應以太坊治理辯論，倡議在基金會框架之外建立更廣泛的支持網絡| MEXC 新闻",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9fbDZzdUtSRXJXcTF3ZmNXeGlGVkowUXNrVTJfVWFIT19iRUhWTmh2NDRpYk05N0M4bUJXdmpjMEZCeWQ5Y3o1MGdSZ2xBdHpv?oc=5",
         "source": "MEXC",
-        "published_hkt": "06/23 01:01",
-        "related": []
-      },
-      {
-        "title": "Joseph Lubin回應以太坊治理辯論，倡議在基金會框架之外建立更廣泛的支持網絡",
-        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBVRGtfLXhVMjlXSTVvSW8tVXhMQkMxaXpta2ZSRWNKMG0xR21UdldYRUpyLUtaQ3N2Vjl4TDZFdjlLNDR0YVh0dWdB?oc=5",
-        "source": "区块周刊BlockWeeks",
-        "published_hkt": "06/23 00:50",
+        "published_hkt": "06/23 02:00",
         "related": [
           "ETH"
         ]
       },
       {
-        "title": "日本逮捕一名高級皇室成員，全球當局加大力度打擊加密貨幣詐騙網絡| MEXC 新闻",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9KT0hYWjltNkFHYzZ1Um5ucGkzTUhHd2s0d3FDcGtfVGpFR1dNWEplYXc1ekdPUTc0aEZYUk5DQnVGUFdROGQ4emJGNjVPT3lZ?oc=5",
+        "title": "BitMine Immersion 大手筆購入 1.36 億美元以太坊 創今年最大手筆",
+        "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE40YktUME5wVDZpMDdqTEtHS1NQd3BSV2dHQlJCSm1LT2pENkhXMTcwRXJZaE9sekR5TlE?oc=5",
+        "source": "ENN台灣電報",
+        "published_hkt": "06/23 01:58",
+        "related": [
+          "ETH"
+        ]
+      },
+      {
+        "title": "Bitget推出Stock+功能，讓加密貨幣投資者能夠投資真正的美國股票| MEXC 新闻",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5HSnhfYmxWbk5GQTRnbGRndzhDLXF3TXEyRVl1dEYzMi1kRk8wemVTZjVqMWVOWXZIVFh2dkxHd2otOW9xN2FxXzVQVm9FbVhM?oc=5",
         "source": "MEXC",
-        "published_hkt": "06/23 00:45",
+        "published_hkt": "06/23 01:01",
         "related": []
       }
     ]
