@@ -697,12 +697,56 @@
     .risk-warning { font-size: 11px; color: #C08060; margin-top: 3px; }
 
     /* ── Responsive ── */
+    /* ── Chain Selector ── */
+    .chain-selector { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:20px; }
+    .chain-btn { padding:8px 18px; border:2px solid var(--border); border-radius:20px; background:#fff; color:var(--mid); font-size:13px; font-weight:600; cursor:pointer; transition:all .18s; }
+    .chain-btn:hover { border-color:var(--gold); color:var(--dark); }
+    .chain-btn.active { background:var(--gold); border-color:var(--gold); color:var(--dark); }
+    .chain-panel { display:none; }
+    .chain-panel.active { display:block; }
+    .chain-tier-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin:16px 0; }
+    .chain-tier { background:#fff; border:1px solid var(--border); border-radius:12px; padding:14px; }
+    .chain-tier-title { font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:.06em; color:var(--mid); margin-bottom:10px; padding-bottom:6px; border-bottom:1px solid var(--border); }
+    .chain-tier-title span { font-size:14px; margin-right:4px; }
+    .chain-company { display:flex; align-items:center; gap:6px; padding:5px 0; border-bottom:1px solid #f0ebe0; font-size:13px; color:var(--dark); }
+    .chain-company:last-child { border-bottom:none; }
+    .chain-ticker { background:var(--gold-bg); color:var(--gold-dark,#7A5C00); font-size:10px; font-weight:800; padding:2px 6px; border-radius:4px; font-family:monospace; white-space:nowrap; }
+    .chain-ticker.intl { background:#EEF2FF; color:#3730A3; }
+    .chain-bottleneck { background:linear-gradient(135deg,#FFF5F5 0%,#FFF0E0 100%); border:1.5px solid #FFCBA0; border-radius:12px; padding:14px 16px; margin:14px 0; }
+    .chain-bottleneck-title { font-size:12px; font-weight:800; color:#C0441A; margin-bottom:6px; }
+    .chain-rank { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+    .chain-rank-item { display:flex; align-items:center; gap:4px; font-size:12px; color:var(--dark); }
+    .chain-rank-num { width:20px; height:20px; border-radius:50%; background:var(--gold); color:var(--dark); font-size:10px; font-weight:800; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+    .chain-update { font-size:11px; color:var(--mid); text-align:right; margin-top:8px; }
+    /* ── Stock Cards ── */
+    .stocks-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; }
+    .stock-card { background:#fff; border:1px solid var(--border); border-radius:14px; padding:18px; }
+    .stock-card-header { display:flex; align-items:center; gap:10px; margin-bottom:12px; }
+    .stock-ticker-big { font-size:20px; font-weight:900; font-family:monospace; background:var(--dark); color:var(--gold); padding:4px 10px; border-radius:8px; }
+    .stock-name { font-size:13px; font-weight:700; color:var(--dark); }
+    .stock-chain-tag { font-size:10px; color:var(--mid); margin-top:2px; }
+    .stock-stat-row { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:10px; }
+    .stock-stat { font-size:11px; background:var(--bg); border:1px solid var(--border); border-radius:6px; padding:3px 8px; color:var(--dark); }
+    .stock-stat.up { background:#F0FDF0; border-color:#86EFAC; color:#166534; }
+    .stock-stat.hot { background:#FFF7ED; border-color:#FDB67A; color:#9A3412; }
+    .stock-bull-bear { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:10px; }
+    .bull-box, .bear-box { border-radius:8px; padding:8px 10px; font-size:12px; }
+    .bull-box { background:#F0FDF4; border:1px solid #86EFAC; }
+    .bear-box { background:#FFF5F5; border:1px solid #FCA5A5; }
+    .bull-box-title { font-weight:800; color:#166534; font-size:11px; margin-bottom:4px; }
+    .bear-box-title { font-weight:800; color:#B91C1C; font-size:11px; margin-bottom:4px; }
+    .bull-box li, .bear-box li { color:var(--dark); margin-left:14px; margin-bottom:2px; }
+    .stock-watch { background:var(--gold-bg,#FFF9EE); border:1px solid #E8D090; border-radius:8px; padding:8px 10px; font-size:12px; color:var(--dark); }
+    .stock-watch-label { font-weight:800; color:#7A5C00; font-size:11px; margin-bottom:3px; }
     @media (max-width: 640px) {
       header h1 { font-size: 20px; }
       .news-cols { grid-template-columns: 1fr; }
       .cards-grid { grid-template-columns: 1fr; }
       .concept-grid { grid-template-columns: repeat(2, 1fr); }
       .clock-time { font-size: 20px; }
+      .chain-tier-grid { grid-template-columns: 1fr; }
+      .stocks-grid { grid-template-columns: 1fr; }
+      .stock-bull-bear { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -721,6 +765,7 @@
     <button class="tab-main-btn" id="main-advanced" onclick="toggleGroup('advanced')">⚡ 高階 ▾</button>
     <button class="tab-main-btn" id="main-tools" onclick="toggleGroup('tools')">🔧 工具 ▾</button>
     <button class="tab-main-btn" id="main-trading" onclick="toggleGroup('trading')">🎯 實戰 ▾</button>
+    <button class="tab-main-btn" id="main-research" onclick="toggleGroup('research')">🔬 研究 ▾</button>
   </nav>
   <div class="tab-subnav" id="sub-tools">
     <button class="tab-sub-btn" id="sub-etf"   onclick="switchSub('etf','tools')">📊 高息ETF</button>
@@ -743,6 +788,10 @@
     <button class="tab-sub-btn" id="sub-premkt"    onclick="switchSub('premkt','trading')">🌍 盤前</button>
     <button class="tab-sub-btn" id="sub-momentum"  onclick="switchSub('momentum','trading')">📈 動能</button>
     <button class="tab-sub-btn" id="sub-intraday"  onclick="switchSub('intraday','trading')">⏰ 日內</button>
+  </div>
+  <div class="tab-subnav" id="sub-research">
+    <button class="tab-sub-btn" id="sub-chain"  onclick="switchSub('chain','research')">⛓ 產業鏈</button>
+    <button class="tab-sub-btn" id="sub-stocks" onclick="switchSub('stocks','research')">📊 標的</button>
   </div>
 </div>
 
@@ -2760,6 +2809,344 @@
     </div>
   </div>
 
+  <!-- ═══════════════════════════════════════
+       TAB: 產業鏈分析
+  ═══════════════════════════════════════ -->
+  <div id="tab-chain" class="tab-panel">
+    <div class="section-intro">
+      供應鏈分析的核心邏輯：找出整條鏈中最稀缺的「瓶頸環節」，控制瓶頸的公司擁有最強定價權。以下三條產業鏈均為 2026 年最核心的投資主題。
+    </div>
+
+    <div class="chain-selector">
+      <button class="chain-btn active" id="chain-btn-power" onclick="showChain('power')">⚡ 電力基建鏈</button>
+      <button class="chain-btn" id="chain-btn-ai" onclick="showChain('ai')">🧠 AI 算力鏈</button>
+      <button class="chain-btn" id="chain-btn-photonics" onclick="showChain('photonics')">💡 矽光子互連鏈</button>
+    </div>
+
+    <!-- ── Chain 1: 電力基建 ── -->
+    <div class="chain-panel active" id="chain-power">
+      <div class="bond-intro-box"><p>🔌 <strong>核心命題：</strong>AI 數據中心耗電爆炸，全球電網嚴重欠缺投資數十年。2026 年全球已有 11 GW 數據中心批准但無法開工，原因只有一個——接不上電。</p></div>
+      <div class="chain-tier-grid">
+        <div class="chain-tier">
+          <div class="chain-tier-title"><span>⬆️</span>上游 — 製造 / 原料</div>
+          <div class="chain-company"><span class="chain-ticker">CCJ</span>Cameco — 鈾礦</div>
+          <div class="chain-company"><span class="chain-ticker">GEV</span>GE Vernova — 氣渦輪 / 電力設備</div>
+          <div class="chain-company"><span class="chain-ticker">ABB</span>ABB — 重電設備</div>
+          <div class="chain-company"><span class="chain-ticker intl">SBGSY</span>Schneider Electric — 電力基建 (ADR)</div>
+          <div class="chain-company"><span class="chain-ticker intl">HTHIY</span>Hitachi Energy — 重電 (ADR)</div>
+          <div class="chain-company"><span class="chain-ticker intl">NEXS.PA</span>Nexans — 電纜 (巴黎)</div>
+          <div class="chain-company"><span class="chain-ticker intl">PRY.MI</span>Prysmian — 電纜 (米蘭)</div>
+        </div>
+        <div class="chain-tier">
+          <div class="chain-tier-title"><span>➡️</span>中游 — 傳輸 / 發電 / 配電</div>
+          <div class="chain-company"><span class="chain-ticker">PWR</span>Quanta Services — 電網建設</div>
+          <div class="chain-company"><span class="chain-ticker">MYRG</span>MYR Group — 電力建設</div>
+          <div class="chain-company"><span class="chain-ticker">CEG</span>Constellation Energy — 核電廠</div>
+          <div class="chain-company"><span class="chain-ticker">VST</span>Vistra — 核電 / 天然氣</div>
+          <div class="chain-company"><span class="chain-ticker">FLNC</span>Fluence Energy — 儲能系統</div>
+          <div class="chain-company"><span class="chain-ticker">BE</span>Bloom Energy — 燃料電池</div>
+        </div>
+        <div class="chain-tier">
+          <div class="chain-tier-title"><span>⬇️</span>下游 — 數據中心 / 終端應用</div>
+          <div class="chain-company"><span class="chain-ticker">AMZN</span>Amazon AWS — 雲端 / 數據中心</div>
+          <div class="chain-company"><span class="chain-ticker">MSFT</span>Microsoft Azure — 雲端 / 數據中心</div>
+          <div class="chain-company"><span class="chain-ticker">GOOGL</span>Alphabet GCP — 雲端 / 數據中心</div>
+          <div class="chain-company"><span class="chain-ticker">META</span>Meta — 數據中心</div>
+          <div class="chain-company"><span class="chain-ticker">EQIX</span>Equinix — 數據中心 REIT</div>
+          <div class="chain-company"><span class="chain-ticker">DLR</span>Digital Realty — 數據中心 REIT</div>
+        </div>
+      </div>
+      <div class="chain-bottleneck">
+        <div class="chain-bottleneck-title">🔴 今日瓶頸：變壓器 & 電網連接</div>
+        <p style="font-size:13px;color:var(--dark);margin:0">大型變壓器 lead time 已從 2021 年的 <strong>50 週</strong> 延長至現在 <strong>120–210 週（最長 4 年）</strong>。全球電纜、渦輪、基板每一個環節都面臨 2–3 年積壓訂單。50% 全球數據中心項目因電力連接問題被冻結。</p>
+      </div>
+      <div class="options-section" style="margin-top:0">
+        <div class="options-section-title">最值得關注環節（優先級排序）</div>
+        <div class="chain-rank">
+          <div class="chain-rank-item"><div class="chain-rank-num">1</div><span><strong>GEV</strong> — 重電設備 / 氣渦輪，訂單積壓 2–3 年</span></div>
+          <div class="chain-rank-item"><div class="chain-rank-num">2</div><span><strong>CEG</strong> — 核電廠，與 Microsoft 等簽長期電力協議</span></div>
+          <div class="chain-rank-item"><div class="chain-rank-num">3</div><span><strong>PWR</strong> — 電網建設，受益於大規模輸電基建</span></div>
+          <div class="chain-rank-item"><div class="chain-rank-num">4</div><span><strong>VST</strong> — 核電 + 天然氣，現金流穩定</span></div>
+        </div>
+      </div>
+      <div class="chain-update">🔄 最後更新：2026-06-23 ｜ 每月第一個週一更新</div>
+    </div>
+
+    <!-- ── Chain 2: AI 算力 ── -->
+    <div class="chain-panel" id="chain-ai">
+      <div class="bond-intro-box"><p>🧠 <strong>核心命題：</strong>AI CapEx 2026 年達 $7,500 億，預計 2027 年破 $1 兆。鏈條瓶頸從 HBM 記憶體逐步轉移到 CoWoS 先進封裝，整條鏈每個環節都缺產能。</p></div>
+      <div class="chain-tier-grid">
+        <div class="chain-tier">
+          <div class="chain-tier-title"><span>⬆️</span>上游 — 製造基礎</div>
+          <div class="chain-company"><span class="chain-ticker">ASML</span>ASML — EUV 光刻機（全球唯一）</div>
+          <div class="chain-company"><span class="chain-ticker">TSM</span>TSMC — 晶圓代工 + CoWoS 封裝</div>
+          <div class="chain-company"><span class="chain-ticker">MU</span>Micron — HBM 記憶體</div>
+          <div class="chain-company"><span class="chain-ticker intl">000660.KS</span>SK Hynix — HBM（市佔 ~50%）</div>
+          <div class="chain-company"><span class="chain-ticker">SNDK</span>SanDisk — NAND 快閃存儲</div>
+          <div class="chain-company"><span class="chain-ticker">ASX</span>ASE Group — 先進封裝（台灣 ADR）</div>
+        </div>
+        <div class="chain-tier">
+          <div class="chain-tier-title"><span>➡️</span>中游 — 設計 / 整合</div>
+          <div class="chain-company"><span class="chain-ticker">NVDA</span>NVIDIA — GPU 主導（市佔 ~85%）</div>
+          <div class="chain-company"><span class="chain-ticker">AMD</span>AMD — GPU 替代方案</div>
+          <div class="chain-company"><span class="chain-ticker">AVGO</span>Broadcom — 定制 ASIC</div>
+          <div class="chain-company"><span class="chain-ticker">MRVL</span>Marvell — 定制 ASIC</div>
+          <div class="chain-company"><span class="chain-ticker">INTC</span>Intel — Gaudi AI 加速器</div>
+        </div>
+        <div class="chain-tier">
+          <div class="chain-tier-title"><span>⬇️</span>下游 — 部署 / 應用</div>
+          <div class="chain-company"><span class="chain-ticker">AMZN</span>Amazon AWS — 雲端訓練</div>
+          <div class="chain-company"><span class="chain-ticker">MSFT</span>Microsoft Azure — 雲端訓練</div>
+          <div class="chain-company"><span class="chain-ticker">GOOGL</span>Alphabet GCP — 雲端訓練</div>
+          <div class="chain-company"><span class="chain-ticker">META</span>Meta — 內部 AI 訓練</div>
+          <div class="chain-company"><span class="chain-ticker">DELL</span>Dell — AI 伺服器</div>
+          <div class="chain-company"><span class="chain-ticker">HPE</span>HP Enterprise — AI 伺服器</div>
+        </div>
+      </div>
+      <div class="chain-bottleneck">
+        <div class="chain-bottleneck-title">🔴 今日瓶頸：CoWoS 先進封裝（TSMC 獨家）</div>
+        <p style="font-size:13px;color:var(--dark);margin:0">HBM 供應已逐步緩解，新瓶頸轉移到 <strong>CoWoS 封裝</strong>（TSMC 獨家技術，排隊至 2027）。次要瓶頸：電力供應（見電力基建鏈）、芯片間互連帶寬（見矽光子鏈）。</p>
+      </div>
+      <div class="options-section" style="margin-top:0">
+        <div class="options-section-title">最值得關注環節（優先級排序）</div>
+        <div class="chain-rank">
+          <div class="chain-rank-item"><div class="chain-rank-num">1</div><span><strong>TSM</strong> — CoWoS 封裝壟斷，AI 鏈上最不可替代</span></div>
+          <div class="chain-rank-item"><div class="chain-rank-num">2</div><span><strong>NVDA</strong> — AI 加速器 85% 市佔，CUDA 護城河</span></div>
+          <div class="chain-rank-item"><div class="chain-rank-num">3</div><span><strong>MU</strong> — HBM 2026 年產能已售罄，毛利率 81%</span></div>
+          <div class="chain-rank-item"><div class="chain-rank-num">4</div><span><strong>AVGO</strong> — 定制 ASIC 最大受益者（Google/Meta 訂單）</span></div>
+        </div>
+      </div>
+      <div class="chain-update">🔄 最後更新：2026-06-23 ｜ 每月第一個週一更新</div>
+    </div>
+
+    <!-- ── Chain 3: 矽光子互連 ── -->
+    <div class="chain-panel" id="chain-photonics">
+      <div class="bond-intro-box"><p>💡 <strong>核心命題：</strong>AI 芯片算完了還要「傳」出來——銅線帶寬已到極限，矽光子（以光傳輸數據）成為下一個關鍵技術。NVIDIA 2026 年 4 月直接砸 $40 億鎖定 Lumentum + Coherent 產能，說明這條鏈有多緊張。</p></div>
+      <div class="chain-tier-grid">
+        <div class="chain-tier">
+          <div class="chain-tier-title"><span>⬆️</span>上游 — 光子元件製造</div>
+          <div class="chain-company"><span class="chain-ticker">INTC</span>Intel — 矽光子晶片（自研）</div>
+          <div class="chain-company"><span class="chain-ticker">TSEM</span>Tower Semiconductor — SiPh 製造（擴產 $6.5 億）</div>
+          <div class="chain-company"><span class="chain-ticker">GFS</span>GlobalFoundries — SiPh 製造（收購 AMF）</div>
+          <div class="chain-company"><span class="chain-ticker">COHR</span>Coherent — 光學元件 + 光模組</div>
+          <div class="chain-company"><span class="chain-ticker">LITE</span>Lumentum — 光模組（NVDA 鎖定產能）</div>
+        </div>
+        <div class="chain-tier">
+          <div class="chain-tier-title"><span>➡️</span>中游 — 模組整合 / ASIC</div>
+          <div class="chain-company"><span class="chain-ticker">COHR</span>Coherent — 光模組（NVDA $40 億投資）</div>
+          <div class="chain-company"><span class="chain-ticker">LITE</span>Lumentum — 光模組（NVDA $40 億投資）</div>
+          <div class="chain-company"><span class="chain-ticker">MRVL</span>Marvell — 光子 ASIC（$55 億收購 Celestial AI）</div>
+          <div class="chain-company"><span class="chain-ticker">NVDA</span>NVIDIA — NVLink / InfiniBand 互連</div>
+          <div class="chain-company"><span class="chain-ticker">ANET</span>Arista Networks — 數據中心交換機</div>
+        </div>
+        <div class="chain-tier">
+          <div class="chain-tier-title"><span>⬇️</span>下游 — 超大規模數據中心</div>
+          <div class="chain-company"><span class="chain-ticker">AMZN</span>Amazon AWS — AI 集群互連</div>
+          <div class="chain-company"><span class="chain-ticker">MSFT</span>Microsoft Azure — AI 集群互連</div>
+          <div class="chain-company"><span class="chain-ticker">GOOGL</span>Alphabet GCP — AI 集群互連</div>
+          <div class="chain-company"><span class="chain-ticker">META</span>Meta — AI 集群互連</div>
+          <div class="chain-company"><span class="chain-ticker">CSCO</span>Cisco — 光子網絡設備</div>
+        </div>
+      </div>
+      <div class="chain-bottleneck">
+        <div class="chain-bottleneck-title">🔴 今日瓶頸：矽光子製造產能（供不應求至 2027）</div>
+        <p style="font-size:13px;color:var(--dark);margin:0">需求遠超供給，NVIDIA 已直接用 <strong>$40 億現金預付</strong>鎖定 Lumentum + Coherent 未來產能。Tower Semi 投 $6.5 億擴產、GlobalFoundries 收購 AMF，業界共識供給緊張至少持續到 2027。</p>
+      </div>
+      <div class="options-section" style="margin-top:0">
+        <div class="options-section-title">最值得關注環節（優先級排序）</div>
+        <div class="chain-rank">
+          <div class="chain-rank-item"><div class="chain-rank-num">1</div><span><strong>COHR</strong> — 光模組最大純玩家，NVDA 已鎖定產能</span></div>
+          <div class="chain-rank-item"><div class="chain-rank-num">2</div><span><strong>LITE</strong> — 光模組，NVDA $40 億直接投資</span></div>
+          <div class="chain-rank-item"><div class="chain-rank-num">3</div><span><strong>MRVL</strong> — 光子 ASIC 佈局最完整（Celestial AI 收購）</span></div>
+          <div class="chain-rank-item"><div class="chain-rank-num">4</div><span><strong>TSEM</strong> — 矽光子晶圓代工，擴產中</span></div>
+        </div>
+      </div>
+      <div class="chain-update">🔄 最後更新：2026-06-23 ｜ 每月第一個週一更新</div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════
+       TAB: 標的分析
+  ═══════════════════════════════════════ -->
+  <div id="tab-stocks" class="tab-panel">
+    <div class="section-intro">
+      以 Serenity 供應鏈框架定位個股在產業鏈中的位置，結合基本面與市場動態給出觀察重點。所有內容僅供教育參考，不構成投資建議。
+    </div>
+
+    <div class="stocks-grid">
+
+      <!-- NVDA -->
+      <div class="stock-card">
+        <div class="stock-card-header">
+          <div class="stock-ticker-big">NVDA</div>
+          <div>
+            <div class="stock-name">NVIDIA Corporation</div>
+            <div class="stock-chain-tag">🧠 AI算力鏈 → 中游（GPU 設計）</div>
+          </div>
+        </div>
+        <div class="stock-stat-row">
+          <span class="stock-stat hot">AI 加速器市佔 ~85%</span>
+          <span class="stock-stat up">YTD +11.7%</span>
+          <span class="stock-stat">市值 ~$3.5T</span>
+          <span class="stock-stat hot">Blackwell 系列放量中</span>
+        </div>
+        <div class="stock-bull-bear">
+          <div class="bull-box">
+            <div class="bull-box-title">✅ 看多理由</div>
+            <ul class="bull-box">
+              <li>CUDA 生態護城河，軟硬一體難取代</li>
+              <li>Blackwell GPU 需求持續爆炸</li>
+              <li>CSP CapEx $7,500 億，NVDA 最直接受益</li>
+              <li>ASIC 定制挑戰需 3–5 年才能撼動份額</li>
+            </ul>
+          </div>
+          <div class="bear-box">
+            <div class="bear-box-title">⚠️ 看空理由</div>
+            <ul class="bear-box">
+              <li>估值已充分反映未來增長預期</li>
+              <li>中國出口限制影響部分收入</li>
+              <li>Broadcom / Marvell ASIC 長期替代威脅</li>
+              <li>YTD 僅 +11.7%，大市已領先</li>
+            </ul>
+          </div>
+        </div>
+        <div class="stock-watch">
+          <div class="stock-watch-label">👁 Sterling 觀察</div>
+          強勢龍頭，但 $3.5T 估值已高。等財報後回調或整理，優於追高。留意 CoWoS 封裝產能是否拖累交付。
+        </div>
+      </div>
+
+      <!-- MU -->
+      <div class="stock-card">
+        <div class="stock-card-header">
+          <div class="stock-ticker-big">MU</div>
+          <div>
+            <div class="stock-name">Micron Technology</div>
+            <div class="stock-chain-tag">🧠 AI算力鏈 → 上游（HBM 記憶體）</div>
+          </div>
+        </div>
+        <div class="stock-stat-row">
+          <span class="stock-stat up">YTD +232.7%</span>
+          <span class="stock-stat hot">市值剛破 $1T</span>
+          <span class="stock-stat hot">Q2 FY26 收入 $23.9B (+196% YoY)</span>
+          <span class="stock-stat">毛利率 ~81%</span>
+          <span class="stock-stat hot">2026 HBM 產能已售罄</span>
+        </div>
+        <div class="stock-bull-bear">
+          <div class="bull-box">
+            <div class="bull-box-title">✅ 看多理由</div>
+            <ul class="bull-box">
+              <li>HBM 2026 全年產能已 sold out</li>
+              <li>毛利率 81% 創歷史新高</li>
+              <li>Goldman：AI 最大贏家之一</li>
+              <li>AI 記憶體週期可能只在中段</li>
+            </ul>
+          </div>
+          <div class="bear-box">
+            <div class="bear-box-title">⚠️ 看空理由</div>
+            <ul class="bear-box">
+              <li>半導體本質上是週期性行業</li>
+              <li>SK Hynix 市佔 ~50%，MU 競爭壓力大</li>
+              <li>分析師下調 HBM4 供應預測</li>
+              <li>YTD +232% 後估值不再便宜</li>
+            </ul>
+          </div>
+        </div>
+        <div class="stock-watch">
+          <div class="stock-watch-label">👁 Sterling 觀察</div>
+          基本面最強勁的 AI 記憶體標的。已 +232% YTD，追入需留意半導體週期轉向風險。等技術面回調測試支撐位再考慮。
+        </div>
+      </div>
+
+      <!-- SNDK -->
+      <div class="stock-card">
+        <div class="stock-card-header">
+          <div class="stock-ticker-big">SNDK</div>
+          <div>
+            <div class="stock-name">SanDisk Corporation</div>
+            <div class="stock-chain-tag">🧠 AI算力鏈 → 上游（NAND 快閃存儲）</div>
+          </div>
+        </div>
+        <div class="stock-stat-row">
+          <span class="stock-stat hot">IPO Feb 2025 @ ~$38.50（從 WD 分拆）</span>
+          <span class="stock-stat up">現價 ~$2,200</span>
+          <span class="stock-stat hot">從 IPO 累漲 ~+4,000%（16 個月）</span>
+        </div>
+        <div class="stock-bull-bear">
+          <div class="bull-box">
+            <div class="bull-box-title">✅ 看多理由</div>
+            <ul class="bull-box">
+              <li>AI 推論對企業 SSD / NAND 需求大增</li>
+              <li>NAND AI upcycle 才剛開始</li>
+              <li>Trump 點名支持，政策利多</li>
+              <li>獨立公司聚焦 NAND，比 WD 時代更純粹</li>
+            </ul>
+          </div>
+          <div class="bear-box">
+            <div class="bear-box-title">⚠️ 看空理由</div>
+            <ul class="bear-box">
+              <li>4,000% 升幅後估值已極端</li>
+              <li>NAND 比 HBM 更商品化，競爭激烈</li>
+              <li>Samsung / Kioxia / SK Hynix 均有產能</li>
+              <li>情緒驅動成分大，基本面追不上股價</li>
+            </ul>
+          </div>
+        </div>
+        <div class="stock-watch">
+          <div class="stock-watch-label">👁 Sterling 觀察</div>
+          已暴漲 4,000%，現價追入風險極高。若對 AI 存儲有信心，等大幅技術性回調（>30–40%）再考慮建立初倉。
+        </div>
+      </div>
+
+      <!-- SPCX -->
+      <div class="stock-card">
+        <div class="stock-card-header">
+          <div class="stock-ticker-big">SPCX</div>
+          <div>
+            <div class="stock-name">SpaceX（Space Exploration Technologies）</div>
+            <div class="stock-chain-tag">🚀 太空基建鏈 → 垂直整合（自成一條鏈）</div>
+          </div>
+        </div>
+        <div class="stock-stat-row">
+          <span class="stock-stat hot">IPO 2026-06-12 @ $135，Day 1 收 $160.95（+19%）</span>
+          <span class="stock-stat">估值 ~$2.1T</span>
+          <span class="stock-stat">NASDAQ</span>
+          <span class="stock-stat hot">IPO 後連日回落（截至 6/22）</span>
+        </div>
+        <div class="stock-bull-bear">
+          <div class="bull-box">
+            <div class="bull-box-title">✅ 看多理由</div>
+            <ul class="bull-box">
+              <li>Starlink 訂閱收入：穩定現金流</li>
+              <li>Falcon 9 可重複使用，發射成本比競爭者低 60–80%</li>
+              <li>Starship 若商業化 → 開啟全新太空經濟體</li>
+              <li>政府合約（NASA、DoD）長期護城河</li>
+            </ul>
+          </div>
+          <div class="bear-box">
+            <div class="bear-box-title">⚠️ 看空理由</div>
+            <ul class="bear-box">
+              <li>$2.1T IPO 估值已反映大量未來預期</li>
+              <li>CEO 關鍵人風險（Elon Musk 分心）</li>
+              <li>Starship 量產時程存在不確定性</li>
+              <li>IPO 後情緒冷卻中，短期仍有下壓</li>
+            </ul>
+          </div>
+        </div>
+        <div class="stock-watch">
+          <div class="stock-watch-label">👁 Sterling 觀察</div>
+          垂直整合程度最高的太空企業，Starlink 現金流是真實護城河。IPO 後情緒消化中，觀察 $140–150 支撐是否守穩，穩定後分批考慮比追高更謹慎。
+        </div>
+      </div>
+
+    </div>
+
+    <div class="bond-intro-box" style="margin-top:20px">
+      <p>⚠️ <strong>免責聲明：</strong>以上所有分析僅供教育參考，不構成任何買賣建議。投資有風險，請自行評估風險承受能力。所有數據以 <strong>2026-06-23</strong> 為準，標的分析每月更新。</p>
+    </div>
+    <div class="chain-update">🔄 最後更新：2026-06-23 ｜ 每月第一個週一更新</div>
+  </div>
+
 
 </main>
 
@@ -2871,6 +3258,16 @@
     document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
     const panel = document.getElementById('tab-' + tab);
     if (panel) panel.classList.add('active');
+  }
+
+  // ── Chain selector ──
+  function showChain(id) {
+    document.querySelectorAll('.chain-panel').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.chain-btn').forEach(b => b.classList.remove('active'));
+    const panel = document.getElementById('chain-' + id);
+    const btn = document.getElementById('chain-btn-' + id);
+    if (panel) panel.classList.add('active');
+    if (btn) btn.classList.add('active');
   }
 
   // ── Hours table toggle ──
