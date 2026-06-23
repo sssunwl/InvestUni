@@ -89,7 +89,7 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-23 17:54 HKT",
+      "updated_at": "2026-06-23 18:26 HKT",
       "news": [
         {
           "title": "【港股收市】恒指瀉432點 AI股爆小股災 MiniMax插16%最傷",
@@ -146,12 +146,12 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-23 17:54 HKT",
+      "updated_at": "2026-06-23 18:26 HKT",
       "news": [
         {
           "title": "【量大強漲股整理】台股大怒神殺盤又怎樣？七月接棒兩大股，主力趁今天暴跌瘋狂上車!",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9PaGVxTmEzQUxrNUJDZm54MkFOQndZYzZQdlhRdHNXMVNyR1NEck9aVlZqUklOblFkSkxERE53TG9wbURXcEdUNU9MWUVzdHM?oc=5",
-          "source": "news.cnyes.com",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5QaTB6VVYySFJjTW9mYU1WSHRYcnZaR2VscUdqYl9kWFhYaTVjZG9mN0F3dHVTZjdPbXlybWkwT1pCcUZBbDZNd3FKTQ?oc=5",
+          "source": "cnyes.com",
           "published_hkt": "06/23 17:20",
           "related": []
         },
@@ -199,20 +199,22 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-23 17:54 HKT",
+      "updated_at": "2026-06-23 18:26 HKT",
       "news": [
+        {
+          "title": "《日股》日經重挫逾2500點 獲利了結賣壓湧現",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVmpDblZJdDVZME8yM0VKUS0yN0oxdW8xc1hxQU5rQjdaUkRqVEJLR0pqU0FScnAtaExLSlM2a2taMmt2T0ZqZVcwTEtiNm0wNUtfTXI0RVQzS3VjbW51a05GVWZHbnN1Y3lTaGRqdWlyUFBBYnUtWlB5SUpsMGJZSWRveGpwbVlSSmZYak5CY3FjZw?oc=5",
+          "source": "台視全球資訊網",
+          "published_hkt": "06/23 18:01",
+          "related": [
+            "^N225"
+          ]
+        },
         {
           "title": "科技股爆拋售潮！韓股觸發熔斷，台日股齊重挫-財經焦點情報站",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMlJOVjh1ejVNV21oRmtFWHFVYU9Vbnl0UEtrcXR6S1ljX0JHSTVTbW9TWWZfc1NOSUtOTVhqVV95R2k5TjFsTm1EVlp3Nm55djRldXVQRUttanEtRUxHMTFsbTVqY3ZzWXU1V2tneHVLd0pKWUdoLTFfOEpPTDltM3ZB?oc=5",
           "source": "CMoney投資網誌",
           "published_hkt": "06/23 17:17",
-          "related": []
-        },
-        {
-          "title": "亞股大逃殺！日股摔2200點、韓股熔斷",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQUnFZbEhlMGI3S1ZBM0lYUElMNVMxMkNDZ2NTUXNUaDJYUTVOR3BkUXUxUjhmbTJqUGRrQ0Jlc3p2bWlhOEJhOWdpV29SN0NoNGhpM2NfRWFaYlhoUVhSZUU4Q25XWHkxWXhOMlhPMGNtZzd3S1NFTmNrWHpqSV9ReG5WZy1ycFZsTFJlbDByVUU3NmVSamoxbUp6M0FUVHFkbHVablBVRWd4a2t4MTBLUnF4SmY2Z3A4RUY2ZnFESWRwTjRVMTNjdk12OWhrc1JJS1lzbjE2Q1JxakRnSXJYSlllVGFILXBoSGpHWWtyeUFLNnVwTXFZ?oc=5",
-          "source": "Yahoo新聞",
-          "published_hkt": "06/23 17:06",
           "related": []
         },
         {
@@ -228,7 +230,7 @@
     }
   },
   "crypto": {
-    "updated_at": "2026-06-23 17:54 HKT",
+    "updated_at": "2026-06-23 18:26 HKT",
     "news": [
       {
         "title": "比特幣「跌破 6.2 萬鎂」血洗以太坊多軍！7.14 億爆倉、14.4 萬人慘出場，恐懼指數剩 23",
@@ -241,17 +243,17 @@
         ]
       },
       {
+        "title": "火幣HTX 上新資產一周回顧（6.15-6.21）：新幣RE、O上線即翻倍 DeFi成本周最強主線",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5tZ3JZSnI4djA1bTR3dVFlZEwwVlBGOEY3dmxRTXhNWmpHZE5tVlQ3SWpqZ2FJU2N2RkhKWEtpUGZJMVBLcmVGTUppRQ?oc=5",
+        "source": "cnyes.com",
+        "published_hkt": "06/23 16:30",
+        "related": []
+      },
+      {
         "title": "Bitmine 再買 5.2 萬枚以太幣！Tom Lee：「加密貨幣黃金時代」還沒到",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYmRTbVR6QW1qcldWMlNDSGUxQkpKeEgyckY5TWMtdmJad2s0T0ZiX29QTVpSLVRsYWlqS3F1bklUZHFKeEpRdkNkcG9KaUx2ZTg0NEFMaTRqUkR6eFRzR1lac3l0UkltUk0yUks4LVhhaFBmU3prZlhoRVdqTDhLd2FTRkhfSlNwTlB4UGh5VnJNR2JYX1V6TVg3MEszUzlmNzJHM0tDQ19YbmVsQUM4U1lYTGo?oc=5",
         "source": "區塊客",
         "published_hkt": "06/23 15:59",
-        "related": []
-      },
-      {
-        "title": "隨著市場情緒減弱，Pi Network面臨更大跌幅風險",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOenQyX1AzUTRYRXJFeGdCYVZIczN5SXktSTV6ODhILTdRa2hKdWVybWVGaUhPcVdzU1p0aEhqc2pjeVBlc1RaRE1aLXpLVkhUdmdjcG10bUdUNzVTRDJDbU1kcVZVN09tdjE1TWJ4X0N4cWZoZDRuc2FRZjFuZVdLQ2U4REN4LUdTVkdoakNIYUdCQ1hMQW4tRURoNjVZLUg4Ti0tb1JEWk16a0Jrc2tnSW94clJUS2t0RmRMeHd5R0MxaHVrdllEeERRa3kwVnlyNnJBY3VscVBzM0dVcV9sN29ZY1BnZWFRVGE5NNIB7AFBVV95cUxOenQyX1AzUTRYRXJFeGdCYVZIczN5SXktSTV6ODhILTdRa2hKdWVybWVGaUhPcVdzU1p0aEhqc2pjeVBlc1RaRE1aLXpLVkhUdmdjcG10bUdUNzVTRDJDbU1kcVZVN09tdjE1TWJ4X0N4cWZoZDRuc2FRZjFuZVdLQ2U4REN4LUdTVkdoakNIYUdCQ1hMQW4tRURoNjVZLUg4Ti0tb1JEWk16a0Jrc2tnSW94clJUS2t0RmRMeHd5R0MxaHVrdllEeERRa3kwVnlyNnJBY3VscVBzM0dVcV9sN29ZY1BnZWFRVGE5NA?oc=5",
-        "source": "FXStreet",
-        "published_hkt": "06/23 15:32",
         "related": []
       }
     ]
