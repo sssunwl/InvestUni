@@ -10,7 +10,7 @@
 Suniverse 旗下投資教育平台，由 Sterling 主導，Steve 技術協助。
 目標：提供初學者從基礎概念到實戰策略的完整投資知識庫，並透過 Telegram Bot 每日推送市場資訊。
 
-- **Repo**：https://github.com/sssunwl/InvestUni/
+- **Repo**：https://github.com/sssunwl/InvestUniS/
 - **技術棧**：純靜態 HTML + Python + GitHub Actions
 - **成本**：$0/月
 
