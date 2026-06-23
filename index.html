@@ -738,6 +738,8 @@
     .bull-box li, .bear-box li { color:var(--dark); margin-left:14px; margin-bottom:2px; }
     .stock-watch { background:var(--gold-bg,#FFF9EE); border:1px solid #E8D090; border-radius:8px; padding:8px 10px; font-size:12px; color:var(--dark); }
     .stock-watch-label { font-weight:800; color:#7A5C00; font-size:11px; margin-bottom:3px; }
+    .stock-category { margin-bottom:28px; }
+    .stock-cat-title { font-size:14px; font-weight:800; color:var(--dark); padding:8px 14px; background:var(--bg); border-left:4px solid var(--gold); border-radius:0 8px 8px 0; margin-bottom:12px; }
     @media (max-width: 640px) {
       header h1 { font-size: 20px; }
       .news-cols { grid-template-columns: 1fr; }
@@ -2973,175 +2975,241 @@
       以 Serenity 供應鏈框架定位個股在產業鏈中的位置，結合基本面與市場動態給出觀察重點。所有內容僅供教育參考，不構成投資建議。
     </div>
 
-    <div class="stocks-grid">
+    <!-- ── Category 1: AI 算力 / 矽光子 ── -->
+    <div class="stock-category">
+      <div class="stock-cat-title">🧠 AI 算力 / 矽光子鏈</div>
+      <div class="stocks-grid">
 
-      <!-- NVDA -->
-      <div class="stock-card">
-        <div class="stock-card-header">
-          <div class="stock-ticker-big">NVDA</div>
-          <div>
-            <div class="stock-name">NVIDIA Corporation</div>
-            <div class="stock-chain-tag">🧠 AI算力鏈 → 中游（GPU 設計）</div>
+        <div class="stock-card">
+          <div class="stock-card-header">
+            <div class="stock-ticker-big">NVDA</div>
+            <div><div class="stock-name">NVIDIA Corporation</div><div class="stock-chain-tag">AI算力鏈 → 中游（GPU 設計）</div></div>
           </div>
-        </div>
-        <div class="stock-stat-row">
-          <span class="stock-stat hot">AI 加速器市佔 ~85%</span>
-          <span class="stock-stat up">YTD +11.7%</span>
-          <span class="stock-stat">市值 ~$3.5T</span>
-          <span class="stock-stat hot">Blackwell 系列放量中</span>
-        </div>
-        <div class="stock-bull-bear">
-          <div class="bull-box">
-            <div class="bull-box-title">✅ 看多理由</div>
-            <ul class="bull-box">
-              <li>CUDA 生態護城河，軟硬一體難取代</li>
-              <li>Blackwell GPU 需求持續爆炸</li>
-              <li>CSP CapEx $7,500 億，NVDA 最直接受益</li>
-              <li>ASIC 定制挑戰需 3–5 年才能撼動份額</li>
-            </ul>
+          <div class="stock-stat-row">
+            <span class="stock-stat hot">AI 加速器市佔 ~85%</span>
+            <span class="stock-stat up">YTD +11.7%</span>
+            <span class="stock-stat">市值 ~$3.5T</span>
+            <span class="stock-stat hot">Blackwell 系列放量中</span>
           </div>
-          <div class="bear-box">
-            <div class="bear-box-title">⚠️ 看空理由</div>
-            <ul class="bear-box">
-              <li>估值已充分反映未來增長預期</li>
-              <li>中國出口限制影響部分收入</li>
-              <li>Broadcom / Marvell ASIC 長期替代威脅</li>
-              <li>YTD 僅 +11.7%，大市已領先</li>
-            </ul>
+          <div class="stock-bull-bear">
+            <div class="bull-box"><div class="bull-box-title">✅ 看多</div><ul><li>CUDA 生態護城河，軟硬一體難取代</li><li>Blackwell GPU 需求持續爆炸</li><li>CSP CapEx $7,500 億直接受益</li><li>ASIC 替代需 3–5 年</li></ul></div>
+            <div class="bear-box"><div class="bear-box-title">⚠️ 看空</div><ul><li>$3.5T 估值已充分定價</li><li>中國出口限制影響收入</li><li>Broadcom / Marvell ASIC 長期威脅</li><li>YTD 跑輸 MU / SNDK</li></ul></div>
           </div>
+          <div class="stock-watch"><div class="stock-watch-label">👁 Sterling 觀察</div>強勢龍頭但估值高。等財報後回調再入，留意 CoWoS 封裝產能是否拖累交付。</div>
         </div>
-        <div class="stock-watch">
-          <div class="stock-watch-label">👁 Sterling 觀察</div>
-          強勢龍頭，但 $3.5T 估值已高。等財報後回調或整理，優於追高。留意 CoWoS 封裝產能是否拖累交付。
+
+        <div class="stock-card">
+          <div class="stock-card-header">
+            <div class="stock-ticker-big">MU</div>
+            <div><div class="stock-name">Micron Technology</div><div class="stock-chain-tag">AI算力鏈 → 上游（HBM 記憶體）</div></div>
+          </div>
+          <div class="stock-stat-row">
+            <span class="stock-stat up">YTD +232.7%</span>
+            <span class="stock-stat hot">市值剛破 $1T</span>
+            <span class="stock-stat hot">Q2 FY26 收入 $23.9B（+196% YoY）</span>
+            <span class="stock-stat">毛利率 ~81%</span>
+            <span class="stock-stat hot">2026 HBM 產能已售罄</span>
+          </div>
+          <div class="stock-bull-bear">
+            <div class="bull-box"><div class="bull-box-title">✅ 看多</div><ul><li>HBM 2026 全年產能 sold out</li><li>毛利率 81% 創歷史新高</li><li>Goldman 點名 AI 最大贏家</li><li>記憶體週期可能只在中段</li></ul></div>
+            <div class="bear-box"><div class="bear-box-title">⚠️ 看空</div><ul><li>半導體本質週期性</li><li>SK Hynix 市佔 ~50% 競爭壓力</li><li>HBM4 供應預測被下調</li><li>+232% 後估值不便宜</li></ul></div>
+          </div>
+          <div class="stock-watch"><div class="stock-watch-label">👁 Sterling 觀察</div>基本面最強 AI 記憶體標的。已 +232% YTD，追入留意週期轉向風險，等技術面回調測支撐位。</div>
         </div>
+
+        <div class="stock-card">
+          <div class="stock-card-header">
+            <div class="stock-ticker-big">SNDK</div>
+            <div><div class="stock-name">SanDisk Corporation</div><div class="stock-chain-tag">AI算力鏈 → 上游（NAND 快閃存儲）</div></div>
+          </div>
+          <div class="stock-stat-row">
+            <span class="stock-stat">IPO Feb 2025 @ ~$38.50（從 WD 分拆）</span>
+            <span class="stock-stat up">現價 ~$2,200</span>
+            <span class="stock-stat hot">IPO 起累漲 ~+4,000%（16 個月）</span>
+          </div>
+          <div class="stock-bull-bear">
+            <div class="bull-box"><div class="bull-box-title">✅ 看多</div><ul><li>AI 推論對企業 SSD 需求大增</li><li>NAND AI upcycle 剛開始</li><li>聚焦 NAND，比 WD 時代更純粹</li><li>政策利多（Trump 點名）</li></ul></div>
+            <div class="bear-box"><div class="bear-box-title">⚠️ 看空</div><ul><li>4,000% 升幅後估值極端</li><li>NAND 比 HBM 更商品化</li><li>Samsung / Kioxia 競爭激烈</li><li>情緒驅動成分大</li></ul></div>
+          </div>
+          <div class="stock-watch"><div class="stock-watch-label">👁 Sterling 觀察</div>已暴漲 4,000%，現價追入風險極高。等大幅技術性回調（>30–40%）再考慮建立初倉。</div>
+        </div>
+
+        <div class="stock-card">
+          <div class="stock-card-header">
+            <div class="stock-ticker-big">MRVL</div>
+            <div><div class="stock-name">Marvell Technology</div><div class="stock-chain-tag">AI算力 + 矽光子 → 中游（定制 ASIC / 光子整合）</div></div>
+          </div>
+          <div class="stock-stat-row">
+            <span class="stock-stat hot">$55億收購 Celestial AI（光子 ASIC）</span>
+            <span class="stock-stat hot">Google / Amazon / Microsoft 定制 ASIC 供應商</span>
+          </div>
+          <div class="stock-bull-bear">
+            <div class="bull-box"><div class="bull-box-title">✅ 看多</div><ul><li>同時佈局 AI算力 + 矽光子，雙鏈曝險</li><li>Hyperscaler 定制 ASIC 需求爆炸</li><li>Celestial AI 讓 MRVL 成光子 ASIC 龍頭</li><li>Broadcom 最直接的挑戰者</li></ul></div>
+            <div class="bear-box"><div class="bear-box-title">⚠️ 看空</div><ul><li>大型收購整合風險</li><li>Broadcom AVGO 競爭激烈</li><li>ASIC 定制週期長，收入確認慢</li></ul></div>
+          </div>
+          <div class="stock-watch"><div class="stock-watch-label">👁 Sterling 觀察</div>唯一同時在 AI算力鏈 + 矽光子鏈佔有核心位置的標的。想同時捕捉兩條鏈的單股選擇。</div>
+        </div>
+
+        <div class="stock-card">
+          <div class="stock-card-header">
+            <div class="stock-ticker-big">AAOI</div>
+            <div><div class="stock-name">Applied Optoelectronics</div><div class="stock-chain-tag">矽光子互連鏈 → 上游（光收發器 / 光模組）</div></div>
+          </div>
+          <div class="stock-stat-row">
+            <span class="stock-stat up">YTD ~+539%</span>
+            <span class="stock-stat hot">Q1 FY26 收入 $151.1M（+51% YoY）</span>
+            <span class="stock-stat hot">訂單積壓 $324M+（800G + 1.6T）</span>
+            <span class="stock-stat">2026 年收入指引 $1B+</span>
+          </div>
+          <div class="stock-bull-bear">
+            <div class="bull-box"><div class="bull-box-title">✅ 看多</div><ul><li>800G / 1.6T 超高速光收發器需求爆炸</li><li>$324M+ 訂單積壓，能見度高</li><li>Houston 擴廠 900K sqft，激光產能 +350%</li><li>美國本土製造，政策加分</li></ul></div>
+            <div class="bear-box"><div class="bear-box-title">⚠️ 看空</div><ul><li>+539% 後估值已高</li><li>客戶集中風險（超大規模雲端商）</li><li>Coherent / Lumentum 等大廠競爭</li></ul></div>
+          </div>
+          <div class="stock-watch"><div class="stock-watch-label">👁 Sterling 觀察</div>矽光子鏈中最純粹的光收發器玩家。NVDA $40 億鎖定 Coherent/Lumentum 說明 AAOI 做的東西有多稀缺。已 +539%，等整理。</div>
+        </div>
+
       </div>
-
-      <!-- MU -->
-      <div class="stock-card">
-        <div class="stock-card-header">
-          <div class="stock-ticker-big">MU</div>
-          <div>
-            <div class="stock-name">Micron Technology</div>
-            <div class="stock-chain-tag">🧠 AI算力鏈 → 上游（HBM 記憶體）</div>
-          </div>
-        </div>
-        <div class="stock-stat-row">
-          <span class="stock-stat up">YTD +232.7%</span>
-          <span class="stock-stat hot">市值剛破 $1T</span>
-          <span class="stock-stat hot">Q2 FY26 收入 $23.9B (+196% YoY)</span>
-          <span class="stock-stat">毛利率 ~81%</span>
-          <span class="stock-stat hot">2026 HBM 產能已售罄</span>
-        </div>
-        <div class="stock-bull-bear">
-          <div class="bull-box">
-            <div class="bull-box-title">✅ 看多理由</div>
-            <ul class="bull-box">
-              <li>HBM 2026 全年產能已 sold out</li>
-              <li>毛利率 81% 創歷史新高</li>
-              <li>Goldman：AI 最大贏家之一</li>
-              <li>AI 記憶體週期可能只在中段</li>
-            </ul>
-          </div>
-          <div class="bear-box">
-            <div class="bear-box-title">⚠️ 看空理由</div>
-            <ul class="bear-box">
-              <li>半導體本質上是週期性行業</li>
-              <li>SK Hynix 市佔 ~50%，MU 競爭壓力大</li>
-              <li>分析師下調 HBM4 供應預測</li>
-              <li>YTD +232% 後估值不再便宜</li>
-            </ul>
-          </div>
-        </div>
-        <div class="stock-watch">
-          <div class="stock-watch-label">👁 Sterling 觀察</div>
-          基本面最強勁的 AI 記憶體標的。已 +232% YTD，追入需留意半導體週期轉向風險。等技術面回調測試支撐位再考慮。
-        </div>
-      </div>
-
-      <!-- SNDK -->
-      <div class="stock-card">
-        <div class="stock-card-header">
-          <div class="stock-ticker-big">SNDK</div>
-          <div>
-            <div class="stock-name">SanDisk Corporation</div>
-            <div class="stock-chain-tag">🧠 AI算力鏈 → 上游（NAND 快閃存儲）</div>
-          </div>
-        </div>
-        <div class="stock-stat-row">
-          <span class="stock-stat hot">IPO Feb 2025 @ ~$38.50（從 WD 分拆）</span>
-          <span class="stock-stat up">現價 ~$2,200</span>
-          <span class="stock-stat hot">從 IPO 累漲 ~+4,000%（16 個月）</span>
-        </div>
-        <div class="stock-bull-bear">
-          <div class="bull-box">
-            <div class="bull-box-title">✅ 看多理由</div>
-            <ul class="bull-box">
-              <li>AI 推論對企業 SSD / NAND 需求大增</li>
-              <li>NAND AI upcycle 才剛開始</li>
-              <li>Trump 點名支持，政策利多</li>
-              <li>獨立公司聚焦 NAND，比 WD 時代更純粹</li>
-            </ul>
-          </div>
-          <div class="bear-box">
-            <div class="bear-box-title">⚠️ 看空理由</div>
-            <ul class="bear-box">
-              <li>4,000% 升幅後估值已極端</li>
-              <li>NAND 比 HBM 更商品化，競爭激烈</li>
-              <li>Samsung / Kioxia / SK Hynix 均有產能</li>
-              <li>情緒驅動成分大，基本面追不上股價</li>
-            </ul>
-          </div>
-        </div>
-        <div class="stock-watch">
-          <div class="stock-watch-label">👁 Sterling 觀察</div>
-          已暴漲 4,000%，現價追入風險極高。若對 AI 存儲有信心，等大幅技術性回調（>30–40%）再考慮建立初倉。
-        </div>
-      </div>
-
-      <!-- SPCX -->
-      <div class="stock-card">
-        <div class="stock-card-header">
-          <div class="stock-ticker-big">SPCX</div>
-          <div>
-            <div class="stock-name">SpaceX（Space Exploration Technologies）</div>
-            <div class="stock-chain-tag">🚀 太空基建鏈 → 垂直整合（自成一條鏈）</div>
-          </div>
-        </div>
-        <div class="stock-stat-row">
-          <span class="stock-stat hot">IPO 2026-06-12 @ $135，Day 1 收 $160.95（+19%）</span>
-          <span class="stock-stat">估值 ~$2.1T</span>
-          <span class="stock-stat">NASDAQ</span>
-          <span class="stock-stat hot">IPO 後連日回落（截至 6/22）</span>
-        </div>
-        <div class="stock-bull-bear">
-          <div class="bull-box">
-            <div class="bull-box-title">✅ 看多理由</div>
-            <ul class="bull-box">
-              <li>Starlink 訂閱收入：穩定現金流</li>
-              <li>Falcon 9 可重複使用，發射成本比競爭者低 60–80%</li>
-              <li>Starship 若商業化 → 開啟全新太空經濟體</li>
-              <li>政府合約（NASA、DoD）長期護城河</li>
-            </ul>
-          </div>
-          <div class="bear-box">
-            <div class="bear-box-title">⚠️ 看空理由</div>
-            <ul class="bear-box">
-              <li>$2.1T IPO 估值已反映大量未來預期</li>
-              <li>CEO 關鍵人風險（Elon Musk 分心）</li>
-              <li>Starship 量產時程存在不確定性</li>
-              <li>IPO 後情緒冷卻中，短期仍有下壓</li>
-            </ul>
-          </div>
-        </div>
-        <div class="stock-watch">
-          <div class="stock-watch-label">👁 Sterling 觀察</div>
-          垂直整合程度最高的太空企業，Starlink 現金流是真實護城河。IPO 後情緒消化中，觀察 $140–150 支撐是否守穩，穩定後分批考慮比追高更謹慎。
-        </div>
-      </div>
-
     </div>
 
-    <div class="bond-intro-box" style="margin-top:20px">
+    <!-- ── Category 2: 電力基建 ── -->
+    <div class="stock-category">
+      <div class="stock-cat-title">⚡ 電力基建鏈</div>
+      <div class="stocks-grid">
+
+        <div class="stock-card">
+          <div class="stock-card-header">
+            <div class="stock-ticker-big">GEV</div>
+            <div><div class="stock-name">GE Vernova</div><div class="stock-chain-tag">電力基建鏈 → 中上游（氣渦輪 / 電力設備）</div></div>
+          </div>
+          <div class="stock-stat-row">
+            <span class="stock-stat up">近 3 個月 +13%</span>
+            <span class="stock-stat hot">EPS 增長 +71.91% YoY（2026）</span>
+            <span class="stock-stat hot">ROE 43.97%</span>
+            <span class="stock-stat">訂單積壓 2–3 年</span>
+          </div>
+          <div class="stock-bull-bear">
+            <div class="bull-box"><div class="bull-box-title">✅ 看多</div><ul><li>氣渦輪是 AI 數據中心最快電力解決方案</li><li>ROE 43.97%，同行最高</li><li>訂單積壓 2-3 年，收入能見度極高</li><li>電力基建鏈表現最佳的標的</li></ul></div>
+            <div class="bear-box"><div class="bear-box-title">⚠️ 看空</div><ul><li>機構資金近期有獲利了結</li><li>估值 P/S 5.58x 偏高</li><li>核能若加速普及，氣渦輪需求受壓</li></ul></div>
+          </div>
+          <div class="stock-watch"><div class="stock-watch-label">👁 Sterling 觀察</div>電力基建鏈首選。ROE 和近期表現均優於 CEG。AI 電力危機只會更嚴峻，GEV 是最直接受益者之一。</div>
+        </div>
+
+        <div class="stock-card">
+          <div class="stock-card-header">
+            <div class="stock-ticker-big">CEG</div>
+            <div><div class="stock-name">Constellation Energy</div><div class="stock-chain-tag">電力基建鏈 → 中游（核電廠）</div></div>
+          </div>
+          <div class="stock-stat-row">
+            <span class="stock-stat hot">近 3 個月 -12.5%（短期落後）</span>
+            <span class="stock-stat up">EPS 增長 +25.24% YoY（2026）</span>
+            <span class="stock-stat hot">與 Microsoft / AWS 簽長期電力協議</span>
+          </div>
+          <div class="stock-bull-bear">
+            <div class="bull-box"><div class="bull-box-title">✅ 看多</div><ul><li>核電 = 零碳 + 穩定供電，Hyperscaler 首選</li><li>已與 Microsoft、AWS 簽長期合同</li><li>核電重啟潮受政策支持</li><li>長期 EPS 增長率 21.74%</li></ul></div>
+            <div class="bear-box"><div class="bear-box-title">⚠️ 看空</div><ul><li>近 3 個月 -12.5%，短期動能弱</li><li>核電監管風險、許可延遲</li><li>SMR 商業化若加速，CEG 優勢受壓</li></ul></div>
+          </div>
+          <div class="stock-watch"><div class="stock-watch-label">👁 Sterling 觀察</div>長線結構性受益者，但短期跑輸 GEV。若看好核電長期故事，現在回調反而是機會，但需耐心等待催化劑。</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── Category 3: 大型科技 / AI 終端 ── -->
+    <div class="stock-category">
+      <div class="stock-cat-title">🌐 大型科技 / AI 終端</div>
+      <div class="stocks-grid">
+
+        <div class="stock-card">
+          <div class="stock-card-header">
+            <div class="stock-ticker-big">AAPL</div>
+            <div><div class="stock-name">Apple Inc.</div><div class="stock-chain-tag">大型科技 → AI 終端 / 消費電子生態</div></div>
+          </div>
+          <div class="stock-stat-row">
+            <span class="stock-stat">現價 ~$297（2026-06-21）</span>
+            <span class="stock-stat hot">Q1 FY26 收入 $143.8B（歷史新高）</span>
+            <span class="stock-stat">分析師目標價 $314.59（Buy 共識）</span>
+            <span class="stock-stat">25% iPhone 產能已移印度</span>
+          </div>
+          <div class="stock-bull-bear">
+            <div class="bull-box"><div class="bull-box-title">✅ 看多</div><ul><li>$2B+ 安裝基礎，Apple Intelligence 升級週期</li><li>MacBook Neo $599 擴展入門市場</li><li>服務業務持續高毛利增長</li><li>印度產能分散地緣風險</li></ul></div>
+            <div class="bear-box"><div class="bear-box-title">⚠️ 看空</div><ul><li>記憶體成本上漲壓縮利潤率</li><li>中國銷售風險持續</li><li>CEO 交接（John Ternus 接任）不確定性</li><li>AI 功能整合（Google Gemini）帶來依賴風險</li></ul></div>
+          </div>
+          <div class="stock-watch"><div class="stock-watch-label">👁 Sterling 觀察</div>最穩定的大型科技標的，Apple Intelligence 是下一個升級週期的觸媒。$297 相對合理，長線持有邏輯清晰。</div>
+        </div>
+
+        <div class="stock-card">
+          <div class="stock-card-header">
+            <div class="stock-ticker-big">TSLA</div>
+            <div><div class="stock-name">Tesla, Inc.</div><div class="stock-chain-tag">大型科技 → AI 自駕 / 能源存儲（雙引擎）</div></div>
+          </div>
+          <div class="stock-stat-row">
+            <span class="stock-stat">現價 ~$431（2026-06-01）</span>
+            <span class="stock-stat hot">Robotaxi 訂閱 $99–199/月（2026-02 啟動）</span>
+            <span class="stock-stat up">Tesla Energy 毛利率 30%+</span>
+            <span class="stock-stat">2026 分析師目標：$119（熊）↔ $600（牛）</span>
+          </div>
+          <div class="stock-bull-bear">
+            <div class="bull-box"><div class="bull-box-title">✅ 看多</div><ul><li>Robotaxi 訂閱制啟動，高毛利新收入</li><li>Tesla Energy（Megapack）成第二增長引擎</li><li>Optimus 人形機器人長線潛力</li><li>BofA 估 Robotaxi 業務值 $7,500 億</li></ul></div>
+            <div class="bear-box"><div class="bear-box-title">⚠️ 看空</div><ul><li>EV 銷售疲軟，傳統汽車業務承壓</li><li>CapEx 超 $2,000 億，FCF 轉負風險</li><li>估值分歧極大（5x 差距）</li><li>Elon Musk 分心風險</li></ul></div>
+          </div>
+          <div class="stock-watch"><div class="stock-watch-label">👁 Sterling 觀察</div>「雙面人」標的：買 AI + 能源故事，但要忍受 EV 基本面壓力。短線波動大，適合對 Robotaxi 有信念的長線投資者。</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── Category 4: 太空 ── -->
+    <div class="stock-category">
+      <div class="stock-cat-title">🚀 太空</div>
+      <div class="stocks-grid">
+
+        <div class="stock-card">
+          <div class="stock-card-header">
+            <div class="stock-ticker-big">SPCX</div>
+            <div><div class="stock-name">SpaceX（Space Exploration Technologies）</div><div class="stock-chain-tag">太空基建鏈 → 垂直整合（自成一條鏈）</div></div>
+          </div>
+          <div class="stock-stat-row">
+            <span class="stock-stat">IPO 2026-06-12 @ $135，Day 1 收 $160.95（+19%）</span>
+            <span class="stock-stat hot">估值 ~$2.1T</span>
+            <span class="stock-stat hot">IPO 後連日回落（截至 6/22）</span>
+          </div>
+          <div class="stock-bull-bear">
+            <div class="bull-box"><div class="bull-box-title">✅ 看多</div><ul><li>Starlink 訂閱收入：穩定現金流</li><li>Falcon 9 可重複使用，發射成本比競爭者低 60–80%</li><li>Starship 若商業化 → 開啟全新太空經濟體</li><li>NASA / DoD 長期政府合約</li></ul></div>
+            <div class="bear-box"><div class="bear-box-title">⚠️ 看空</div><ul><li>$2.1T IPO 估值已反映大量未來</li><li>CEO 關鍵人風險（Elon Musk 分心）</li><li>Starship 量產時程不確定</li><li>IPO 後情緒冷卻，短期下壓</li></ul></div>
+          </div>
+          <div class="stock-watch"><div class="stock-watch-label">👁 Sterling 觀察</div>垂直整合程度最高的太空企業。IPO 後情緒消化中，觀察 $140–150 支撐是否守穩，穩定後分批考慮比追高謹慎。</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── Category 5: 加密資產 ── -->
+    <div class="stock-category">
+      <div class="stock-cat-title">💰 加密資產</div>
+      <div class="stocks-grid">
+
+        <div class="stock-card">
+          <div class="stock-card-header">
+            <div class="stock-ticker-big">MSTR</div>
+            <div><div class="stock-name">Strategy（前 MicroStrategy）</div><div class="stock-chain-tag">加密資產 → Bitcoin 槓桿代理標的</div></div>
+          </div>
+          <div class="stock-stat-row">
+            <span class="stock-stat hot">持有 818,334 BTC（均價 $75,537）</span>
+            <span class="stock-stat hot">Q1 2026 帳面虧損 $125億（BTC 下跌）</span>
+            <span class="stock-stat">分析師目標 $374.50</span>
+            <span class="stock-stat">2026 YTD 籌資 $116.8 億（最大美股融資）</span>
+          </div>
+          <div class="stock-bull-bear">
+            <div class="bull-box"><div class="bull-box-title">✅ 看多</div><ul><li>全球最大企業 Bitcoin 持有者</li><li>持續以股 / 債籌資買 BTC，放大 BTC 敞口</li><li>Bitcoin 漲 → MSTR 放大 2–3x 回報</li><li>Bitcoin ETF 納入指數後機構資金持續流入</li></ul></div>
+            <div class="bear-box"><div class="bear-box-title">⚠️ 看空</div><ul><li>帳面 BTC 目前虧損（均價 $75,537）</li><li>高槓桿 = Bitcoin 跌 → MSTR 跌更多</li><li>非傳統企業，監管不確定性高</li><li>公司本身軟件業務幾乎無關緊要</li></ul></div>
+          </div>
+          <div class="stock-watch"><div class="stock-watch-label">👁 Sterling 觀察</div>純 Bitcoin 槓桿工具，不是「公司」投資。看好 Bitcoin → 可考慮 MSTR 放大回報；不看好 Bitcoin → 完全迴避。投資前先確認自己對 BTC 的立場。</div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="bond-intro-box" style="margin-top:4px">
       <p>⚠️ <strong>免責聲明：</strong>以上所有分析僅供教育參考，不構成任何買賣建議。投資有風險，請自行評估風險承受能力。所有數據以 <strong>2026-06-23</strong> 為準，標的分析每月更新。</p>
     </div>
     <div class="chain-update">🔄 最後更新：2026-06-23 ｜ 每月第一個週一更新</div>
