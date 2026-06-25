@@ -89,31 +89,29 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-25 17:33 HKT",
+      "updated_at": "2026-06-25 18:00 HKT",
       "news": [
+        {
+          "title": "【港股收市】恒指險守23000關本地地產藍籌獲追捧- 投資 - 香港文匯網",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfbmczTTNIclpNRjc3R0kyeUUwWGtyeE9RbXpta2xISVBVUVE4WVJNY0lvRDFvaE5VS2E4Y0p2c1RadFZTNTl5N044MGViZlVodjltRGszOTZ1Z0xXcUxkczZ2Z0d1UkNKdW9rbDNOQjFmQ2VmSU84?oc=5",
+          "source": "香港文匯網",
+          "published_hkt": "06/25 17:39",
+          "related": [
+            "^HSI"
+          ]
+        },
+        {
+          "title": "港股大模型概念股日報（2026-06-25）",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ZcW5fSEh6eDRJLWlkQXZaNGRoUFlmNkw3MlpxdFNUQWZaWVNhbC13OGMzaG1oMks5OFVSNUo5ZWY4MDFmT2ZtZ2ZoRGgxeTZoMUF0ajhHTzNHWmFpTC1DN0FlSl95QQ?oc=5",
+          "source": "FX168财经",
+          "published_hkt": "06/25 17:22",
+          "related": []
+        },
         {
           "title": "港股戰報｜恒指挫335點險守兩萬三關 中行涉逃稅股價跌半成",
           "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxPREw1b0NvaVRzekRDUWhNRTRWTUZUdDFScHdWV2xuRWV6b1liMmYyaWdRMkNjTElHa0NWX0hkUFM1VWZSWXo2S3RPc1dCRzR5VkxxNHdsazBTeGxZYzVWbi1xTTNRQUVxZUl5UEQwd3R3VUIwVnRXODUyb2dtdWozUzVSRlVRTjdIdzdSN0ZZTTA5RXBMTUdMeFp0bDFMOWVsMlBrRkxJOGFYVHBkU09sU1RJX296WnpWc1pmRGhXenMwRVptSTN4VHc2RFFJVjRJSE1ieDVzOWlwOEdfek1VLWM0WGs4ZXhNTF9Mb3hDU2I4TVd1ZHQwQ3JCdHlyck1ZdVdJTE53X2huSTR5aVRsbzlOUFFwbWRBeWlOWkRvRUszejVVb2tEYlk5UmFOZHRtc244MW9aQVU1dlpnVEY3Tlg2NU8xYWpYcVZzNHdPTGxHN0dDaFpUS3dsMjY4LXNQeFV6WlEzM2xiZ3VCTnYxb3dxM0E2bmNNT3BXM2t3?oc=5",
           "source": "橙新聞",
           "published_hkt": "06/25 17:20",
-          "related": [
-            "^HSI"
-          ]
-        },
-        {
-          "title": "新时空丨港股收盘：三大指数继续下探、恒指收跌1.43%，半导体、建材等题材逆势上涨",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9sLUJhT2dPU21pR09uaEhNRWFTN3JOT1JWQ0JaZHJNMXRiSTNUTF9VV1E3MFJYM3pGVHBMdFprSkh5S3NLRy0xSkFoaUF1VTVsdllPUzRvNW5sNU1FSXNoaERGMVZrQQ?oc=5",
-          "source": "FX168财经",
-          "published_hkt": "06/25 17:01",
-          "related": [
-            "^HSI"
-          ]
-        },
-        {
-          "title": "恒指走勢丨全日跌335點險守兩萬三 北水走資88億",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GSXFDWXk3dmVPalpudWU4VTdzempITXM4MTRPWG90NnJrRmpDZVdJcVV0dUZSNFpBVWJkTndJTmExSmJGc0ZJSmx4cExwdDhySkZxOXh4TDFzMFU5YU5xYWl2a2JYQktaZUhINWNIOA?oc=5",
-          "source": "信報網站",
-          "published_hkt": "06/25 16:50",
           "related": [
             "^HSI"
           ]
@@ -146,8 +144,15 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-25 17:33 HKT",
+      "updated_at": "2026-06-25 18:00 HKT",
       "news": [
+        {
+          "title": "《台股盤後》收漲211點、續守10日線，日K連三黑| MoneyDJ理財網",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tQzBQcnA0ZHFHa3ZoUG1VdXU2YVJzcnVOSHRITDgxZ09xY2s5Q3RwX3B1U2owb0NSbXlTdFZFUjREWmpQNTVIZktfSFhpTDF3aFNDYUFR?oc=5",
+          "source": "LINE TODAY",
+          "published_hkt": "06/25 17:37",
+          "related": []
+        },
         {
           "title": "台股震盪強守4萬6 載板三雄亮燈漲停 記憶體反彈",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwQ2RmT3BremRZTzJiN1VtZktrM2lSNGZjYW1fZXlFMEJBQjVYdG1WWi1TM1RHR280NGFhQXZPMFFBcFBZYlhMZlNiUDhwSWFTcDZZcnFuZXh4Z2E2Vy1zanV1bmdISWtiV0lGOGZyU3VsR1E?oc=5",
@@ -156,17 +161,10 @@
           "related": []
         },
         {
-          "title": "《台股盤後》收漲211點、續守10日線，日K連三黑-新聞內容-基金",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZmphc2kzXzdQZi10aVA5TVpHWlRwdGRaYjdna19wUXVReDg4eU1zTXRENUNRSFZsZlNyOHE2YjJNbXFOZkIwenRxejd6bVBnLUVYdGg3eUlUZU5mcjhvQjJ2RzdqZ3RXNUU5NzVORVBVUmxwQU42Yl9vTkNNRmV6YVFDNnQ2T3RSdExwSWpMbzg?oc=5",
-          "source": "MoneyDJ",
-          "published_hkt": "06/25 16:22",
-          "related": []
-        },
-        {
-          "title": "【06/25 台股盤後總覽】大盤漲逾211.66點，電子零組件、金融保險、居家生活類股領漲！-CMoney 小編",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOEswZkNkQjJ4RE95OEkyUFVBWUI2eUxmazhiM1JGT1dwSWMtUHoxb1hkcUJ5Qmk2aFZKNVhqcnRnamhaLUZyN1lrM1dRTl9yc0lwdzd5NlhtaUtRWmo2WlNxQWU4bGRFUkFnZnN3d1l4a3BYYlBrVEtKeXZPX2V0VXBZSjVOUEZTbWc?oc=5",
-          "source": "CMoney投資網誌",
-          "published_hkt": "06/25 15:50",
+          "title": "台股升逾200點收市",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB5dlhQVWduR0VBdi03bHlrbktqeWFySlQwRW5IaFpLWU9xMHFBNUV1Wmp4SHRFUjl3OU54ckhSeWlSNl9lV0x0VlZSN1RWSEVLcjJJbnFaeXAwdF9OSUJhR0FGZEx6OXloalJOVXMxOA?oc=5",
+          "source": "香港電台新聞網",
+          "published_hkt": "06/25 14:09",
           "related": []
         }
       ]
@@ -195,40 +193,36 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-25 17:33 HKT",
+      "updated_at": "2026-06-25 18:00 HKT",
       "news": [
         {
-          "title": "AI 信心回溫美光樂觀財測帶動日股收漲",
-          "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxPLWRySVRDejJIaXBNU0t6ZFdHbWRJZk0zWlJpWG5IbE5OYmphTlNwYmlhOFBfM2tKYTNZdkF5SHZVZ2pqeUVUZTV2cm1jZW9tdVZ4SVBXeU5EblZ3Z2ZvSUJrREZCUGhIaEFlVjNEVmpla2FBUV9pNW10YlVGYXREOElSaE5nelRWemNma1BuQ2s5bHl5YTBvVGhwb1dMU1BZVU9SYWxFU3pzQUlHZ1RoZXhJUmNEZ0ZZTXRmNUpxYjJXQVFFakVSd2dNd1Y0R1E3SmFsR0ZaQ0dnUDVmVjlfNEs3ekRNRzhCaFUzY0tCYXFCaVBKM0ozdGJHdVRGRXJBdW5vVnR0X0NXTVFfMFFXTUxFc25pSkhlaExkc3NZbGEwb3Z4dHZPSlVINWJjT084a3A1a3gzUXZpVDB2TFFpRTgyTXVkSVNRcEJsaA?oc=5",
-          "source": "MSN",
-          "published_hkt": "06/25 15:15",
-          "related": [
-            "MU"
-          ]
+          "title": "亞股大逃殺！日股摔2200點、韓股熔斷 | NOWNEWS今日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBiY0JvT2xLWEtiblZxTER3Ri0xZThJMDU2cVFVVlJhSnd0Qm9SQm53VGM1Wm1GQjhyd18wRkNNWjEwVFlyUnhCcjhicG44N25Ua0JNa2ln?oc=5",
+          "source": "LINE TODAY",
+          "published_hkt": "06/25 16:56",
+          "related": []
         },
         {
-          "title": "半導體點火！日經漲逾3000點創新高 韓股狂飆逾5%",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB4TUhheDg3MW5DV3dZUTdfLVZzdEJhcFhPMzJNLUhxekhPOE9rLWFwTS1zUFdaZks1Y1d0ckF3YW5EQ1JFTmJPVTI1OWhvcjA?oc=5",
-          "source": "TVBS新聞網",
-          "published_hkt": "06/25 15:12",
+          "title": "鉅亨投資雷達》AI浪潮接棒弱日圓紅利，日股基金迎來基本面行情",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBDVF9lY09Sb2d4cEY4TXlyYVNYTjZ4dTdHZi01aHUwNnBQdUlkRVhxWlRUNEt2OEgzOVhyRHJ2b242WlJoTVhaUDhZMzU2MFU?oc=5",
+          "source": "news.cnyes.com",
+          "published_hkt": "06/25 15:56",
+          "related": []
+        },
+        {
+          "title": "今日日股牛熊榜 | 愛德萬測試上升15.06%，領升日經成分股，鎧俠成交額佔據榜首。",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLXZkblpxUUFOTHltT2xTV29yb2dyX2l6RWRpMldHcE4tRFg3Z2h0M004a1dFdTFSSko5cUJSSlFfUWR5THpUZy14T2dra0tITU1vYVZWanp6WGdZYlJORzRFdTBnTjBDZTJDZWhBQWNjUFVXcTUtZEh5VnJ0MG1xdGJfaW1IczRQSWN6RHc1VTdzVVlfWWt1bGVyOUROUXZJclpF?oc=5",
+          "source": "富途牛牛",
+          "published_hkt": "06/25 15:31",
           "related": [
             "^N225"
-          ]
-        },
-        {
-          "title": "AI信心回溫美光樂觀財測帶動日股收漲| 全球財經| 全球",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE45U3p3MzdEYWF1c1RXN20xU1p4RlQ3RUo3MnplOGRJS1ZLaW1Ka0ppNWdjUzkxWGV5NDNwbHNRS0oyTjJlTEJROUQtc3hxMS1B?oc=5",
-          "source": "UDN",
-          "published_hkt": "06/25 14:54",
-          "related": [
-            "MU"
           ]
         }
       ]
     }
   },
   "crypto": {
-    "updated_at": "2026-06-25 17:33 HKT",
+    "updated_at": "2026-06-25 18:00 HKT",
     "news": [
       {
         "title": "比特幣走勢符合「減半週期」規律！21Shares：年底有望重返 10 萬美元",
