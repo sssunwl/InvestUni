@@ -29,33 +29,28 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-26 09:34 HKT",
+      "updated_at": "2026-06-26 10:58 HKT",
       "news": [
+        {
+          "title": "早盤國際金融市場盤點：美股三大指數漲跌互見 日韓股市集體下跌",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0zYXkzenpXRDFoSWFXOTczRVZWdjF5ak9DTVNta3N0YnIzaHV0cTVNZVVjVVVvelZLaTJBUnlVUDlJYXRuaDdUYjNGRV8zdC1lVXFOaWNLSGZhQ1dHaUZIMlZ2WHlqd0pQT1dLZzhjMGlxMXhZZEhaTlI4cw?oc=5",
+          "source": "香港商报",
+          "published_hkt": "06/26 09:26",
+          "related": []
+        },
+        {
+          "title": "超級週期未結束！小摩：AI記憶體股修正非基本面惡化 Q2財報迎三大驗證",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYUTFWaHVmU3daSjI1R0o1REs4R2VlTFJTd2RwVmd1S3dFNFNMeTlsWkxQOXl5blN6NUc4aDRRXzU4OEZJMnpnY2JScjdyb00?oc=5",
+          "source": "news.cnyes.com",
+          "published_hkt": "06/26 09:03",
+          "related": []
+        },
         {
           "title": "《研究報告》卡位多頭 美股ETF熱度不墜",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSGM4NDk1TVpyelEwQmJ1a19mSExQMXEwVmgteXNxcnNLd0NRd2VSWVVkRUotQ0NwTm5NRDBtLXUwNlBqbzRDbHFTaWtQZ2xOSlpEV3Z3Ulk5czMyMzlXbHFMWm81bWVIZWYwaDZRNFNHaW15eHF6RWxVNll2QVp3M2JjX2RtSFph?oc=5",
           "source": "富聯網",
           "published_hkt": "06/26 08:29",
           "related": []
-        },
-        {
-          "title": "📈美股市場：美股巨變！蘋果重挫6%引爆熱錢大輪動？美光逆天財報救市，這三大板塊正迎來暴漲契機！2026年6月25日",
-          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE82SWJTcUh6VXE3ejdpZTZybVNHWXo4QUtpUTJFbEFXdldWakd3cHhnTzBIaHhPcENzYVVV?oc=5",
-          "source": "t.co",
-          "published_hkt": "06/26 08:10",
-          "related": [
-            "AAPL",
-            "MU"
-          ]
-        },
-        {
-          "title": "美股收盤｜科技巨頭走弱拖累那指收黑美光財報帶旺記憶體股、費半創歷史最強季度",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKeUtrQmtYbDZYcFNXcjV0UVFvQ1RCYUlKYVNYcjE0SFNqLXhzNENGYjJyUzQ0aXhkSnVjZFhhcDFQdlh2M0NTeE9Selplbms?oc=5",
-          "source": "news.cnyes.com",
-          "published_hkt": "06/26 08:00",
-          "related": [
-            "MU"
-          ]
         }
       ]
     }
@@ -227,27 +222,32 @@
     }
   },
   "crypto": {
-    "updated_at": "2026-06-26 09:34 HKT",
+    "updated_at": "2026-06-26 10:58 HKT",
     "news": [
       {
+        "title": "AI把礦主變包租公！比特幣崩跌難止，輝達、創意、智原才是真贏家！",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ROW5pMWRKS1N0X0s3d3FObUtWbkF0Um8xa2FURUtQQzlhaTdZVTIyUkQzQmQ5dlJHNWNmdndNaVYyTElZa1llNXZtQllQQXBSWm56QVk0RS1hc19zUDNEZVg3Qk1rOEJVaWc?oc=5",
+        "source": "旺得富理財網",
+        "published_hkt": "06/26 10:52",
+        "related": [
+          "NVDA",
+          "BTC"
+        ]
+      },
+      {
+        "title": "ETF異動 | 加密貨幣ETF全線下跌 比特幣跌破5.9萬美元 百億美元比特幣期權即將到期",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYkJpZW43dG56YmpSWFEtWkpWaDVieG1ZckRCT1hBVTBJOEhrU2xLTDVtdHFScE0tWXA3Z0V1WkRqazMyOUpMd3RRNU1OOExXaGJfNTc2cW8xelB2MTdLUmpoYkRibkdVYklLVmQ3SWNUMXRza0xUcElGVzNvcEd1dmVTUnNONWxCZ2pqVEY1cGtvMVppSzl0SXlOc0hFQVVfa3RrVTBpVllJSXp2?oc=5",
+        "source": "富途牛牛",
+        "published_hkt": "06/26 10:22",
+        "related": [
+          "BTC"
+        ]
+      },
+      {
         "title": "2026年6月24日-6月25日區塊鏈24小時最新資訊鏈共識（鏈新聞）",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4wZXQ2ZEtRcGdjSGMxY2x2bVkzdWFzbV9oZHk0Q0RvRXdGVVVka3RRSzV2TV9JYzNwZlltR0VfUTNhWmhnZGxkQ0JnSQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNVVNMTlpZVDdWbnpZUllMdzNlbHZSM1U5X05Bbzdsa3V1bTJkdmgzWG9yMm00NUE0NTJvZWRhV0ljTWhtT0tVY05iMTVtWDA?oc=5",
         "source": "news.cnyes.com",
         "published_hkt": "06/26 09:30",
-        "related": []
-      },
-      {
-        "title": "區塊鏈重點動態2026年6月26日晨間參考",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBMdXVucWE3Ym52ZUk0WHFZN0dxZ1lIdEdSdTZha0hraTRJNXYyT1VXMURsMTU4VTUzQzNVYi1JdTdmTXFMQ200S1FvQQ?oc=5",
-        "source": "news.cnyes.com",
-        "published_hkt": "06/26 09:30",
-        "related": []
-      },
-      {
-        "title": "幣市大逃殺！BTC下探5.88萬鎂、ETH失守$1565，24h爆倉8.87億美元",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVnotSDlDc3RKalNOczVqbDhIb0tCbjlYVy1ZSll2V2RFZFl5RWxXeGNweWpoaW1qNkwyNWQ5THNGdVlKdkpXMDNvWGtxNEV2Y2dobHA0YnhOMFU5dVB1SXI1MWNJU0ZGQ1lJUEZLcE1lbnlyTTF3aExHYTJvRHcwLVl3c3hESjZZRjh4RWdtR2QzblpneVgwM2lvZkY?oc=5",
-        "source": "動區動趨",
-        "published_hkt": "06/26 09:29",
         "related": []
       }
     ]
