@@ -91,8 +91,17 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-26 17:38 HKT",
+      "updated_at": "2026-06-26 18:12 HKT",
       "news": [
+        {
+          "title": "【港股收市】恒指全周瀉1252點 連跌7周 逾10年最長跌浪",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mUG93WFNWZ3JjMVZTV0dHLU9oWVRNRkEtZ1dWT3VoNmZ0YVdiLVZvUWNaNzM2RVpEOFR1aTFpYjcxeW5JT0hlczJNeU9NVVNBc2s3VWhzdDhKcjNmTjZNLU5weUVnelE?oc=5",
+          "source": "Now 新聞",
+          "published_hkt": "06/26 17:11",
+          "related": [
+            "^HSI"
+          ]
+        },
         {
           "title": "新时空丨港股收盘：三大指数大幅下跌，恒指收跌1.76%，耐用消费品、纺织服装等题材逆势走强",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5faXY1STZFbDhqVlcxdl9IZnlTcG1GVjVWWDV3bUlNcm00OHRNQnM2YTVJdC1TOWNBTV9XTHo2MFJZMFpzUHJjRUVOeVA5RkJkWTAzQl8zbk45N0FNcEo0aTBzNGdVdw?oc=5",
@@ -107,15 +116,6 @@
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Rckx4RzhsNWFVVWw4aEUwUFlLeGpqa0N4MHZlSld3Q2pZRERxSVJ0a1ctQ3BBaUR6bndRTk9iX1ZQczFURmVXR21JT296OHRtSzdmcVJ0dE9lZnd1TmFubFZTTDliLUtSbWVCbXlTWjhnbmJzMXR0QUo0VQ?oc=5",
           "source": "香港商报",
           "published_hkt": "06/26 16:42",
-          "related": [
-            "^HSI"
-          ]
-        },
-        {
-          "title": "全日收市｜港股跌405點 一周計恒指跌逾半成 科指跌逾7%",
-          "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxQVVBFcXJ4US1kNE41ekJvbmtUUVg4LUx0MkVKclNXbUR1TmtydVJyVk1FTmVxb0liRFlxTVZVYVBJVFFXUV8yNGVIa25YS3habWU5d3NyRHNmd1Z3VE5MdjIzb0k3QnJiSDhFWkp4MnlYMTlLRnMtbEkwTHFDNGVTalJsRGxBUWFzMzFPdFh5YVcyLXlzVk5XU25OeVhIdzJwQXkyNUJwT1B1dGg5NlpGMFFwVGVBZ3NKNzAxQXhYeEc4T2Frd2VnUER1TU41VmhsOEZfZ0RxLU1Wdml4MlpvWmxVYlV5VjA2ZE9lZ3paOHlkRk5ObEFFZnkxWEwySmtLRTVEUTNob1FMUmN4SnRCQ0d6S3poUzFNblc0TElaemNiSHdWU3cwLUhYWHdLSUlxeGlLYVhBaGNNbFZ5RXVIM1F1bUNONE1zS1NjYTR4T0p6U015clpicjh4cHlrSG9KTHhoUHB2M3k?oc=5",
-          "source": "巴士的報",
-          "published_hkt": "06/26 16:31",
           "related": [
             "^HSI"
           ]
@@ -148,34 +148,28 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-26 17:38 HKT",
+      "updated_at": "2026-06-26 18:12 HKT",
       "news": [
         {
-          "title": "外資4天提款近4千億！台積電摜破月線、聯發科跌停 台股失守4萬5",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzWHBFZEgyNmhOZ2pJaUNIN0doc2hNbUtwbTd6N09EUHhITE1OLURHNjVoa3dUSVI0ZEJHUUMyQUsyeTZZa1hTd0dFNmNnQXJ3T2gtTUJsRFR2NWgzR3pzeUNWdzI?oc=5",
-          "source": "民報",
-          "published_hkt": "06/26 17:00",
-          "related": [
-            "TSM"
-          ]
+          "title": "台股26日開盤後跌破46000點 載板廠南電、景碩連拉二根漲停",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBVT085NXF3QVZVWWR6ajVxbnhuWGszNm5TSjd5cjhlWFYzR19jUzYwUHFUZkRtUDQ0TFVVUlpHYW50ZDlLcnhYN1N5cV9rZ1p1QkE?oc=5",
+          "source": "蕃新聞",
+          "published_hkt": "06/26 18:01",
+          "related": []
         },
         {
-          "title": "《台股重要指標（3-2）》加權指數 9日Ｋ值為49.04，9日Ｄ值為67.49",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQXhhVld0ckRET2pIT3Q5WW1wei1CdTdaZlJ4c3o4NkJNOW01WFpKVldjbzJtd3MxYU9TdFUyNnlfWVdBOTVLUjIwYXhBaVdINHM2QnZPYmJETVB0d21UOHk5Y0ZwR0czZUxXUUhLY0hpcHNpUlJoa1I1ZUZhYTZtTTExRWJXSlhM?oc=5",
-          "source": "富聯網",
-          "published_hkt": "06/26 16:48",
-          "related": [
-            "^TWII"
-          ]
+          "title": "外資狂倒1431億！獨寵「這檔記憶體」掃5.7萬張",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9mSmYzMVJLZjZiVlEwTFI5UC1HbGhSWHBfZUltLUFtOHdfU0JNX3pLay1IYTRjQWU1UEpsY1p1UFN2VUVxZUh4eHJpVQ?oc=5",
+          "source": "三立新聞網SETN.com",
+          "published_hkt": "06/26 17:45",
+          "related": []
         },
         {
-          "title": "韓國槓桿ETF恐慌？亞股黑色星期五　韓股暴跌5.81%、日經摔3千點",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9BMDMtemMwc0xVQlJaZGpLZ01vQUxrQnpnbXB4eDhjYlBwS21GN1E4N043anlsNW1XN1UxRXVCUndRNy02aFFwYXJfNjVNZllScVHSAVJBVV95cUxPQTAzLXpjMHNMVUJSWmRqS2dNb0FMa0J6Z21weHg4Y2JQcEttRjdRODdON2p5bDVtVzdVMUV1QlJ3UTctNmhRcGFyXzY1TWZZUnFR?oc=5",
-          "source": "NOWnews今日新聞",
-          "published_hkt": "06/26 16:03",
-          "related": [
-            "^N225"
-          ]
+          "title": "越跌越勇！散戶續買「正2」 00631L單周日均成交量、金額創高",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1VNmlVXzB6RngyZVJOYVVsSTc5ODIwRldmNWhGSExkRld4dUU1X0xsNGF0YlhRUDdGUG5SV0dKd05pWUxpcDRxVXd0VldGREk?oc=5",
+          "source": "news.cnyes.com",
+          "published_hkt": "06/26 17:34",
+          "related": []
         }
       ]
     }
@@ -203,8 +197,17 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-26 17:38 HKT",
+      "updated_at": "2026-06-26 18:12 HKT",
       "news": [
+        {
+          "title": "《日股》科技股獲利了結拖累，日經重挫逾4%",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVXhZTEV0VUZUdk5WSUwwM3FMX2dGQ2I1b3J3V0QyNTNYNGhmeHNiYThGWnhPWTNjdGp0U2pESldFdkRuUE1Bd2pRUDJSejVlVjRSNmI2Yngtc3VHRXYzVmVQOUVEeHI1eXNLZjA3YU9FUzVwS0RoQVRYeWRiSHBGWGp0LXVPYlh3SzR6N1BsNTd3QQ?oc=5",
+          "source": "台視全球資訊網",
+          "published_hkt": "06/26 17:50",
+          "related": [
+            "^N225"
+          ]
+        },
         {
           "title": "【更新】亞洲科技股重挫韓股一週兩度熔斷、日股跌破7萬點| 國際焦點",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9OMDhvb3dDZUVzQkJ5enhXTFJ0VzJ0WmVUYWxWU04zSjZydEgxWk56dVJPZDRJTmpBSHFoQWplRWwtY0xkSVNsbG1tZWc2bERWaHk4dF9ZOXJGdHNC?oc=5",
@@ -218,19 +221,12 @@
           "source": "TechNews 科技新報",
           "published_hkt": "06/26 16:46",
           "related": []
-        },
-        {
-          "title": "快訊／台股暴跌1683點！外資狠砍1431億元　刷史上第二大",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MeFBBdmZZYXNjVE9BV2NQVno1TjhPaUFsWHNoajVCTUJqUTZHWUF5Ujh1MzliZHFEOFJhSlVWVDM4d2lZcWRDOHpYbjNONElWTmfSAW5BVV95cUxNeWI3YXBwUEhXQnhmSUZYcE9sMDUzbDczci1rYkhROHB2blV5REZvTFRiN0NMNlBfODVnaml0ajV4cTF3YjFZRHBKbElpU3htSERFczFtc3M1N1RLSUozU05PSmtCZmw0SmR1X3FOQQ?oc=5",
-          "source": "ETtoday財經雲",
-          "published_hkt": "06/26 16:02",
-          "related": []
         }
       ]
     }
   },
   "crypto": {
-    "updated_at": "2026-06-26 17:38 HKT",
+    "updated_at": "2026-06-26 18:12 HKT",
     "news": [
       {
         "title": "Pi Network：市場崩盤中的小幅回升激發短期希望",
