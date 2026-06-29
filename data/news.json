@@ -87,7 +87,7 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-29 19:11 HKT",
+      "updated_at": "2026-06-29 19:51 HKT",
       "news": [
         {
           "title": "【港股市況】恒指黑期升約280點 阿里巴巴美股高港近4%（不斷更新）",
@@ -145,15 +145,8 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-29 19:11 HKT",
+      "updated_at": "2026-06-29 19:51 HKT",
       "news": [
-        {
-          "title": "台灣璞玉中小優選100指數 瞄準潛力中小股 | NOWNEWS今日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WVUMtRzVLbGNHYk5mZ3k5N2djS2lxZWhwNTQ1WTFNdk9JSWNzM0ZfV1JWYjZVbmlQWGMxMkNOa0NIcTlEa0dMcWpzMkotSW1VQktHSGNB?oc=5",
-          "source": "LINE TODAY",
-          "published_hkt": "06/29 18:14",
-          "related": []
-        },
         {
           "title": "友達⊕、長廣⊕、均豪⊕、台積電7月法說會有大利多？ | 陳學進的貼文",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1sXy1PR29GWXZpUXgzOWtHbWkyTHVNUDBxc2RVQm9mR1lQYjZYdmN4VEhhbTNqMFlrNXBrMDNuVzB3MTlWeVBpSA?oc=5",
@@ -168,6 +161,13 @@
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBXU1hxN201MDFhX1NXWlBwSnVhSlNCVU5JRnZHV2d6Q2V3c20xVnRFM2FOb3o0eFo5dExzZk1HOFFCeVBQN3ZOcDZyaHpOU1JidWNVRkRoQQ?oc=5",
           "source": "rti.org.tw",
           "published_hkt": "06/29 18:02",
+          "related": []
+        },
+        {
+          "title": "台灣璞玉中小優選100指數 瞄準潛力中小股",
+          "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQN0ZlMVN2aXJoWEtVMGxoT2VLTm1uMzBROFJTcm95TnpSZXpLcXZCd290QlZnR3dKdTBpWnhEV1ZTcGpZRDU1WFRoQ2RPdThSajh2ZEx5QjlRUks0cl9Udnd2TmotTVByMEMzdlpyUGczS205eGE0WmUybHN5Y3UyeWpsZVczRTRjZ2M5Q2NDb2FDRVVuS29ZY0VtNzRtcHJkV01MYThudFlZdU84TG1ha1YxcXlUbHNGRFJWcVNNV0c2cnl4VURMeGNoUzlrN3hva1dkNFVzMzF2S1REOF8wVjg3MzA4OTRKYlM5dDc3b0VoWVFQcnpNcHc0eTFvZVB5YXhzT19ySVNPb2pFRkxWUzNGeTNmVkN5cnkzQkhtRGdaVWRs?oc=5",
+          "source": "Yahoo新聞",
+          "published_hkt": "06/29 17:44",
           "related": []
         }
       ]
@@ -196,7 +196,7 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-29 19:11 HKT",
+      "updated_at": "2026-06-29 19:51 HKT",
       "news": [
         {
           "title": "《日股》AI權值股震盪 日經收漲0.15%",
@@ -215,18 +215,27 @@
           "related": []
         },
         {
-          "title": "亞股仍有戲！高盛下半年投資建議：續超配科技與記憶體 銅價年底衝13735美元、金價叩4900",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WbGdBSzFIQjMtdUtaQW9FV21PSThvQTBiYVVrMnRoX0o3UEhCdkFQRGt4VUJmUF9uWHk2ZDc1eDZLMGp4cGs1TTJpUFBoUmM?oc=5",
-          "source": "news.cnyes.com",
-          "published_hkt": "06/29 16:50",
-          "related": []
+          "title": "《日股》日經翻紅收高0.15% 韓國拉抬晶片股",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNGxHeXRaZFhrLXR5ZkdjTTZwcndzMlRULU5JY3BueVdVWTZsVDZvWnY1ZVNqSE53R2JWUzltbjBJNkVYMjlwcFI1M3docHNWd2lKdUR6TnZreFhDZWUtM3pBUmZ3emtZek1ZSmNJSzVJMFpBS3lTYlRfSmV6QU9KSDU1Mnc4QlFPbVg2ZGxWRUEwQQ?oc=5",
+          "source": "富聯網",
+          "published_hkt": "06/29 16:04",
+          "related": [
+            "^N225"
+          ]
         }
       ]
     }
   },
   "crypto": {
-    "updated_at": "2026-06-29 19:11 HKT",
+    "updated_at": "2026-06-29 19:51 HKT",
     "news": [
+      {
+        "title": "Pi Network面臨新紀錄低點風險，空頭加緊控制",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPcl9IaW5NWHpyQ1hlb2IycU9nelJwbEY3N01LYVFLS213cDZDQ2FTTDdlYXl5T2JiQnhiU1JneWlpbElvTWhOd0RpSy1yOU54MzEtRUZYUDBULThsbEFsWGRBRDlEemUtY2ZuMy1zbmlLT1UtZTctRWlCdHZsc2N4OXZ5ZG5HR2czeWU2Y2xSRWN2RldjemZWWWNsSENXR29VWkVMd3FuNDVKT3R1ZHB4Wk9IQzM4c1k2eWt1OEl4RklSLUdua29LaUdUSDRtbktua190Z0tNNTVBdE9hdWZkZnQ4bHVmcmh1eVctcGx3Y29HamRW0gH0AUFVX3lxTE9yX0hpbk1YenJDWGVvYjJxT2d6UnBsRjc3TUthUUtLbXdwNkNDYVNMN2VheXlPYmJCeGJTUmd5aWlsSW9NaE53RGlLLXI5TngzMS1FRlhQMFQtOGxsQWxYZEFEOUR6ZS1jZm4zLXNuaUtPVS1lNy1FaUJ0dmxzY3g5dnlkbkdHZzN5ZTZjbFJFY3ZGV2N6ZlZZY2xIQ1dHb1VaRUx3cW40NUpPdHVkcHhaT0hDMzhzWTZ5a3U4SXhGSVItR25rb0tpR1RING1uS25rX3RnS001NUF0T2F1ZmRmdDhsdWZyaHV5Vy1wbHdjb0dqZFY?oc=5",
+        "source": "FXStreet",
+        "published_hkt": "06/29 16:27",
+        "related": []
+      },
       {
         "title": "波場TRON總帳戶數突破3.9億",
         "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1IeDllTFUzNG5DeWFLNU9TdTFyVkhPUzNHeW9WYVdYanRpbURPMDd1aEFYZUloNnJVckdwSDlXemx6MUlGWUViZjFhMA?oc=5",
@@ -239,13 +248,6 @@
         "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPR1pjVEhGZDh3NVNSX1JHUEV3QUNpZVo3ZEEwMU1pNjFyby1QYnkxMU9nLXhHcy1mQnhBX3dUTFZHejlVQmRWOEt4QlZ3WUJPNnZQeldfb3pvTHg0WkUySFBsbGhiZ0hoRG5XY3ZQMmx5ck00bVFWd1hEbzBmU1hXTmZzZmZVWDR0ZWkteGFia0llcGN2cjNCeGFFUzRvTktzdEhlWkhxXzc0ZUZiVlFPR1FrTXo2THdTYndGZEdfY3pQMUxIQ0NBWEU0dVExZTlhWVd4VTVTT19YRTVtSzVTV3R3eGpxQXpZZ3lBVUZFZ2lJWTRtTU91VHNiZzZOTGg2bU5hZGRMUzc3Rjh1dDNrY2t2eWsxWlXSAZcCQVVfeXFMT0daY1RIRmQ4dzVTUl9SR1BFd0FDaWVaN2RBMDFNaTYxcm8tUGJ5MTFPZy14R3MtZkJ4QV93VExWR3o5VUJkVjhLeEJWd1lCTzZ2UHpXX296b0x4NFpFMkhQbGxoYmdIaERuV2N2UDJseXJNNG1RVndYRG8wZlNYV05mc2ZmVVg0dGVpLXhhYmtJZXBjdnIzQnhhRVM0b05Lc3RIZVpIcV83NGVGYlZRT0dRa016Nkx3U2J3RmRHX2N6UDFMSENDQVhFNHVRMWU5YVlXeFU1U09fWEU1bUs1U1d0d3hqcUF6WWd5QVVGRWdpSVk0bU1PdVRzYmc2TkxoNm1OYWRkTFM3N0Y4dXQza2NrdnlrMVpV?oc=5",
         "source": "FXStreet",
         "published_hkt": "06/29 14:30",
-        "related": []
-      },
-      {
-        "title": "Solana價格預測：鏈上和衍生品指標改善推動SOL反彈",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNc2tGVFJZLWlLM1B3OEpRdTZoenBWd0tJYV9jRVRHbzZUakJ1NFhheG1ESmo1WTVOUFlXYnhuLVdGVGxkMjF2V0RkRU5sdjd6eEN3dmh1NGZCdUVVYzVNc2p4RW14MFB3VnNZdDNRTEI4ZElMTjdqSHlIdmw1N05WSGxkVEItcXpEbFljU1NTVWpoN09nRmRjVU9HTk1ZS0JTdUhQMUVpT0NocUdiMkI2X21ZejZCVnYzSGp4VWwzMFplUUw0MXdBZEJiRlBFUllOQTJOdm81b1RZR3dTQnZwNNIB4AFBVV95cUxNc2tGVFJZLWlLM1B3OEpRdTZoenBWd0tJYV9jRVRHbzZUakJ1NFhheG1ESmo1WTVOUFlXYnhuLVdGVGxkMjF2V0RkRU5sdjd6eEN3dmh1NGZCdUVVYzVNc2p4RW14MFB3VnNZdDNRTEI4ZElMTjdqSHlIdmw1N05WSGxkVEItcXpEbFljU1NTVWpoN09nRmRjVU9HTk1ZS0JTdUhQMUVpT0NocUdiMkI2X21ZejZCVnYzSGp4VWwzMFplUUw0MXdBZEJiRlBFUllOQTJOdm81b1RZR3dTQnZwNA?oc=5",
-        "source": "FXStreet",
-        "published_hkt": "06/29 14:29",
         "related": []
       }
     ]
