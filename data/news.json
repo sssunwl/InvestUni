@@ -226,13 +226,22 @@
     }
   },
   "crypto": {
-    "updated_at": "2026-06-29 13:14 HKT",
+    "updated_at": "2026-06-29 13:26 HKT",
     "news": [
       {
         "title": "比特幣失守 6 萬美元大關！恐寫下罕見「連兩季收跌」紀錄",
         "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBudkVXTWR6X0VlWElveWhaNEZVYzN5d0lLaGQtZmlCOVQtSElfajJIcFVCVWlwSzJJMklTS2FseGlLNFYxY0hjYVhzaw?oc=5",
         "source": "news.cnyes.com",
         "published_hkt": "06/29 11:30",
+        "related": [
+          "BTC"
+        ]
+      },
+      {
+        "title": "加密貨幣週報 | 比特幣跌破$6萬，跌幅達7.4%；比特幣ETF創紀錄流出$16億；Strategy面臨$126億的未實現虧損",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSTluOVdjeFcwNmpHdjVrS1dZckYxOWlRUDJEaWRwV19xaDhrMFZXeUF5aHJZVXhxakdxMkFjLUY5ZnJ0SUstc1Mxbk9IaG5wc2NBLUJsZnRHUGhyVmtrMHFjSGktX3BWcDFrcGc1Y3VaNENKNzU0YmpOT1RCYzJ3NFVraFVuekFfaXBRemQza19xZEpXdVo1MkZnRmdOR0hzaU9uZVRNS09kaVRjMlppcFVFOA?oc=5",
+        "source": "Moomoo",
+        "published_hkt": "06/29 11:14",
         "related": [
           "BTC"
         ]
@@ -245,13 +254,6 @@
         "related": [
           "BTC"
         ]
-      },
-      {
-        "title": "區塊鏈重點動態2026年6月29日晨間參考",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE51S0s0OWtmaHQ5TEFHR0xVYUNoSW82LWdZaXdZdUpzNzVnb1A2X1B6UmkzS3hfMk1zNGdab1A4QVl5alBBNXpIdnlzSQ?oc=5",
-        "source": "news.cnyes.com",
-        "published_hkt": "06/29 10:00",
-        "related": []
       }
     ]
   }
