@@ -87,13 +87,13 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-29 19:51 HKT",
+      "updated_at": "2026-06-29 20:44 HKT",
       "news": [
         {
           "title": "【港股市況】恒指黑期升約280點 阿里巴巴美股高港近4%（不斷更新）",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VUzd0b1RUZHl5WEVubk9Lc1lfWG9SV0hwRXl4Um5OaTBBaWs0czJHaFA1Zm5tVXdwek5yQkJQY2lrSG8yTFJVUmlvSzNITFhfa3lycFdUVldoRTNoNXc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Kd0N1c2ttbXFuUTQ3X2xPaF9KTjV1RVd2WlVvNVRzLUdpRzJNaWRuQlhETXV0VmNDNkFkM0h5SF9tTXd3VF84WGlGVkVvSzVfSHRTcEFIeWhMODFqWlE?oc=5",
           "source": "香港經濟日報HKET",
-          "published_hkt": "06/29 18:36",
+          "published_hkt": "06/29 19:14",
           "related": [
             "^HSI",
             "9988.HK"
@@ -145,8 +145,22 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-29 19:51 HKT",
+      "updated_at": "2026-06-29 20:44 HKT",
       "news": [
+        {
+          "title": "「台股真的是蠻猛！」專家揪1現象：這在過去都不曾見過",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1vZUxFWHZ0Yk5oVTVUNDAtRXZZcTllTk84WkRLbWZVYnRaRDJUaVg0XzN6LVhEUE5TbnpCUWU2dHY2SWZWa1h3UGxPdw?oc=5",
+          "source": "三立新聞網SETN.com",
+          "published_hkt": "06/29 20:07",
+          "related": []
+        },
+        {
+          "title": "「台股真的是蠻猛！」專家揪1現象：這在過去都不曾見過",
+          "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxNN3FKWXdDZFUtOEc1Q3Vta0FTN0J0UGxkVFNFZ3NnYTZRZHFaRTNtNzliWVVSY3NXNnd2UFB1VnFORWF6YTR1Z3pTZlI1alJiU2YxTktYa3ZaZW9sb2wtd2cyUmZZby1kSW9DRmUzb2U0aEtsMXhRZFpNRENscHZyVktGVGRlR2JqVnRRcURuV25TbGNIc1psNXk2LU5DMF9KWjdqa0xSdXQ1SUFRZkRUVzlURkZPbGotNGxhN3dPSTBTQnNBZGdkN2xZWm9rNzJpcDI1Yk5MUjRUX0x1VUxjdDFObGN1TkNrOHc4eEhuZ0dMbmFzQzkxdUlMSEJndGpSaXNLZXNUVmVLTU5ncWV5eGpOa3lvVWFSZzRNdlVJNEZXQTZ3NFM2d2JWOXJpem0yMzJiVVJTcWVyTmowMC1PSFRLNlFPZEcwMXdkUlp6N3hOYXM?oc=5",
+          "source": "Yahoo新聞",
+          "published_hkt": "06/29 20:06",
+          "related": []
+        },
         {
           "title": "友達⊕、長廣⊕、均豪⊕、台積電7月法說會有大利多？ | 陳學進的貼文",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1sXy1PR29GWXZpUXgzOWtHbWkyTHVNUDBxc2RVQm9mR1lQYjZYdmN4VEhhbTNqMFlrNXBrMDNuVzB3MTlWeVBpSA?oc=5",
@@ -155,20 +169,6 @@
           "related": [
             "TSM"
           ]
-        },
-        {
-          "title": "創2個月新低 台股今成交值不到兆元",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBXU1hxN201MDFhX1NXWlBwSnVhSlNCVU5JRnZHV2d6Q2V3c20xVnRFM2FOb3o0eFo5dExzZk1HOFFCeVBQN3ZOcDZyaHpOU1JidWNVRkRoQQ?oc=5",
-          "source": "rti.org.tw",
-          "published_hkt": "06/29 18:02",
-          "related": []
-        },
-        {
-          "title": "台灣璞玉中小優選100指數 瞄準潛力中小股",
-          "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQN0ZlMVN2aXJoWEtVMGxoT2VLTm1uMzBROFJTcm95TnpSZXpLcXZCd290QlZnR3dKdTBpWnhEV1ZTcGpZRDU1WFRoQ2RPdThSajh2ZEx5QjlRUks0cl9Udnd2TmotTVByMEMzdlpyUGczS205eGE0WmUybHN5Y3UyeWpsZVczRTRjZ2M5Q2NDb2FDRVVuS29ZY0VtNzRtcHJkV01MYThudFlZdU84TG1ha1YxcXlUbHNGRFJWcVNNV0c2cnl4VURMeGNoUzlrN3hva1dkNFVzMzF2S1REOF8wVjg3MzA4OTRKYlM5dDc3b0VoWVFQcnpNcHc0eTFvZVB5YXhzT19ySVNPb2pFRkxWUzNGeTNmVkN5cnkzQkhtRGdaVWRs?oc=5",
-          "source": "Yahoo新聞",
-          "published_hkt": "06/29 17:44",
-          "related": []
         }
       ]
     }
@@ -196,7 +196,7 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-29 19:51 HKT",
+      "updated_at": "2026-06-29 20:44 HKT",
       "news": [
         {
           "title": "《日股》AI權值股震盪 日經收漲0.15%",
@@ -215,40 +215,40 @@
           "related": []
         },
         {
-          "title": "《日股》日經翻紅收高0.15% 韓國拉抬晶片股",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNGxHeXRaZFhrLXR5ZkdjTTZwcndzMlRULU5JY3BueVdVWTZsVDZvWnY1ZVNqSE53R2JWUzltbjBJNkVYMjlwcFI1M3docHNWd2lKdUR6TnZreFhDZWUtM3pBUmZ3emtZek1ZSmNJSzVJMFpBS3lTYlRfSmV6QU9KSDU1Mnc4QlFPbVg2ZGxWRUEwQQ?oc=5",
-          "source": "富聯網",
-          "published_hkt": "06/29 16:04",
-          "related": [
-            "^N225"
-          ]
+          "title": "《台股盤後》量縮收漲428點，月線得而復失 | MoneyDJ理財網",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pTXU1eDE5QzkzMHNTYkdxZkloMUJjODhQTTM4TFhDUUdXanJlaXVlQ1U2LU94UkE1VHRjU0J6TkFRUFFmZWgzd1VOaG9LbjEtaVVWNFRn?oc=5",
+          "source": "LINE TODAY",
+          "published_hkt": "06/29 16:47",
+          "related": []
         }
       ]
     }
   },
   "crypto": {
-    "updated_at": "2026-06-29 19:51 HKT",
+    "updated_at": "2026-06-29 20:44 HKT",
     "news": [
       {
-        "title": "Pi Network面臨新紀錄低點風險，空頭加緊控制",
-        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPcl9IaW5NWHpyQ1hlb2IycU9nelJwbEY3N01LYVFLS213cDZDQ2FTTDdlYXl5T2JiQnhiU1JneWlpbElvTWhOd0RpSy1yOU54MzEtRUZYUDBULThsbEFsWGRBRDlEemUtY2ZuMy1zbmlLT1UtZTctRWlCdHZsc2N4OXZ5ZG5HR2czeWU2Y2xSRWN2RldjemZWWWNsSENXR29VWkVMd3FuNDVKT3R1ZHB4Wk9IQzM4c1k2eWt1OEl4RklSLUdua29LaUdUSDRtbktua190Z0tNNTVBdE9hdWZkZnQ4bHVmcmh1eVctcGx3Y29HamRW0gH0AUFVX3lxTE9yX0hpbk1YenJDWGVvYjJxT2d6UnBsRjc3TUthUUtLbXdwNkNDYVNMN2VheXlPYmJCeGJTUmd5aWlsSW9NaE53RGlLLXI5TngzMS1FRlhQMFQtOGxsQWxYZEFEOUR6ZS1jZm4zLXNuaUtPVS1lNy1FaUJ0dmxzY3g5dnlkbkdHZzN5ZTZjbFJFY3ZGV2N6ZlZZY2xIQ1dHb1VaRUx3cW40NUpPdHVkcHhaT0hDMzhzWTZ5a3U4SXhGSVItR25rb0tpR1RING1uS25rX3RnS001NUF0T2F1ZmRmdDhsdWZyaHV5Vy1wbHdjb0dqZFY?oc=5",
-        "source": "FXStreet",
-        "published_hkt": "06/29 16:27",
+        "title": "Bitmine Immersion Technologies（BMNR）宣佈其持有的ETH代幣數量已達570萬枚",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcnV3ZHZ6UTlMeXVlVHBJcjFQanhOOEhqTzRMalpPNEIwNllqclRVRWxPelU2YlduSkdzcW1IOF9MMXJ2TmFYTDdENEVqZWFjcEpWZktUNEdZS0JOTjI0TERDNk04a3hzUFVpOTlOOVY5eXBoNjBPWTViT2xhS2JqLW9qLTEyUFV0QTZMZ0tOcnRFUVYyV3lPOVhOQnlTM2JBblV2dlRSUmNwTERaOXc?oc=5",
+        "source": "富途牛牛",
+        "published_hkt": "06/29 20:38",
         "related": []
       },
       {
-        "title": "波場TRON總帳戶數突破3.9億",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1IeDllTFUzNG5DeWFLNU9TdTFyVkhPUzNHeW9WYVdYanRpbURPMDd1aEFYZUloNnJVckdwSDlXemx6MUlGWUViZjFhMA?oc=5",
-        "source": "news.cnyes.com",
-        "published_hkt": "06/29 15:00",
+        "title": "Bitmine Immersion Technologies（BMNR）宣佈其持有的ETH代幣數量達到570萬枚，加密貨幣和現金總持有量爲$98億。",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWUhMd0ZTb3QxZUR6S3ZrYXJVWVJwNXg0NkVOa1RWb2c3MFdhNEdhYmV1WDJodnR1LWo0OFI2R19IcGcyTTVERUpfUXNnSHdnQnhzMHU2bjR2cFdUYnluYVJ3Skh4dXpRNXpRR2NQNEJKclFNbkYtM1RXNGdybExYVXZEM0NqSVJrdHBrWFdzZ2Z5NEN5c1BzR083WGp5NmxMNzRqaGRxbjVGa1dhVWlR?oc=5",
+        "source": "富途牛牛",
+        "published_hkt": "06/29 20:30",
         "related": []
       },
       {
-        "title": "狗狗幣處於明顯的看跌螺旋中，面臨再次失去生存之戰的風險",
-        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPR1pjVEhGZDh3NVNSX1JHUEV3QUNpZVo3ZEEwMU1pNjFyby1QYnkxMU9nLXhHcy1mQnhBX3dUTFZHejlVQmRWOEt4QlZ3WUJPNnZQeldfb3pvTHg0WkUySFBsbGhiZ0hoRG5XY3ZQMmx5ck00bVFWd1hEbzBmU1hXTmZzZmZVWDR0ZWkteGFia0llcGN2cjNCeGFFUzRvTktzdEhlWkhxXzc0ZUZiVlFPR1FrTXo2THdTYndGZEdfY3pQMUxIQ0NBWEU0dVExZTlhWVd4VTVTT19YRTVtSzVTV3R3eGpxQXpZZ3lBVUZFZ2lJWTRtTU91VHNiZzZOTGg2bU5hZGRMUzc3Rjh1dDNrY2t2eWsxWlXSAZcCQVVfeXFMT0daY1RIRmQ4dzVTUl9SR1BFd0FDaWVaN2RBMDFNaTYxcm8tUGJ5MTFPZy14R3MtZkJ4QV93VExWR3o5VUJkVjhLeEJWd1lCTzZ2UHpXX296b0x4NFpFMkhQbGxoYmdIaERuV2N2UDJseXJNNG1RVndYRG8wZlNYV05mc2ZmVVg0dGVpLXhhYmtJZXBjdnIzQnhhRVM0b05Lc3RIZVpIcV83NGVGYlZRT0dRa016Nkx3U2J3RmRHX2N6UDFMSENDQVhFNHVRMWU5YVlXeFU1U09fWEU1bUs1U1d0d3hqcUF6WWd5QVVGRWdpSVk0bU1PdVRzYmc2TkxoNm1OYWRkTFM3N0Y4dXQza2NrdnlrMVpV?oc=5",
-        "source": "FXStreet",
-        "published_hkt": "06/29 14:30",
-        "related": []
+        "title": "比特幣在$60,000下方徘徊，加密市場爲關鍵的一週做好準備",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSHh1Rk54Y0dOMnByS1ZuT1kyZTUzd1NLOWRyU3FLel9OZDJGMzU2aTd5Ukc5TGRSYVdMSTFXQkRtLWdxSW92ek1TdmNYaFE0YXFZX2hRQThaQ2RVMUF5RHoxaTF5VG1Objcwa3dMbE1FNVBuNExvaW5jenpVdDl5OXo1azIxWjB2SXBPc3U2Z0EzRVZKN0JQT1lzOGYzWjh4VEFYeC1VQQ?oc=5",
+        "source": "Moomoo",
+        "published_hkt": "06/29 19:06",
+        "related": [
+          "BTC"
+        ]
       }
     ]
   }
