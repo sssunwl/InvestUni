@@ -87,32 +87,32 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-30 19:44 HKT",
+      "updated_at": "2026-06-30 23:32 HKT",
       "news": [
+        {
+          "title": "聲畫導讀‧財經｜港股獨憔悴？點解恒指有份跌、無份升？因跑輸外圍AI熱潮？",
+          "url": "https://news.google.com/rss/articles/CBMimgNBVV95cUxQZ1pQSlRQNUdXZjgwTU03SGxkbm1rUUFaX19yY2NQOEdfVkNNQlAyeUczc1c1TlpZc1RBNGQzTHhVZVY1YmItb25RTWd2WDc0aFliQm9VOFF4dG1jTVkwb1lHbmZpMlJHdE9UZ3JrNkZ5WkxzTFp0MzVyalF0d0U2bmFwcEh6dFJ0NmFsRGNIVWJfRHZCTDFfTlJiZzZEVlV6eHMzVXFRUnczRzg4aHlwamhLUzJWblVDSDdfNHNtcmVFbWhwTEhwTWh6VXFuSnpNZFR3Y2RzMk5UOHpVSWxEZmZWTjlvblJ0NDdOMFlwQ0F2OFFRWDBMaVgzVGxtRzBQMTNzWXhRQ2hMN1dzXzhFNHZKLWU5bTVJYWRPWmJSdFB3N0RaT2gxVXZGLWp4a1VTaVRkd3ZhWGxQWld2a2FBNy1BbTIyTUl2VjR4Wnl3NEJNXy1aVVVnVm9rN01aSl9JbDdDemlwMmo3OG9McXAwSHNGTVFWQ2FncFFVU05meThBQUp2WUFvZ2hFS3J1UGR4RWRVYVUwejhHUQ?oc=5",
+          "source": "TVB",
+          "published_hkt": "06/30 22:03",
+          "related": [
+            "^HSI"
+          ]
+        },
+        {
+          "title": "季結 | 環球股市齊升港股次季獨憔悴，加息預期與弱消費夾擊恒指扭跌不易 | 專題透視 - 新聞",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcG4yQS1ZT0JqOHhKWU14RzBZcXFyYnBaemd5SG1SbmQ3M3hNX2dpcU95cEFual8zWXlReEJ1Wlp2Z1o2RzZBY2FnaUpyU2dnck1VRFRJU2tPWWxDb3JXeGFWN3hhc3A5ODEtaHZVeDR2SWEtM2t6N3dPNmJ5dmVGTm0yMTFILWRTQmNOUkxkeVFaSlZ4V05feVlabG9IZkti?oc=5",
+          "source": "etnet 經濟通",
+          "published_hkt": "06/30 19:39",
+          "related": [
+            "^HSI"
+          ]
+        },
         {
           "title": "港股市況不斷更新20260630",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZFd5bFBPTk5ueW05MWpPWFdBQ2gyemt0b0lfUnUxLTlMZlpIR3Y2UndrMDNNUDB3dF96YXVzLVJzUDQtUG9sZTRnYjVmakFUQ0gtazkzUnFQYTNaUzMwa0trdzROUGdlT3pBQW5haEg1d0JDWW01S3VNSjdtMEFZTlhXU1lnempYejJyOTBxMkJBa082MDJjdUdiRXhHY3ZUdUV6WGQ1OFhjcHJrenpvQldWbGZiRkxWQWdz?oc=5",
           "source": "香港經濟日報HKET",
           "published_hkt": "06/30 18:58",
           "related": []
-        },
-        {
-          "title": "港股再次失守兩萬三關口 上半年恒指累積跌逾2700點",
-          "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNNkNzM0c2SFRNd3hTdnR3S0ZDY09uN3BZY0otOUlSdS12UmlZS19HMmNwWkh3ZDBWeE45TEVPT0Nwb0l1TlgxY0NoWUk2Qy1wU0JPMTNYcXQ5OG1tS2RBODd0TkM5Q3VqVnpqLWJ0WWVLSTZ6OUtCRWx2T2s3bEw1ZVpMMU5lQTlLWkpmcGdpN2hFenVBS1dBRWd6dVlaZ2psTGsza0EyMU5rOXRCak9nbVlIWlY1NlVXQ1ppM1Q3UHA1UFU0Vzl1UFI4SlpveE5EQ0IwUXdtNkE3ZmZVa29PSEdBMll0NmI2R1k3Sjh0bUtoeWxzbVBOc0dHNEVaSUczR0R2c2EzTFdYWnFRVTJIb1pxZHpRTG1FM0F2Y25LLXFlbTdkWlk2ZC1aMkZnTjlPNURXM3E4cERZUERlY0s2UUN5OUIxTDZL?oc=5",
-          "source": "TVB",
-          "published_hkt": "06/30 18:45",
-          "related": [
-            "^HSI"
-          ]
-        },
-        {
-          "title": "恒指收跌145點 上半年收官挫2749點 六年來最大上半年跌市",
-          "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxNejdhMm05X0hhNFk0N0FPcEdtZUZTTnVXUzdTWDRmeXowVmRuN2owZkU4cE9zTXdEeXlOOGxRUURZMDNCb0Q4U0pjWGhvZ3BGamc1dWZ3a0R6SXdqTDJBel9iZmVkTXN0c3RCYW9xQXBiMnNZUmdCeG92aDk0NVY3RE5FcWp3TkhmNGNWRU5Nd096N3BWR3I5cXgxX2JRbGVXeFlqWVE2SVNpLWxiOEtfZHBXNTFqODBkNktrY2pFUUhmT0NFLUhUdlFpQ1FRTXU0N0JVM0dTLVh5WVBKODE4XzlmWk1zekw2bkVXMVZ2T09CNnRrODFJUkhIWWxkX2lLSllhMjNnd0xTUHhIbE5BVVh2clRCaEVVNm11OHVsNmo3Ukdwa3hTd0tGMzRfWFhfdlloUzVZTk02OXlwQVpla1ZEelZLd0Vrd2c1WDlycFJzaXBLcFhHN3hvalhDSEhweURGc1U4WQ?oc=5",
-          "source": "i-cable.com",
-          "published_hkt": "06/30 18:01",
-          "related": [
-            "^HSI"
-          ]
         }
       ]
     }
@@ -142,31 +142,29 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-30 19:44 HKT",
+      "updated_at": "2026-06-30 23:32 HKT",
       "news": [
         {
-          "title": "TWA00 加權指數- 半導體擴產戰局：南韓砸重金，台廠挾彈性應戰- 股市爆料同學會",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9UVjdlUktobGIxeWQ5bzNkdlN3aTNJQTBldHpFU1FSUG1uMkZxa3dmcnFuT2xPQjVXRkF5UnNWMUJnc3U0VUtzSXBOcnBlUkRWOGsycWNSM0o?oc=5",
+          "title": "TWA00 加權指數- 🏮0630盤後筆記🏮 - 股市爆料同學會",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9YS0hWRXBYbTN4MmlUaTFOTXUzN0VocnhmX3hScE13SlNlRGtXMG1QeXFSakNWaVRMUkMwR1lrQi1WWUFQaHlIQ2NmNnpZRzI4ci04OHlkTW4?oc=5",
           "source": "CMoney",
-          "published_hkt": "06/30 18:32",
+          "published_hkt": "06/30 21:17",
           "related": [
             "^TWII"
           ]
         },
         {
-          "title": "TWA00 加權指數- 游庭皓直播2026/6/30(二) - 股市爆料同學會",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1XMjJBWklCMGFpSk45a0d4Z253MHJhVEhybUFTVkQ5ZDFnOFFiQ2V1N0FDbEVERmFfZlJoU1hsZmFrajJGMHlvLUY2dnVwV3NrNUJ4QkhCZ3c?oc=5",
-          "source": "CMoney",
-          "published_hkt": "06/30 18:30",
-          "related": [
-            "^TWII"
-          ]
+          "title": "美指期走高、台指期漲千點 美股三大指數上半年寫近年最佳",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE01UHFZdzJWMlo5c2o5dkdVU3JlY004SVJkQjdhTFRlakV1Mk5ETG11bEEyLWZLckJUalh6cnhRQlpiV0o2aDZIaEJRVGVockd5bDZ1ekstMkhNWmhBSmRZ0gFkQVVfeXFMUFV0WE9VSjJJUmppbHRDWGZSWXBaeVNVNW5mVWdlY182Zms2NmdpcTlYaTEwX29ZMzUxbE5xRER2Ym0zbVh5WXJ1NzJDbkZGSGFqQVZ4RWdVbUNhV1N2ajRNS18wYg?oc=5",
+          "source": "自由財經",
+          "published_hkt": "06/30 20:45",
+          "related": []
         },
         {
-          "title": "【量大強漲股整理】迎接Q3，選股關鍵大公開?!",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1oV29lNy1EQmtOZWZqT1V3X1d6TlIzbVNIN3I0MjNKRHg4aGlSaE9iSkFmbEFLdWkzenZUSzFZb09Fb05MUWY5cWtxVFdjZE0?oc=5",
-          "source": "news.cnyes.com",
-          "published_hkt": "06/30 18:00",
+          "title": "光電股紅光熠熠！「這檔玻璃基板」攻頂重返百元、國碩、光鼎連飆漲停 「這5檔」也都亮紅燈",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9uX0gwU3RKcEhVbDVFc28tVUdPU0JWcVRtQUFqOERVQ1lmT0U4cVgxZE9TTklGbXJSZTMwS2ZqRGJmdl9SMk0zWlgxTQ?oc=5",
+          "source": "FTNN 新聞網",
+          "published_hkt": "06/30 20:45",
           "related": []
         }
       ]
@@ -195,23 +193,23 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-06-30 19:44 HKT",
+      "updated_at": "2026-06-30 23:32 HKT",
       "news": [
+        {
+          "title": "日圓失守162貶至近40年新低 日本政府：必要時將出手穩匯",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA1dDFnR3JDRUYzNGlzVmh5LVBmOXF6ZDdkSHdiaWxpb19VUmlLSEZXejN3NDJJOXJhU1NYNGxmOVNPSExCeG5Ld3lwMA?oc=5",
+          "source": "三立新聞網SETN.com",
+          "published_hkt": "06/30 19:28",
+          "related": []
+        },
         {
           "title": "《日股》日經收漲0.86% 重返7萬點大關",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRVJlMmY2c3VMY3Z6ZFRPbm52OExHUWNJcWdaLTRkZTZwTmVJNVlRZzN0OW8xNlVfNlJoeThFWG5FQmxPMmZTR0VfZFZvS3kxS1JweGV1YzVzdzktZnVrTDZJc0ZQTVkxZERQdlcwYnJCa3RfelF0UnFpM2FiaEg1dzBDN1RYUnJhMzk0YXhoWEk3UQ?oc=5",
           "source": "台視全球資訊網",
-          "published_hkt": "06/30 18:07",
+          "published_hkt": "06/30 18:09",
           "related": [
             "^N225"
           ]
-        },
-        {
-          "title": "Fed轉鷹美元走強油價波動壓抑匯價 日圓貶至40 年新低",
-          "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxQUklWZ2Eta0lFY0hhUnQ2REgxeXpvc2E5ME83bWJwT3BtSWxsSGNRR2xFX1cxYlNJYnVELTZJT0FTZFRQQlJhXy12YTBGano2bGxmQ1Y0WG1JaElBRkV2OXZQZHhPVzRHcjR2TlREd29STEdoYXBvcHFxY0FfM1h5Sk1GLW5Ha3U0WXNuT2RpXzVJZ3ZsSUdwNEJ6QlJXdEZ5NlV6UGRQYXhjWGlua2NaRGFiTFQ1b2tPbXY2Y2hpWVEyUVpnQVRLdjdLc1lCNGVGQ2tKeU9HY1phWFVSQ1JmTzVuSERBRXcxLUw3blhpaW5jNXBSai1KdGpTNFctUE5oVC1jYmltNDZGZU95eWdzNy1tVVFiaW81X2J3dWZ2cV9IMUtTRXVQbFJodVQ5cGxqVWxSai12Tmd2eFNHanZpTUFnSEV6LTlNcXBoR0E3RkhmNnMzOWtibnNkTVUxYjJhd0VnWEpTcjk0aVdOeVJfa3BYSjJ5cWotSWdNTHdZY2xSU2FuZWNoT1pOY1E?oc=5",
-          "source": "MSN",
-          "published_hkt": "06/30 17:00",
-          "related": []
         },
         {
           "title": "Fed轉鷹美元走強油價波動壓抑匯價　日圓貶至40年新低",
@@ -224,33 +222,32 @@
     }
   },
   "crypto": {
-    "updated_at": "2026-06-30 19:44 HKT",
+    "updated_at": "2026-06-30 23:32 HKT",
     "news": [
       {
-        "title": "主要加密貨幣行情，比特幣跌1.03% | 即時新聞 - 新聞",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ29oZnphODltWjVzWlBvN3o5MlZEckVJOUdLT2M4RDJuRU9fZ1J4djVqZ2NmZEtvVkJiV0stMWFyYVZ3RElzeDZCUkVjVGJ3NXNWVkJ5NVVuVDRBV0hjcFkxLVMxNFR6RFBuWGQ5a1l1MEc5M1RtMkM3T01FcjFaQVlPMVpJU1FoVFlLam5sdk1ONGFjekdtbjdaSEZta09m?oc=5",
+        "title": "美股異動 | 加密貨幣概念股普跌 Strategy(MSTR.US)跌超7% 作者 智通財經",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1PUmhqV0xLX2xzQzBsTFVCTTRpZUMxZ3JtUU9NLU92Y0FkckxQREpxOVNOMHFUQ21zNWk1cXc1aE4tWTV3VnBVU3BlekZVbFBwS1NxaWp0SDFBSEtDS0RCMDVPdjZJYnMzM1oxYVdWUWM?oc=5",
+        "source": "Investing.com 香港 - 股市報價& 財經新聞",
+        "published_hkt": "06/30 22:51",
+        "related": []
+      },
+      {
+        "title": "主要加密貨幣行情，比特幣跌2.33% | 即時新聞 - 新聞",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYlhEMXdtblJOUjVIUVp1TG55V3ZuX3B4blBlT2poT3E4ckxobFA2Tm5nY0huODZNb1FLSnhfUnpQamV0WmJFcG9BaFhIV0pOOWJ5dUc3TW5yWktoSTh2SDVOOXN3TW04Slg4R0ZRRGo1c2FaeU1Nc1lFTFQ1TW4zcWVySy1rMGRqMy1jRjhFNDZHQ3V3YnU2T2FJd0FETl95?oc=5",
         "source": "etnet 經濟通",
-        "published_hkt": "06/30 18:13",
+        "published_hkt": "06/30 20:31",
         "related": [
           "BTC"
         ]
       },
       {
-        "title": "BIT：資金費率低於SOFR，比特幣基差交易吸引力減弱",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1SZ1M1T1A2RE9ueVFTaXdicXI4cHN4RHZDRlk3TkRsRFh3NnVFVWFpYXVSS1JtOVExV2pJNUYzU2VaT1dldTZRYXlDTTVGWGFCdUJua09rcXlxd201MHJsUVRiVlJfT2RwNk1N0gFrQVVfeXFMTVJnUzVPUDZET255UVNpd2Jxcjhwc3hEdkNGWTdORGxEWHc2dUVVYWlhdVJLUm05UTFXakk1RjNTZVpPV2V1NlFheUNNNUZYYUJ1Qm5rT2txeXF3bTUwcmxRVGJWUl9PZHA2TU0?oc=5",
-        "source": "Bitget",
-        "published_hkt": "06/30 15:21",
-        "related": [
-          "BTC"
-        ]
-      },
-      {
-        "title": "BNB價格預測：看跌突破，疲軟的ETF資金流向目標488美元 BNB",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObzctUEs4U3A1RW00MGJzcEdsenpIRDNxdEVZZmhYNEtqNUkxQUpudm1IUDFTT1lhZUw3SnU1WWhKQ3JTMVZhYkRxRWd0OTlfQTZ3MFR6dWdDYVJqRFd0YzhINV9WQnVLZUhwZDB3by1jYkcxQWd4dU9ZTUVSeGRudVpLMG9RdEQxbjlDdHk2NW1EUzZGSEp5ZTgtcUp2OW52VXg3ZTNiejREZENvQ2lzOUtpVFhXY3FJOGxQd2pucGhLVGViMWluS21YazhRTUU5TFN2aWpiVXN2Q0RrakxjN2VR0gHiAUFVX3lxTE5vNy1QSzhTcDVFbTQwYnNwR2x6ekhEM3F0RVlmaFg0S2o1STFBSm52bUhQMVNPWWFlTDdKdTVZaEpDclMxVmFiRHFFZ3Q5OV9BNncwVHp1Z0NhUmpEV3RjOEg1X1ZCdUtlSHBkMHdvLWNiRzFBZ3h1T1lNRVJ4ZG51Wkswb1F0RDFuOUN0eTY1bURTNkZISnllOC1xSnY5bnZVeDdlM2J6NERkQ29DaXM5S2lUWFdjcUk4bFB3am5waEtUZWIxaW5LbVhrOFFNRTlMU3ZpamJVc3ZDRGtqTGM3ZVE?oc=5",
+        "title": "今日加密貨幣：比特幣、以太坊、XRP回調加深，投降情緒持續",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTkVCcTZZekhXUG9CdzZPRkxKNm5XbGtQWmFxMlc2RHd5a0xrQUJrMDBoMWhiakFlLXVQYTMwS0c2c0dJcEs5OW1wVm9zVmQ5OVdjYjRlWlBMRHZ3bFpzdGw0T0ZpTDNYQWFOdVk1cmduSjhwUVZFRWZUUmlPWDA2V3NiRkFnWDhiU3RJbVo0NFU1T1k0LWlMbmpWYUVab3cxNU1pSnczeVo5UjJjLVBHdi10MExIUHBjOVp4UGM2V1Z3NW5KM1R1V2lobW1nZXlQNEtlR3IwVkxsOS1FcHNmTDI0SHrSAeQBQVVfeXFMT05FQnE2WXpIV1BvQnc2T0ZMSjZuV2xrUFphcTJXNkR3eWtMa0FCazAwaDFoYmpBZS11UGEzMEtHNnNHSXBLOTltcFZvc1ZkOTlXY2I0ZVpQTER2d2xac3RsNE9GaUwzWEFhTnVZNXJnbko4cFFWRUVmVFJpT1gwNldzYkZBZ1g4YlN0SW1aNDRVNU9ZNC1pTG5qVmFFWm93MTVNaUp3M3laOVIyYy1QR3YtdDBMSFBwYzlaeFBjNldWdzVuSjNUdVdpaG1tZ2V5UDRLZUdyMFZMbDktRXBzZkwyNEh6?oc=5",
         "source": "FXStreet",
-        "published_hkt": "06/30 15:06",
+        "published_hkt": "06/30 20:02",
         "related": [
-          "BNB"
+          "BTC",
+          "ETH"
         ]
       }
     ]
