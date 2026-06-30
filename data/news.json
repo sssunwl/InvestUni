@@ -225,8 +225,18 @@
     }
   },
   "crypto": {
-    "updated_at": "2026-06-30 12:58 HKT",
+    "updated_at": "2026-06-30 13:08 HKT",
     "news": [
+      {
+        "title": "以太坊、Solana和狗狗幣下跌，因Strategy的比特幣拋售計劃給市場帶來壓力",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObHVIb2hFRFo4NUh5ZFhhLWpkbzF1LUFra1BZVkRNcktwd2d0ejMxd0pjeFhJbzRkNzhIbTdKOV9yQnZJM1VRdTUzc2Utc0xQYXQ4ZFNkc2NwbFd4SnlubXRSVFc2aTB6Sms0OFlockVLNllja3lYbC1pbldKdnpMeGFjdFFRWmlyeVZpT3lPTjhaTnZWeG1xeFp0U3l0bWRXUXc?oc=5",
+        "source": "富途牛牛",
+        "published_hkt": "06/30 13:01",
+        "related": [
+          "BTC",
+          "ETH"
+        ]
+      },
       {
         "title": "Tom Lee：加密市场逆风与顺风因素并存，悲观情绪或已触顶",
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE55ZjVIbnZHWVNfeUJMS3Y0QU9Oc1RvaHVMbmxCY240N2JwSkg4UmthS29PbExkeVMtLUx3RXp2d0NTRDMyZTdOemx1SGdIZjJqWUlqYVg2b1VpbUJSU29qZnlQRVdqQQ?oc=5",
@@ -239,15 +249,6 @@
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNllRYndiSXozMU1TZ1ByclViQjd3Ni02czc5SWRDaV9UalR2WmZmamswb0JndHdQblFjQ0lIYWJ6T1hLSnNRRWJnVF82ZjNXLVJ4ZTY0SG10NlJ4U0ZCTjc0cjAxX1BnWTdYM1c3TkxPdDY3MUhNOUdhT0hac3ZkNUI3bG1ZSkF4WU44MnlCNG9rWENLeDVFUnY2WWhuYVVK?oc=5",
         "source": "etnet 經濟通",
         "published_hkt": "06/30 09:14",
-        "related": [
-          "BTC"
-        ]
-      },
-      {
-        "title": "QCP Capital：地緣政治風險和聯準會訊號令交易員緊張不安，比特幣面臨動盪的一周| MEXC 新闻",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBXdmlYeDJ4YXZDTFpoOG8tb0hLcEdJdXdsZkpFbW05U3NtRjVtS016eGl2el9BMjRHSEJkMG1pdmlxdFpHSkhyOGtoWVZEOGhG?oc=5",
-        "source": "MEXC",
-        "published_hkt": "06/30 09:06",
         "related": [
           "BTC"
         ]
