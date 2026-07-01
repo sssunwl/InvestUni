@@ -85,7 +85,7 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-07-01 19:36 HKT",
+      "updated_at": "2026-07-01 20:03 HKT",
       "news": [
         {
           "title": "香港股市、港股行情 | 鉅亨網",
@@ -136,7 +136,7 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-07-01 19:36 HKT",
+      "updated_at": "2026-07-01 20:03 HKT",
       "news": [
         {
           "title": "00685L分割日、分割價出爐！30.5萬「1拆24」變1.2萬一定漲？股海老牛劃4重點！停牌到何時日程先看",
@@ -185,7 +185,7 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-07-01 19:36 HKT",
+      "updated_at": "2026-07-01 20:03 HKT",
       "news": [
         {
           "title": "《日股》科技股撐盤，日經收漲0.59%",
@@ -197,24 +197,24 @@
           ]
         },
         {
-          "title": "《台股盤後》收漲893點、日K連三紅，重返47K | MoneyDJ理財網",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1PbXlCckY2ZGVoTGpXWmE2ZlJpazhnVFhIV3Q3RHZDRGF2WFliMjZETXJWUEhFcDN2Zzl3S3hOZXMtY0hNZWpWTkI5YXVHRHVJbGcyV2ZR?oc=5",
-          "source": "LINE TODAY",
-          "published_hkt": "07/01 16:34",
-          "related": []
-        },
-        {
           "title": "跨越半世紀的輝煌：台股 47,000 點里程碑與全球 AI 霸權的板塊大挪移",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8tZGZhdTEzeVIzdDB3MDF6VXRuc3JmMXdvdVJ4dDRsWXhuM3Y1c2FGWjAybWYxMWdMbExTVHQwajdOcjhVc0o2cFg1VExORGt1emc?oc=5",
           "source": "蕃新聞",
           "published_hkt": "07/01 16:34",
+          "related": []
+        },
+        {
+          "title": "台日股市領漲、韓港承壓 7 月初全球資金重押 AI 與政策寬鬆",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBXbkgtVnFjTWFXczIwdnpiUkFCZmFlWi14UjJZa0hmUFpsQUhCUHNfTVhaZUFOWU1yQUlyWWhSTE5vXzE2bl9VNkwtZERhUEZKX1E?oc=5",
+          "source": "蕃新聞",
+          "published_hkt": "07/01 16:18",
           "related": []
         }
       ]
     }
   },
   "crypto": {
-    "updated_at": "2026-07-01 19:36 HKT",
+    "updated_at": "2026-07-01 20:03 HKT",
     "news": [
       {
         "title": "幣圈再添寒意！比特幣跌破6萬美元之後 花旗大砍比特幣與以太坊目標價",
