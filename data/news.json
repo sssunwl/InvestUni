@@ -85,12 +85,12 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-07-01 18:00 HKT",
+      "updated_at": "2026-07-01 18:36 HKT",
       "news": [
         {
           "title": "香港股市、港股行情 | 鉅亨網",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5VZTlnOFV1WTQ3WTMwODFpR0ZUT0kzTXpFcTA0cHM2eWp0MV9ZSXlRVUpWQUVQMzRfZVRJMjUyZmFEcEdTeDZQcUJHME4zbm5TVmtTVW90YU5JdFAxcmt4TGt4QVlPRktnMlFB?oc=5",
-          "source": "news.cnyes.com",
+          "source": "鉅亨網",
           "published_hkt": "07/01 15:45",
           "related": []
         },
@@ -136,27 +136,27 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-07-01 18:00 HKT",
+      "updated_at": "2026-07-01 18:36 HKT",
       "news": [
+        {
+          "title": "大盤溫和放量「以盤代跌」，1.3兆巨量卻暗藏「拉積盤」隱憂？",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jemFxNTNuTzYwNmZPakpNekd5ZEpZd3NQVGdZQkxYZjB1c3d3bXZRWHZsdkt6LUtrLWJIQUZiRjZJZ2xnS0dKMVNPLXZPOE0?oc=5",
+          "source": "news.cnyes.com",
+          "published_hkt": "07/01 18:27",
+          "related": []
+        },
+        {
+          "title": "投信買超146億！反手狠操「這檔」逾5萬張",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9DTlZSM0JZVjBJRXc5Si1RNTc0TzRpSDAtcVE1Wmoyblk4Ylo5M0J0MWlYSkJXS05oemd0azJhaTJkbWVRQ3pTSDduQQ?oc=5",
+          "source": "三立新聞網SETN.com",
+          "published_hkt": "07/01 18:19",
+          "related": []
+        },
         {
           "title": "【台股115/7/2(四)盤前分析】",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdnlkdnIwanVYSENFLWRxQmh6ZHFXSzhkLW1wYUpwLTM3bWlNOXFYUmlCMlFtZ0E1bDJiZXZYclBwSjZvMFhtNjg0Nk9KZkNSX1ctcU54TUcyek9qX3RMU2JGUHQtQ1NvUEZWZmg1ZV9fVTNya0x6SG9rcDZibmMtZWVNbDYyVURDRUZ5Z2tyOWFQRW91eDNUZkxDS1RFbDdmWm9jRUdaMEVCR3dtRTB5cDAxMm1QQVZv?oc=5",
           "source": "yesmedia.com.tw",
           "published_hkt": "07/01 15:57",
-          "related": []
-        },
-        {
-          "title": "00685L分割日、分割價出爐！30.5萬「1拆24」變1.2萬一定漲？股海老牛劃4重點！停牌到何時日程先看",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSGswcUQ0Q2laaGo2SW5nVTFWcnpUWUVFV0dkeG53MGp1RldEYnNOczZ5UUlNQnBDanpKVFBHNHRCWnB4X0xjMnNtZmhHSG15ZE9WcENRR0x5MklqaksxOXNPSmNOM0xBdkU2clI1WWtIeldsTzBlWjNSUDE2enM5NA?oc=5",
-          "source": "今周刊",
-          "published_hkt": "07/01 15:51",
-          "related": []
-        },
-        {
-          "title": "《台股盤後》收漲893點、日K連三紅，重返47K",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMjBRcFFPcWMzcTB0bS1pSHV6NGhGc0FmVXFqWkc5ODBSTnpHUU5TdmJTVERyXzYzVUpiX1M2SDlwOGtpZ2w0RGRiMGlsa3ppZ3Q0SzZDWTkxY0k2dUYzVmp6NXY0c2VyQ0labkEtTWZkSjdZQ01hbWhGTVZtWmpXUENRYy1PQ1BkU0UxUTV0MHNMUQ?oc=5",
-          "source": "MoneyDJ",
-          "published_hkt": "07/01 15:44",
           "related": []
         }
       ]
@@ -185,40 +185,36 @@
       ]
     },
     "post_market": {
-      "updated_at": "2026-07-01 18:00 HKT",
+      "updated_at": "2026-07-01 18:36 HKT",
       "news": [
         {
-          "title": "《日股》日經指數收高0.59% 2利空壓縮漲勢- 國際",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1VakxqMUtDUlFESHFndmc0QWtSN0pXd2NIM0VQaV8yYVFIUkZqT19sanpsRDhFdmtIWkVpQ2p3MGd0VWp1M0k4dThjVlk4WXBjc2tOc1VNYmc1RS1JOGZz?oc=5",
-          "source": "工商時報",
-          "published_hkt": "07/01 15:46",
+          "title": "《日股》科技股撐盤，日經收漲0.59%",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVFRyeERCTGttamRleGJUenR4RGJPWVhWTlVYeENaZmxSdnZGdFJoUktfOWFzTXh2TUxCN0puTmp4TzZHT1F1WWNFaUtad1Vic1hhSGZVTmFIQVl3VHQzZDZ6SW1qNEpEdUc3SFpyMEJWRWxyNmNsTzVkOWxwLUZNckxWVHFPeVZseFprNTIyaDRsZw?oc=5",
+          "source": "台視全球資訊網",
+          "published_hkt": "07/01 18:02",
           "related": [
             "^N225"
           ]
         },
         {
-          "title": "日韓股市分化：日經225微漲，三星暴跌近6%帶崩韓股，SK海力士、鎧俠無一倖免",
-          "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxQaVRlbWFGbnlIcHgyWm14Y2VkeTZrSFV0RU96WUtGNm9jVUtQdkxTNzZhcEhaNkJ3SVZ3R0tlOHNoMnZzbmphWXpoX1dUbFJoZVg2bk51SU5pY0czWjdudlFDSHJrV3B3a3FIODM3TnhrVzdFS2R3cmVGRDNXNE1DWllUNWl1RVF4T3N4REJiTEJweDFUMmVKd09lOGVrRnB6WXAxYTJvTU9iSVJ6bTBfVlAwTWVObHM2c0R4UXpvb2xoMDBmV3EzSVNTUmtxS3lYMlVIZXQ0a09mTWNqeVNRRnFYcGxBajF1ZXhiekZlSjN0cVViVU1IcDByc2JjSUwtLWtjOGRPUmtDd1dPcEpVaEs5eHJhY1B5bU5WQ1NEeHdZRlpqcXl1aW1wSDZFa0RfRzh5WkpVUUo2cWFuTmVZYi1MZFBoUzhTNW83WFpNRlRNNGc?oc=5",
-          "source": "HK MoneyClub",
-          "published_hkt": "07/01 15:37",
-          "related": [
-            "^N225"
-          ]
+          "title": "《台股盤後》收漲893點、日K連三紅，重返47K | MoneyDJ理財網",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1PbXlCckY2ZGVoTGpXWmE2ZlJpazhnVFhIV3Q3RHZDRGF2WFliMjZETXJWUEhFcDN2Zzl3S3hOZXMtY0hNZWpWTkI5YXVHRHVJbGcyV2ZR?oc=5",
+          "source": "LINE TODAY",
+          "published_hkt": "07/01 16:34",
+          "related": []
         },
         {
-          "title": "日韓股市分化：日經225微漲，三星暴跌近6%帶崩韓股，SK海力士、鎧俠無一倖免",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVWtZWXo4R21MdG1ZdFgtY2lfQUNUS2Nhbkl5WWYxYWUwLXh3Z3ZxQkY3N0EzZ0pzb21WOUhZWnV6aGx3bEpidWxabEJjejlvWVd5Rm5mYkhMLVVNVWY2TFpvb1pSYTlhU2NkdEJGWUwxWElnaTFWeTFfYWRmOHVWLVQzazBqT2dvbzdaNURvM3ktVEkwOFozMVBvd0VrSDJuWU1ob0NJVUJodlNscldGZVlTRTc2T3drZGxpbGpnZVVwZFBZQk5SNXBxSQ?oc=5",
-          "source": "TradingKey",
-          "published_hkt": "07/01 15:03",
-          "related": [
-            "^N225"
-          ]
+          "title": "跨越半世紀的輝煌：台股 47,000 點里程碑與全球 AI 霸權的板塊大挪移",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8tZGZhdTEzeVIzdDB3MDF6VXRuc3JmMXdvdVJ4dDRsWXhuM3Y1c2FGWjAybWYxMWdMbExTVHQwajdOcjhVc0o2cFg1VExORGt1emc?oc=5",
+          "source": "蕃新聞",
+          "published_hkt": "07/01 16:34",
+          "related": []
         }
       ]
     }
   },
   "crypto": {
-    "updated_at": "2026-07-01 18:00 HKT",
+    "updated_at": "2026-07-01 18:36 HKT",
     "news": [
       {
         "title": "花旗二度下修比特幣目標價至 8.2 萬鎂：ETF 淨流入假設歸零，資金轉進 AI",
